@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>KARAMUCHO | Koikeya</title>
+    <link rel="stylesheet" href="./karamucho.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="karamucho.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <div class="nav"></div>
+      <div class="section-top">
+        <div class="section-top_bg">
+          <div class="section-top__bg__paralax">
+            <img
+              src="https://koike-ya.vn/img/bg-top-paralax.b7c62988.webp"
+              alt=""
+            />
+          </div>
+          <div class="section-top_bg_logo">
+            <img
+              src="https://koike-ya.vn/img/bg-top-logo.8b3cb154.webp"
+              alt=""
+            />
+          </div>
+          <div class="section-top_bg_product">
+            <img
+              alt="karamucho snack"
+              class="pc-appear ls-is-cached lazyloaded"
+              src="https://koike-ya.vn/img/bg-top-product.1b69e041.webp"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="section-main">
+        <!-- <div class="section-paralax">
+                <img alt="" src="https://koike-ya.vn/img/paralax.0acdf1dc.webp">
+            </div> -->
+        <div class="section-intro">
+          <div class="wrap">
+            <div class="section-intro-inner">
+              <div class="what">
+                <div class="row d-flex wrap">
+                  <div class="col-4 left">
+                    <div class="title">
+                      <img
+                        src="https://koike-ya.vn/img/txt-whatis-vi.15866bd1.webp"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-6 right">
+                    Năm 1984, bánh snack khoai tây KARAMUCHO đầu tiên của
+                    Koike-ya đã ra mắt thị trường Nhật Bản. Người ta không ngớt
+                    trầm trồ về sản phẩm bởi sự pha trộn tuyệt vời giữa vị nóng,
+                    cay, chua và ngọt. Có thể nói chính KARAMUCHO đã tạo nên làn
+                    sóng “Snack Cay” vô cùng ấn tượng tại Đất nước mặt trời mọc.
+                    Mốc son này đã làm bệ phóng cho sự thành công của nhiều sản
+                    phẩm KARAMUCHO thế hệ tiếp theo, đưa KARAMUCHO trở thành
+                    thương hiệu snack cay bán chạy số 1* Nhật Bản, được đông đảo
+                    người tiêu dùng Nhật Bản và thế giới đón nhận. Đến Việt Nam,
+                    chúng tôi tin rằng KARAMUCHO cũng sẽ làm nên điều kỳ diệu
+                    như thế.
+                  </div>
+                </div>
+              </div>
+              <div class="character">
+                <div class="row">
+                  <div class="col-4 left">
+                    <div class="character-avt">
+                      <img
+                        src="https://koike-ya.vn/img/avt-tomi.1e47154b.webp"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-6 right">
+                    <div class="content">
+                      <img
+                        src="https://koike-ya.vn/img/txt-brand-vi.1fdb1d17.webp"
+                        alt=""
+                      />
+                      <p>
+                        Đại sứ thương hiệu của KARAMUCHO chính là bà Tomi-chan
+                        đến từ Nhật Bản. Mặc dù lớn tuổi nhưng tính cách của
+                        Tomi-chan rất trẻ trung, năng động và luôn “sống cháy”
+                        trọn từng phút giây. Tomi-chan rất thích đi du lịch,
+                        khám phá những vùng đất mới lạ, mặc quần áo sặc sỡ và
+                        đặc biệt thích chơi chữ! Đồng hành cùng Tomi-chan là
+                        Chi-chan, người bạn thân đến từ Việt Nam. Với phương
+                        châm tận hưởng cuộc sống hết mình, đôi bạn thân chắc
+                        chắn sẽ lan truyền thật nhiều năng lượng tích cực đến
+                        mọi người thông qua những mẩu chuyện hài hước bên dưới!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery">
+                <div class="row">
+                  <div class="col-3 left">
+                    <img
+                      src="https://koike-ya.vn/img/txt-gallery-vi.0ad15c1a.webp"
+                      alt=""
+                      width="70%"
+                    />
+                  </div>
+                  <div class="col-8 right">
+                    <div class="scroll-container">
+                      <div class="scroll-content" id="scroll-content">
+                        <img
+                          class="scroll-item"
+                          src="https://koike-ya.vn/img/1.3086ec20.webp"
+                        />
+                        <img
+                          class="scroll-item"
+                          src="https://koike-ya.vn/img/2.11ae1505.webp"
+                        />
+                        <img
+                          class="scroll-item"
+                          src="https://koike-ya.vn/img/3.2c21b485.webp"
+                        />
+                        <img
+                          class="scroll-item"
+                          src="https://koike-ya.vn/img/4.81583f00.webp"
+                        />
+                        <img
+                          class="scroll-item"
+                          src="https://koike-ya.vn/img/5.73e71d2f.webp"
+                        />
+                        <img
+                          class="scroll-item"
+                          src="https://koike-ya.vn/img/6.5dab7bb3.webp"
+                        />
+                        <img
+                          class="scroll-item"
+                          src="https://koike-ya.vn/img/7.bef6564a.webp"
+                        />
+                        <img
+                          class="scroll-item"
+                          src="https://koike-ya.vn/img/8.a583f5df.webp"
+                        />
+                        <img
+                          class="scroll-item"
+                          src="https://koike-ya.vn/img/9.88ee4d0c.webp"
+                        />
+                        <img
+                          class="scroll-item"
+                          src="https://koike-ya.vn/img/10.b148312d.webp"
+                        />
+                        <img
+                          class="scroll-item"
+                          src="https://koike-ya.vn/img/11.935a44d8.webp"
+                        />
+                        <img
+                          class="scroll-item"
+                          src="https://koike-ya.vn/img/12.bc366994.webp"
+                        />
+                      </div>
+                    </div>
+                    <div class="scroll-btn-wrap">
+                      <button class="scroll-btn left" id="scroll-left"></button>
+                      <button
+                        class="scroll-btn right"
+                        id="scroll-right"
+                      ></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-history">
+          <div class="container">
+            <div class="wrap">
+              <div class="row">
+                <div class="col-4 left">
+                  <img
+                    src="https://koike-ya.vn/img/txt-history-vi.bfee124f.webp"
+                    alt=""
+                  />
+                </div>
+                <div class="col-8 right">
+                  <p>
+                    KARAMUCHO lần đầu tiên được ra mắt tại Nhật Bản vào tháng 9,
+                    1984. Tại thời điểm đó, trên thị trường chưa từng xuất hiện
+                    dòng snack cay với hương vị đặc biệt như thế. Chính vì vậy
+                    ngay khi sản phẩm được tung ra đã đón nhận không ngớt những
+                    lời khen và sự ủng hộ nồng nhiệt từ người tiêu dùng. Sản
+                    phẩm lúc đó được biết đến rộng rãi chủ yếu qua việc truyền
+                    miệng, nhưng đã tạo nên một sức nóng bùng nổ chưa từng có từ
+                    trước đến nay. Ngoài ra, những mẫu quảng cáo và cả nhân vật
+                    đại diện của thương hiệu cũng rất được nguời tiêu dùng ưa
+                    thích. Đến nay, KARAMUCHO đã có lịch sử phát triển hơn 30
+                    năm ở Nhật Bản, nhưng cơn sốt về cái tên KARAMUCHO cũng như
+                    những sản phẩm cay ngon đặc trưng của thương hiệu này vẫn
+                    chiếm trọn tình cảm của tất cả người tiêu dùng.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-product">
+          <div class="container">
+            <div class="product">
+              <div class="product-row">
+                <div class="product-left">
+                  <div class="content">
+                    <img
+                      src="data:image/png;base64,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"
+                      alt=""
+                    />
+                    <div class="product-left_img">
+                      <img
+                        src="https://koike-ya.vn/img/1.b1008ef8.webp"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="product-right">
+                  <div class="product-right_content">
+                    <div class="product-tab w-100">
+                      <div class="inner">
+                        <div class="item" id="item1">
+                          <div class="item-inner">
+                            <img
+                              src="https://koike-ya.vn/img/img-tab-1.110ba82d.webp"
+                              alt=""
+                            />
+                            <div class="name">
+                              Snack khoai tây
+                              <br />
+                              Strong Tokyo BBQ
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="item" id="item2">
+                          <div class="item-inner">
+                            <img
+                              src="https://koike-ya.vn/img/img-tab-2.cc5feebe.webp"
+                              alt=""
+                            />
+                            <div class="name">
+                              Snack khoai tây
+                              <br />
+                              STRONG lát dày
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item" id="item3">
+                          <div class="item-inner">
+                            <img
+                              src="https://koike-ya.vn/img/img-tab-3.b4391a71.webp"
+                              alt=""
+                            />
+                            <div class="name">
+                              Snack rong
+                              <br />
+                              biển
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item" id="item4">
+                          <div class="item-inner">
+                            <img
+                              src="https://koike-ya.vn/img/img-tab-4.1c62a366.webp"
+                              alt=""
+                            />
+                            <div class="name">Snack khoai tây</div>
+                          </div>
+                        </div>
+                        <div class="item" id="item5">
+                          <div class="item-inner">
+                            <img
+                              src="https://koike-ya.vn/img/img-tab-5.2c31c34f.webp"
+                              alt=""
+                            />
+                            <div class="name">Snack bắp cay</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-border">
+                      <div
+                        class="product-border_active"
+                        style="left:0%; width: 144px; "
+                        id="border-product"
+                      ></div>
+                    </div>
+                    <div class="product-pannel">
+                      <div class="product-content-wrap">
+                        <div class="item">
+                          <div class="title" id="item-title">
+                            SNACK KARAMUCHO KHOAI TÂY STRONG LÁT DÀY VỊ THỊT
+                            NƯỚNG TOKYO
+                          </div>
+                          <div class="text">
+                            Lát cắt khoai tây dày hơn, đậm đà hương vị thịt
+                            nướng Tokyo, chắc chắn sẽ khiến bạn ăn mãi không
+                            ngừng!
+                          </div>
+                          <div class="info">
+                            <div class="table">
+                              <div class="table-head">
+                                <div class="table-title_large">
+                                  Snack Karamucho Khoai tây Strong Lát dày
+                                </div>
+                                <div class="table-title_large pb-4">
+                                  Vị thịt nướng Tokyo (26g) – (44g) – (80gr)
+                                </div>
+                                <div class="table-title_medium">
+                                  Giá Trị Dinh Dưỡng
+                                </div>
+                                <div>Giá trị dinh dưỡng trong 100g</div>
+                              </div>
+                              <div class="table-body">
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <strong>Năng lượng 558(kcal)</strong>
+                                  </div>
+                                  <div class="col right">
+                                    <strong
+                                      >Calories from Fat 315(kcal)
+                                    </strong>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <strong>=</strong>
+                                  </div>
+                                  <div class="col right">
+                                    <strong>Năng lượng từ chất béo </strong>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <strong>Tổng chất béo </strong>
+                                    <span> 35.0g</span>
+                                  </div>
+                                  <div class="col right">
+                                    <strong>54% </strong>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <span>Chất béo bão hòa 13.1g</span>
+                                  </div>
+                                  <div class="col right">
+                                    <strong>66% </strong>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <span>Chất béo chuyển hóa: 0g</span>
+                                  </div>
+                                  <div class="col right">
+                                    <strong> </strong>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <strong>Hàm lượng Natri </strong>
+                                    <span>383mg</span>
+                                  </div>
+                                  <div class="col right">
+                                    <strong>16% </strong>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <strong>Total carbohydrate</strong>
+                                    <span> 54.6g</span>
+                                  </div>
+                                  <div class="col right">
+                                    <strong>18% </strong>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <span>Đường 9.1g</span>
+                                  </div>
+                                  <div class="col right">
+                                    <strong> </strong>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <strong>Chất đạm</strong> <span> 6.2g</span>
+                                  </div>
+                                  <div class="col right">
+                                    <strong> </strong>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <span
+                                      >*Phần trăm giá trị dinh dưỡng hàng ngày
+                                      dựa trên khẩu phần ăn 2.000 calorie.</span
+                                    >
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left text-center">
+                                    <strong
+                                      >SNACK KHOAI TÂY KARAMUCHO STRONG LÁT DÀY
+                                      - VỊ THỊT NƯỚNG TOKYO
+                                    </strong>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <strong>Thành phần: </strong>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <span
+                                      >Khoai tây 59,0 %, dầu thực vật, bột gia
+                                      vị thịt nướng 6,0 % (đường, maltodextrin,
+                                      chất điều vị (E621), muối, bột kem béo
+                                      thực vật, bột tiêu đen, đạm thực vật thủy
+                                      phân, bột gà, hương gà giống tự nhiên,
+                                      hương tỏi giống tự nhiên, màu nhân tạo:
+                                      Caramen nhóm IV (xử lý amoni sulfit)
+                                      (E150d), hương bò giống tự nhiên, màu tự
+                                      nhiên: Parika oleoresin (E160c), chất điều
+                                      chỉnh độ axit (E330), chất tạo ngọt nhân
+                                      tạo: Aspartam (E951)).
+                                    </span>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <strong
+                                      >&lt;Chú ý&gt;: Sản phẩm không phù hợp cho
+                                      người dị ứng với sữa, đậu nành.
+                                    </strong>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <strong>Hướng dẫn sử dụng </strong>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <span>Dùng ngay sau khi mở gói. </span>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <strong>Hướng dẫn bảo quản: </strong>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <span
+                                      >Bảo quản nơi khô mát, tránh ánh nắng trực
+                                      tiếp và nhiệt độ cao.
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="control">
+                          <div class="back">Quay lại</div>
+                          <div class="next">Tiếp tục</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="contact">
+        <div class="wrap">
+          <div class="row d-flex wrap w-100">
+            <div class="col-8 left">
+              <img
+                src="https://koike-ya.vn/img/img-product-contact.80a8cf87.webp"
+                alt=""
+              />
+            </div>
+            <div class="col-4 right">
+              <div class="info">
+                <img
+                  src="data:image/png;base64,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"
+                  alt=""
+                />
+                <div class="office">
+                  <div class="title"><strong>Văn Phòng Kinh Doanh</strong></div>
+                  <div>
+                    Lầu 4, Tòa nhà Viễn Đông,
+                    <br />
+                    Số 14 Phan Tôn, P. Đa Kao, quận 1, TPHCM, Việt Nam
+                  </div>
+                  <div>Điện thoại: +84 (0) 287 3080 800</div>
+                </div>
+                <div class="office">
+                  <div class="title"><strong>Nhà Máy</strong></div>
+                  <div>
+                    Đường N3-2, Khu công nghiệp Long Đức, Xã Long Đức,
+                    <br />
+                    Huyện Long Thành, Tỉnh Đồng Nai, Việt Nam
+                  </div>
+                  <div>Điện thoại: +84 (0) 287 3080 800</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="back-top"></div>
+        <span>© Bản quyền thuộc về Koikeya 2024</span>
+      </div>
+    </footer>
+  </body>
+</html>
