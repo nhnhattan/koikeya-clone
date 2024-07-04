@@ -17,6 +17,10 @@ $(document).ready(function () {
       $(this).addClass("active");
     }
   });
+  $("#navbar-btn").click(function () {
+    $(".navbar-btn").toggleClass("open");
+    $(".navbar-content").toggleClass("open");
+  });
 });
 
 $(window).on("scroll", function () {

@@ -1,3 +1,97 @@
+.nav {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.nav .nav-wrapper {
+  padding-left: 100px;
+  padding-right: 65px;
+}
+
+.nav .nav-wrapper .nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav .nav-wrapper .nav-inner .nav-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nav .nav-wrapper .nav-inner .nav-btn {
+  position: fixed;
+  right: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  box-shadow: -4px 4px 12px 4px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+.nav-inner .nav-btn .btn-inner {
+  width: 44px;
+  height: 44px;
+  position: relative;
+  cursor: pointer;
+}
+
+.nav-inner .nav-btn .btn-inner span:first-child {
+  top: 18px;
+  position: absolute;
+  right: 0;
+  height: 3px;
+  width: 100%;
+  background: #000;
+  transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+    width 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) 0.4s;
+}
+
+.nav-inner .nav-btn .btn-inner span:last-child {
+  top: 26px;
+  width: 60%;
+  position: absolute;
+  right: 0;
+  height: 3px;
+  background: #000;
+  transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+    width 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) 0.4s;
+}
+
+.nav-inner .nav-btn .btn-inner:hover span:last-child {
+  width: 100%;
+}
+
+.nav-inner .nav-btn.open .btn-inner span:first-child {
+  top: 22px;
+  position: absolute;
+  right: 0;
+  height: 3px;
+  width: 100%;
+  background: #000;
+  transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+    width 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) 0.4s;
+  transform: rotate(45deg);
+}
+
+.nav-inner .nav-btn.open .btn-inner span:last-child {
+  transform: rotate(135deg);
+  top: 22px;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  height: 3px;
+  background: #000;
+  transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+    width 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) 0.4s;
+}
+
 .section-top {
   position: relative;
   overflow: hidden;
@@ -240,6 +334,16 @@
   transform: rotate(3.12rad);
 }
 
+.scroll-btn.left.disable {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.scroll-btn.right.disable {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .scroll-btn.right {
   width: 45px;
   height: 45px;
@@ -411,7 +515,7 @@
 
 .product-border_active {
   position: absolute;
-  left: 0;
+  left: -10px;
   top: 0;
   height: 2px;
   -webkit-transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
@@ -574,4 +678,119 @@ footer .back-top {
 
 .inner .item.active {
   color: #ec3a17;
+}
+
+.navbar-content {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 0;
+  background: #000;
+  z-index: 999;
+}
+
+.navbar-content.open {
+  display: block;
+}
+
+.navbar-content_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  max-width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.navbar-content_wrap .nav-content_item {
+  padding: 5px 0;
+  text-align: center;
+}
+
+.navbar-content_wrap .nav-content_item a.active {
+  color: #fff;
+  font-weight: 700;
+}
+
+.navbar-content_wrap .nav-content_item a {
+  position: relative;
+  font-size: 56px;
+  font-weight: 400;
+  color: #6d6d6d;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.navbar-content_wrap .nav-content_item a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  background: #fff;
+}
+
+.navbar-content_wrap .nav-content_item:hover a:after {
+  width: 100%;
+}
+
+.nav-content_logo {
+  text-align: center;
+  width: 100%;
+}
+
+.nav-content__logo__karamocho {
+  width: 50%;
+}
+
+.nav-content__logo__karamocho img {
+  max-width: 100%;
+  height: auto;
+  padding: 50px;
+  padding-top: 25px;
+  padding-bottom: 0;
+}
+
+.nav-content__logo__koimocho {
+  width: 50%;
+}
+
+.nav-content__logo__koimocho img {
+  max-width: 100%;
+  height: auto;
+  padding: 50px;
+  padding-top: 25px;
+  padding-bottom: 0;
+}
+
+.nav-content_social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  max-width: 100%;
+  margin-top: 35px;
+}
+
+.nav-content_social a {
+  padding: 0 45px;
+}
+
+.nav-content_social a:last-child {
+  color: #cacaca;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: underline;
 }

@@ -15,11 +15,19 @@ $(document).ready(function () {
   );
   $("#snack-kara").hover(
     function () {
-      $(".snack_left-fly").css("opacity", "1");
+      $(".snack_left-fly").css({
+        opacity: "1",
+        transform: "scale(1)",
+        "z-index": "2",
+      });
       $(".snack_left-fly").stop().animate({ bottom: "63%" }, 300);
     },
     function () {
-      $(".snack_left-fly").css("opacity", "0");
+      $(".snack_left-fly").css({
+        opacity: "0",
+        transform: "scale(0.9)",
+        "z-index": "1",
+      });
       $(".snack_left-fly").stop().animate({ bottom: "60%" }, 300);
     }
   );
@@ -60,12 +68,20 @@ $(document).ready(function () {
 
   $("#snack-koi").hover(
     function () {
-      $(".snack_right-fly").css("opacity", "1");
-      $(".snack_right-fly").stop().animate({ bottom: "63%" }, 300);
+      $(".snack_right-fly").css({
+        opacity: "1",
+        transform: "scale(1)",
+        "z-index": "2",
+      });
+      $(".snack_right-fly").stop().animate({ bottom: "63.5%" }, 300);
     },
     function () {
-      $(".snack_right-fly").css("opacity", "0");
-      $(".snack_right-fly").stop().animate({ bottom: "62%" }, 300);
+      $(".snack_right-fly").css({
+        opacity: "0",
+        transform: "scale(0.9)",
+        "z-index": "1",
+      });
+      $(".snack_right-fly").stop().animate({ bottom: "60%" }, 300);
     }
   )();
 });

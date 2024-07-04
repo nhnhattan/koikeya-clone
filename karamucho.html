@@ -20,7 +20,66 @@
 
   <body>
     <div>
-      <div class="nav"></div>
+      <div class="nav">
+        <div class="nav-wrapper">
+          <div class="nav-inner">
+            <div class="nav-logo">
+              <img src="https://koike-ya.vn/img/logo.f86953d1.webp" alt="" />
+            </div>
+            <div class="nav-btn" id="nav-btn">
+              <div class="btn-inner">
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="vh-100 vw-100 navbar-content">
+          <div class="navbar-content_wrap">
+            <div class="nav-content_list">
+              <div class="nav-content_item">
+                <a href="index.html">Trang chủ</a>
+              </div>
+              <div class="nav-content_item ">
+                <a href="./corporate.html">Website Công Ty</a>
+              </div>
+              <div class="nav-content_item">
+                <a href="./karamucho.html" class="active">KARAMUCHO</a>
+              </div>
+              <div class="nav-content_item">
+                <a href="">KoiMUCHO</a>
+              </div>
+              <div class="nav-content_logo">
+                <a href="" class="nav-content__logo__karamocho"
+                  ><img
+                    src="https://koike-ya.vn/img/menu-logo-karamucho.c466da1b.webp"
+                    alt=""
+                /></a>
+                <a href="" class="nav-content__logo__koimocho"
+                  ><img
+                    src="https://koike-ya.vn/img/menu-logo-koimucho.8d4b4646.webp"
+                    alt=""
+                /></a>
+              </div>
+              <div class="nav-content_social">
+                <a href="https://www.facebook.com/Karamucho.Vn/"
+                  ><img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAcCAYAAAC6YTVCAAAAw0lEQVQ4je2TPRLBQBSAv4gxCp3GjCNoNOsebqBROIADqd0kr9DlBoowOoxgJmZH8JKVIIUqX7X73vv2Z96ulyQJGhHxgSkwAwaAT5ZrRkqFJTCmhEYuNf8kWJ47iYhdYA30nKocTTXtlwh7YJeOz1rqOqV3QmBkjDk8Avk7vUO08K3kUEnygiCIgZaTKWbT+FGwxFWOF1WRtrZPEdBOH2bHKYELcFTzUD+jIbByFFgYYyY68L8+1VItFUunghr7s18AN8bwMgLixFejAAAAAElFTkSuQmCC"
+                    alt=""
+                /></a>
+                <a
+                  href="https://www.youtube.com/channel/UCUNnWTLL2CyNMmF2dpbd9xg"
+                  ><img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAcCAYAAAATFf3WAAABiklEQVRYhc2YP0vDQBiHnx4dzCYOncRR124iji5OonUStIiTCB3UzUl3/wxujhXRxdrZDyAYQfodrIsfwI7KK3cl5Ag05g25Zynkd+R9uGve3KUWxzEpIqANtIAm0EgPUOYLGAA9oAuMkrdPC64D18BsyVJZDIEO0He5SQw8BJ4qlMPWFocjd8EJysxdesOr48I6/QlGdllDQ5wiEdypeFmzEKe2CG5mDAiBlrGtJFSaRqHPHQCv3lUdGkbhNvfAErANfHppQTQEhR/gDpgHztJvgyJoCTq+gVNgAXjw0n+gLej4ALaAZeDNS3NQlqDjBVgE9uzfIDhBoQbU7W9uyhZctVupGy+ZkHpJYtL8z4EVL8mJ9gzOAbfAu4YcijM4DZzYzeaUlxZAQ/AKWANmvEQBY88ERdgtS07cjH3KQmUggo8BC/aMfeqGXlQ94tQ1dufRCVBQnEauD/aTR70AOHZn42SjlnaxUfFyS21xGB+B028SsZZN5z7wrNCCJkFqSC2pKbXHXxUAfgEJyD8hR+tCKAAAAABJRU5ErkJggg=="
+                    alt=""
+                /></a>
+                <a href="">EN</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="section-top">
         <div class="section-top_bg">
           <div class="section-top__bg__paralax">
@@ -171,7 +230,10 @@
                       </div>
                     </div>
                     <div class="scroll-btn-wrap">
-                      <button class="scroll-btn left" id="scroll-left"></button>
+                      <button
+                        class="scroll-btn left disable"
+                        id="scroll-left"
+                      ></button>
                       <button
                         class="scroll-btn right"
                         id="scroll-right"
@@ -236,7 +298,7 @@
                   <div class="product-right_content">
                     <div class="product-tab w-100">
                       <div class="inner">
-                        <div class="item" id="item1">
+                        <div class="item active" id="item1">
                           <div class="item-inner">
                             <img
                               src="https://koike-ya.vn/img/img-tab-1.110ba82d.webp"
@@ -299,7 +361,7 @@
                     <div class="product-border">
                       <div
                         class="product-border_active"
-                        style="left:0%; width: 144px; "
+                        style="width: 164px;"
                         id="border-product"
                       ></div>
                     </div>
@@ -332,17 +394,19 @@
                               <div class="table-body">
                                 <div class="table-row row">
                                   <div class="col left">
-                                    <strong>Năng lượng 558(kcal)</strong>
+                                    <strong class="item-energy"
+                                      >Năng lượng 554 (kcal)</strong
+                                    >
                                   </div>
                                   <div class="col right">
-                                    <strong
-                                      >Calories from Fat 315(kcal)
-                                    </strong>
+                                    <strong class="item-calories"
+                                      >Calories from Fat 315 (kcal)</strong
+                                    >
                                   </div>
                                 </div>
                                 <div class="table-row row">
                                   <div class="col left">
-                                    <strong>=</strong>
+                                    <strong></strong>
                                   </div>
                                   <div class="col right">
                                     <strong>Năng lượng từ chất béo </strong>
@@ -351,18 +415,24 @@
                                 <div class="table-row row">
                                   <div class="col left">
                                     <strong>Tổng chất béo </strong>
-                                    <span> 35.0g</span>
+                                    <span class="item-total-fat"> 35.0g</span>
                                   </div>
                                   <div class="col right">
-                                    <strong>54% </strong>
+                                    <strong class="item-fat-percent"
+                                      >54%
+                                    </strong>
                                   </div>
                                 </div>
                                 <div class="table-row row">
                                   <div class="col left">
-                                    <span>Chất béo bão hòa 13.1g</span>
+                                    <span class="item-saturated-fat"
+                                      >Chất béo bão hòa 13.1g</span
+                                    >
                                   </div>
                                   <div class="col right">
-                                    <strong>66% </strong>
+                                    <strong class="item-saturated-fat-percent"
+                                      >66%
+                                    </strong>
                                   </div>
                                 </div>
                                 <div class="table-row row">
@@ -370,41 +440,48 @@
                                     <span>Chất béo chuyển hóa: 0g</span>
                                   </div>
                                   <div class="col right">
-                                    <strong> </strong>
+                                    <strong></strong>
                                   </div>
                                 </div>
                                 <div class="table-row row">
                                   <div class="col left">
                                     <strong>Hàm lượng Natri </strong>
-                                    <span>383mg</span>
+                                    <span class="natri">383mg</span>
                                   </div>
                                   <div class="col right">
-                                    <strong>16% </strong>
+                                    <strong class="item-natri-percent"
+                                      >16%</strong
+                                    >
                                   </div>
                                 </div>
                                 <div class="table-row row">
                                   <div class="col left">
                                     <strong>Total carbohydrate</strong>
-                                    <span> 54.6g</span>
+                                    <span class="item-total-carbohydrate">
+                                      54.6g</span
+                                    >
                                   </div>
                                   <div class="col right">
-                                    <strong>18% </strong>
+                                    <strong class="total-carbo-percent"
+                                      >18%</strong
+                                    >
                                   </div>
                                 </div>
                                 <div class="table-row row">
                                   <div class="col left">
-                                    <span>Đường 9.1g</span>
+                                    <span class="sugar">Đường 9.1g</span>
                                   </div>
                                   <div class="col right">
-                                    <strong> </strong>
+                                    <strong></strong>
                                   </div>
                                 </div>
                                 <div class="table-row row">
                                   <div class="col left">
-                                    <strong>Chất đạm</strong> <span> 6.2g</span>
+                                    <strong>Chất đạm</strong>
+                                    <span class="protein"> 6.2g</span>
                                   </div>
                                   <div class="col right">
-                                    <strong> </strong>
+                                    <strong></strong>
                                   </div>
                                 </div>
                                 <div class="table-row row">
@@ -417,7 +494,7 @@
                                 </div>
                                 <div class="table-row row">
                                   <div class="col left text-center">
-                                    <strong
+                                    <strong class="item-title-bot"
                                       >SNACK KHOAI TÂY KARAMUCHO STRONG LÁT DÀY
                                       - VỊ THỊT NƯỚNG TOKYO
                                     </strong>
@@ -430,7 +507,7 @@
                                 </div>
                                 <div class="table-row row">
                                   <div class="col left">
-                                    <span
+                                    <span class="ingredient"
                                       >Khoai tây 59,0 %, dầu thực vật, bột gia
                                       vị thịt nướng 6,0 % (đường, maltodextrin,
                                       chất điều vị (E621), muối, bột kem béo
@@ -481,8 +558,8 @@
                           </div>
                         </div>
                         <div class="control">
-                          <div class="back">Quay lại</div>
-                          <div class="next">Tiếp tục</div>
+                          <div id="back">Quay lại</div>
+                          <div id="next">Tiếp tục</div>
                         </div>
                       </div>
                     </div>

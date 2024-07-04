@@ -39,6 +39,7 @@
     repeat-x 0;
 }
 
+
 .product-package {
   position: relative;
   padding-bottom: 18%;
@@ -87,10 +88,11 @@
   -webkit-transition: opacity 0.3s ease-in-out 0.2s,
     -webkit-transform 0.4s ease-in-out;
   transition: opacity 0.2s ease-in-out 0.2s, -webkit-transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out 0.2s;
+  transition: bottom 0.2s ease-in-out, opacity 0.2s ease-in-out 0.2s;
   transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out 0.2s,
     -webkit-transform 0.4s ease-in-out;
- 
+  transition: bottom 0.2s ease, transform 0.2s ease;
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .chili-left_fade {
@@ -150,18 +152,18 @@
 
 .snack_right-fly {
   position: absolute;
-  bottom: 63%;
-  right: 230px;
+  right: 240px;
   opacity: 0;
   width: 45%;
   z-index: 2;
   -webkit-transition: opacity 0.3s ease-in-out 0.2s,
     -webkit-transform 0.4s ease-in-out;
   transition: opacity 0.2s ease-in-out 0.2s, -webkit-transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out 0.2s;
+  transition: bottom 0.2s ease-in-out, opacity 0.2s ease-in-out 0.2s;
   transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out 0.2s,
     -webkit-transform 0.4s ease-in-out;
- 
+  transition: bottom 0.2s ease, transform 0.2s ease;
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .popcorn-fade {
@@ -179,7 +181,6 @@
   -webkit-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
 }
-
 
 @keyframes chilifade {
   from {
