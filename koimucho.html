@@ -1,11 +1,707 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+    />
+    <title>KOIMUCHO | Koikeya</title>
+    <link rel="stylesheet" href="./koimucho.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="koimucho.js"></script>
 </head>
+
 <body>
-    koimucho
+<div>
+    <div class="nav">
+        <div class="nav-wrapper">
+            <div class="nav-inner">
+                <div class="nav-logo">
+                    <img src="https://koike-ya.vn/img/logo.df224344.webp" alt=""/>
+                </div>
+                <div class="nav-btn" id="nav-btn">
+                    <div class="btn-inner">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="vh-100 vw-100 navbar-content">
+            <div class="navbar-content_wrap">
+                <div class="nav-content_list">
+                    <div class="nav-content_item">
+                        <a href="index.html">Trang chủ</a>
+                    </div>
+                    <div class="nav-content_item ">
+                        <a href="./corporate.html">Website Công Ty</a>
+                    </div>
+                    <div class="nav-content_item">
+                        <a href="./karamucho.html">KARAMUCHO</a>
+                    </div>
+                    <div class="nav-content_item">
+                        <a href="./koimucho.html" class="active">KoiMUCHO</a>
+                    </div>
+                    <div class="nav-content_logo">
+                        <a href="./karamucho.html" class="nav-content__logo__karamocho"
+                        ><img
+                                src="https://koike-ya.vn/img/menu-logo-karamucho.c466da1b.webp"
+                                alt=""
+                        /></a>
+                        <a href="./koimucho.html" class="nav-content__logo__koimocho"
+                        ><img
+                                src="https://koike-ya.vn/img/menu-logo-koimucho.8d4b4646.webp"
+                                alt=""
+                        /></a>
+                    </div>
+                    <div class="nav-content_social">
+                        <a href="https://www.facebook.com/Karamucho.Vn/"
+                        ><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAcCAYAAAC6YTVCAAAAw0lEQVQ4je2TPRLBQBSAv4gxCp3GjCNoNOsebqBROIADqd0kr9DlBoowOoxgJmZH8JKVIIUqX7X73vv2Z96ulyQJGhHxgSkwAwaAT5ZrRkqFJTCmhEYuNf8kWJ47iYhdYA30nKocTTXtlwh7YJeOz1rqOqV3QmBkjDk8Avk7vUO08K3kUEnygiCIgZaTKWbT+FGwxFWOF1WRtrZPEdBOH2bHKYELcFTzUD+jIbByFFgYYyY68L8+1VItFUunghr7s18AN8bwMgLixFejAAAAAElFTkSuQmCC"
+                                alt=""
+                        /></a>
+                        <a
+                                href="https://www.youtube.com/channel/UCUNnWTLL2CyNMmF2dpbd9xg"
+                        ><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAcCAYAAAATFf3WAAABiklEQVRYhc2YP0vDQBiHnx4dzCYOncRR124iji5OonUStIiTCB3UzUl3/wxujhXRxdrZDyAYQfodrIsfwI7KK3cl5Ag05g25Zynkd+R9uGve3KUWxzEpIqANtIAm0EgPUOYLGAA9oAuMkrdPC64D18BsyVJZDIEO0He5SQw8BJ4qlMPWFocjd8EJysxdesOr48I6/QlGdllDQ5wiEdypeFmzEKe2CG5mDAiBlrGtJFSaRqHPHQCv3lUdGkbhNvfAErANfHppQTQEhR/gDpgHztJvgyJoCTq+gVNgAXjw0n+gLej4ALaAZeDNS3NQlqDjBVgE9uzfIDhBoQbU7W9uyhZctVupGy+ZkHpJYtL8z4EVL8mJ9gzOAbfAu4YcijM4DZzYzeaUlxZAQ/AKWANmvEQBY88ERdgtS07cjH3KQmUggo8BC/aMfeqGXlQ94tQ1dufRCVBQnEauD/aTR70AOHZn42SjlnaxUfFyS21xGB+B028SsZZN5z7wrNCCJkFqSC2pKbXHXxUAfgEJyD8hR+tCKAAAAABJRU5ErkJggg=="
+                                alt=""
+                        /></a>
+                        <a href="">EN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-top">
+        <div class="section-top_bg" id="imageContainer">
+            <div class="section-top__bg__paralax">
+                <img
+                        src="https://koike-ya.vn/img/bg-top-paralax.cfd4440f.webp"
+                        alt=""
+                        id="imgparalax"
+                />
+            </div>
+            <div class="section-top_bg_logo">
+                <img
+                        src="https://koike-ya.vn/img/bg-top-logo.5e693873.webp"
+                        alt=""
+                />
+            </div>
+            <div class="section-top_bg_product">
+                <img
+                        alt="karamucho snack"
+                        class="pc-appear ls-is-cached lazyloaded"
+                        src="./assets/main-img/koimucho-top.png"
+                />
+            </div>
+        </div>
+    </div>
+    <div class="section-main" id="imageContainerBody">
+        <!-- <div class="section-paralax" >
+          <img alt="" src="https://koike-ya.vn/img/paralax.0acdf1dc.webp" id="imageBody"/>
+        </div> -->
+        <div class="section-intro">
+            <div class="wrap">
+                <div class="section-intro-inner">
+                    <div class="what">
+                        <div class="row d-flex wrap">
+                            <div class="col-4 left">
+                                <div class="title">
+                                    <img
+                                            src="https://koike-ya.vn/img/txt-whatis-vi.5f4bdf23.webp"
+                                            alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-6 right">
+                                KoiMUCHO – snack thơm ngon rất được ưa chuộng ở Nhật Bản nay
+                                đã có mặt tại Việt Nam. KoiMUCHO là thương hiệu snack thuộc
+                                công ty Koikeya – một trong những công ty sản xuất bánh
+                                snack hàng đầu Nhật Bản với nhiều thương hiệu nổi tiếng và
+                                chất lượng. “KoiMUCHO” – lấy cảm hứng từ chữ “Koi” trong
+                                “Koikeya”, ngoài ra trong tiếng Nhật nếu viết bằng chữ “恋”
+                                (luyến) có nghĩa là tình cảm chân thành, trong sáng; nếu
+                                viết bằng chữ “濃” (nồng) có nghĩa là “đậm đà”. Chính vì
+                                vậy, Koikeya – với tất cả sự nhiệt huyết và tình cảm chân
+                                thành của mình, luôn luôn cố gắng tạo ra những gói snack
+                                chất lượng, đậm đà hương vị theo đúng tiêu chuẩn Nhật Bản,
+                                mang đến sự an tâm cho người tiêu dùng.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="character">
+                        <div class="row">
+                            <div class="col-4 left">
+                                <div class="character-avt">
+                                    <img
+                                            src="https://koike-ya.vn/img/avt-tomi.3a47bcde.webp"
+                                            alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-7 right">
+                                <div class="content">
+                                    <img
+                                            src="https://koike-ya.vn/img/txt-brand-vi.1fdb1d17.webp"
+                                            alt=""
+                                    />
+                                    <p>
+                                        Doraemon chính là đại sứ thương hiệu của KoiMUCHO, chú
+                                        mèo máy thông minh đáng yêu này sẽ là người bạn đồng
+                                        hành với tất cả các bạn nhỏ khi mua snack KoiMUCHO. Sản
+                                        phẩm đầu tiên “Snack bắp KoiMUCHO vị sữa bắp” được tung
+                                        ra thị trường lần đầu vào tháng 11, 2018. Sản phẩm với
+                                        sự kết hợp hoàn hảo giữa hương thơm tự nhiên và vị ngọt
+                                        thanh từ bắp đã và đang chiếm trọn tình cảm chân thành
+                                        của những fan snack nhí ở Việt Nam.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery">
+                        <div class="row">
+                            <div class="col-3 left">
+                                <img
+                                        src="https://koike-ya.vn/img/txt-gallery-vi.3c579b16.webp"
+                                        alt=""
+                                        width="70%"
+                                />
+                                <div>Xem thêm câu đố bằng mũi tên qua lại</div>
+                            </div>
+                            <div class="col-8 right">
+                                <div class="scroll-container">
+                                    <div class="scroll-content" id="scroll-content">
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item1"
+                                                src="https://koike-ya.vn/img/1.22183c49.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item2"
+                                                src="https://koike-ya.vn/img/2.3630105b.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item3"
+                                                src="https://koike-ya.vn/img/3.8fa61c1b.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item4"
+                                                src="https://koike-ya.vn/img/4.d0b60dc6.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item5"
+                                                src="https://koike-ya.vn/img/5.28f645b4.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item6"
+                                                src="https://koike-ya.vn/img/6.64086236.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item7"
+                                                src="https://koike-ya.vn/img/7.e970645e.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item8"
+                                                src="https://koike-ya.vn/img/8.d5aa9406.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item9"
+                                                src="https://koike-ya.vn/img/9.affdd690.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item10"
+                                                src="https://koike-ya.vn/img/10.c3af3685.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item11"
+                                                src="https://koike-ya.vn/img/11.a8dee159.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item12"
+                                                src="https://koike-ya.vn/img/12.c5b091ea.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item13"
+                                                src="https://koike-ya.vn/img/13.a841b336.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item14"
+                                                src="https://koike-ya.vn/img/14.b73546a6.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item15"
+                                                src="https://koike-ya.vn/img/15.a07b1d4e.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item16"
+                                                src="https://koike-ya.vn/img/16.c466eea5.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item17"
+                                                src="https://koike-ya.vn/img/17.ef010a17.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item18"
+                                                src="https://koike-ya.vn/img/18.39a2813f.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item19"
+                                                src="https://koike-ya.vn/img/19.2b262d81.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item20"
+                                                src="https://koike-ya.vn/img/20.6afd7c81.webp "
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item21"
+                                                src="https://koike-ya.vn/img/21.03f61016.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item22"
+                                                src="https://koike-ya.vn/img/22.339ecfc2.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item23"
+                                                src="https://koike-ya.vn/img/23.70c55234.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item24"
+                                                src="https://koike-ya.vn/img/24.caa7526d.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item25"
+                                                src="https://koike-ya.vn/img/25.96937e7e.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item26"
+                                                src="https://koike-ya.vn/img/26.563b92f3.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item27"
+                                                src="https://koike-ya.vn/img/27.46a21d57.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item28"
+                                                src="https://koike-ya.vn/img/28.f7465d21.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item29"
+                                                src="https://koike-ya.vn/img/29.7e933802.webp"
+                                        />
+                                        <img
+                                                class="scroll-item"
+                                                id="scroll-item30"
+                                                src="https://koike-ya.vn/img/30.1b45b1e2.webp"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="scroll-btn-wrap">
+                                    <button
+                                            class="scroll-btn left disable"
+                                            id="scroll-left"
+                                    ></button>
+                                    <button
+                                            class="scroll-btn right"
+                                            id="scroll-right"
+                                    ></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-history">
+            <div class="container">
+                <div class="wrap">
+                    <div class="row">
+                        <div class="col-4 left">
+                            <img
+                                    src="https://koike-ya.vn/img/txt-history-vi.bfee124f.webp"
+                                    alt=""
+                            />
+                        </div>
+                        <div class="col-8 right">
+                            <p>
+                                KARAMUCHO lần đầu tiên được ra mắt tại Nhật Bản vào tháng 9,
+                                1984. Tại thời điểm đó, trên thị trường chưa từng xuất hiện
+                                dòng snack cay với hương vị đặc biệt như thế. Chính vì vậy
+                                ngay khi sản phẩm được tung ra đã đón nhận không ngớt những
+                                lời khen và sự ủng hộ nồng nhiệt từ người tiêu dùng. Sản
+                                phẩm lúc đó được biết đến rộng rãi chủ yếu qua việc truyền
+                                miệng, nhưng đã tạo nên một sức nóng bùng nổ chưa từng có từ
+                                trước đến nay. Ngoài ra, những mẫu quảng cáo và cả nhân vật
+                                đại diện của thương hiệu cũng rất được nguời tiêu dùng ưa
+                                thích. Đến nay, KARAMUCHO đã có lịch sử phát triển hơn 30
+                                năm ở Nhật Bản, nhưng cơn sốt về cái tên KARAMUCHO cũng như
+                                những sản phẩm cay ngon đặc trưng của thương hiệu này vẫn
+                                chiếm trọn tình cảm của tất cả người tiêu dùng.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-product" id="product">
+            <div class="container">
+                <div class="product">
+                    <div class="product-row">
+                        <div class="product-left">
+                            <div class="content">
+                                <img
+                                        src="data:image/png;base64,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"
+                                        alt=""
+                                />
+                                <div class="product-left_img">
+                                    <img
+                                            src="https://koike-ya.vn/img/1.339e1993.webp"
+                                            alt=""
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-right">
+                            <div class="product-right_content">
+                                <div class="product-tab w-100">
+                                    <div class="inner">
+                                        <div class="item active" id="item1">
+                                            <div class="item-inner">
+                                                <img
+                                                        src="https://koike-ya.vn/img/img-tab-1.8ed3ba9d.webp"
+                                                        alt=""
+                                                />
+                                                <div class="name" style="color: rgb(236, 151, 6)">
+                                                    Vị bơ mật ong
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item" id="item2">
+                                            <div class="item-inner">
+                                                <img
+                                                        src="https://koike-ya.vn/img/img-tab-2.0614d88a.webp"
+                                                        alt=""
+                                                />
+                                                <div class="name" style="color: rgb(253, 217, 0)">
+                                                    Vị sữa bắp
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item" id="item3">
+                                            <div class="item-inner">
+                                                <img
+                                                        src="https://koike-ya.vn/img/img-tab-3.a7a386f0.webp"
+                                                        alt=""
+                                                />
+                                                <div class="name" style="color: rgb(237, 109, 0)">
+                                                    Vị thịt nướng
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item" id="item4">
+                                            <div class="item-inner">
+                                                <img
+                                                        src="https://koike-ya.vn/img/img-tab-4.098c8dd8.webp"
+                                                        alt=""
+                                                />
+                                                <div class="name" style="color: rgb(0, 151, 220)">Vị bơ tỏi</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-border">
+                                    <div
+                                            class="product-border_active"
+                                            style="width: 205px;"
+                                            id="border-product"
+                                    ></div>
+                                </div>
+                                <div class="product-pannel">
+                                    <div class="product-content-wrap">
+                                        <div class="table-item">
+                                            <div class="title" id="item-title">
+                                                SNACK BẮP KOIMUCHO – VỊ BƠ MẬT ONG
+                                            </div>
+                                            <div class="text">
+                                                Vị bơ mật ong là sự hòa quyện tuyệt vời giữa vị bơ thơm ngon cùng vị
+                                                ngọt thanh tự nhiên của mật ong.
+                                                <!-- <p>Vị cay đặc trưng đến từ Nhật Bản</p> -->
+                                                <!-- <p>Sự tổng hòa tuyệt vời giữa các vị nóng – cay – chua – ngọt</p> -->
+                                            </div>
+                                            <div class="info">
+                                                <div class="table">
+                                                    <div class="table-head">
+                                                        <div class="table-title_large">
+                                                            Snack bắp KoiMUCHO
+                                                        </div>
+                                                        <div class="table-title_large pb-4">
+                                                            Vị bơ mật ong (36g) – (64g)
+                                                        </div>
+                                                        <div class="table-title_medium">
+                                                            Giá Trị Dinh Dưỡng
+                                                        </div>
+                                                        <div>Giá trị dinh dưỡng trong 100g</div>
+                                                    </div>
+                                                    <div class="table-body">
+                                                        <div class="table-row row">
+                                                            <div class="col left">
+                                                                <strong class="item-energy"
+                                                                >Năng lượng 549 (kcal)</strong
+                                                                >
+                                                            </div>
+                                                            <div class="col right">
+                                                                <strong class="item-calories"
+                                                                >Calories from Fat 291 (kcal)</strong
+                                                                >
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row row">
+                                                            <div class="col left">
+                                                                <strong></strong>
+                                                            </div>
+                                                            <div class="col right">
+                                                                <strong>Năng lượng từ chất béo </strong>
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row row">
+                                                            <div class="col left">
+                                                                <strong>Tổng chất béo </strong>
+                                                                <span class="item-total-fat"> 32.3g</span>
+                                                            </div>
+                                                            <div class="col right">
+                                                                <strong class="item-fat-percent"
+                                                                >50%
+                                                                </strong>
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row row">
+                                                            <div class="col left">
+                                    <span class="item-saturated-fat"
+                                    >Chất béo bão hòa 14.3g</span
+                                    >
+                                                            </div>
+                                                            <div class="col right">
+                                                                <strong class="item-saturated-fat-percent"
+                                                                >72%
+                                                                </strong>
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row row">
+                                                            <div class="col left">
+                                                                <span>Chất béo chuyển hóa: 0g</span>
+                                                            </div>
+                                                            <div class="col right">
+                                                                <strong></strong>
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row row">
+                                                            <div class="col left">
+                                                                <strong>Hàm lượng Natri </strong>
+                                                                <span class="natri">394mg</span>
+                                                            </div>
+                                                            <div class="col right">
+                                                                <strong class="item-natri-percent"
+                                                                >16%</strong
+                                                                >
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row row">
+                                                            <div class="col left">
+                                                                <strong>Total carbohydrate</strong>
+                                                                <span class="item-total-carbohydrate">
+                                      59.4g</span
+                                                                >
+                                                            </div>
+                                                            <div class="col right">
+                                                                <strong class="total-carbo-percent"
+                                                                >20%</strong
+                                                                >
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row row">
+                                                            <div class="col left">
+                                                                <span class="sugar">Đường 4.9g</span>
+                                                            </div>
+                                                            <div class="col right">
+                                                                <strong></strong>
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row row">
+                                                            <div class="col left">
+                                                                <strong>Chất đạm</strong>
+                                                                <span class="protein"> 5.5g</span>
+                                                            </div>
+                                                            <div class="col right">
+                                                                <strong></strong>
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row row">
+                                                            <div class="col left">
+                                    <span
+                                    >*Phần trăm giá trị dinh dưỡng hàng ngày
+                                      dựa trên khẩu phần ăn 2.000 calorie.</span
+                                    >
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row row">
+                                                            <div class="col left text-center">
+                                                                <strong class="item-title-bot"
+                                                                >SNACK KHOAI TÂY KARAMUCHO STRONG LÁT DÀY
+                                                                    - VỊ THỊT NƯỚNG TOKYO
+                                                                </strong>
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row row">
+                                                            <div class="col left">
+                                                                <strong>Thành phần: </strong>
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row row">
+                                                            <div class="col left">
+                                    <span class="ingredient"
+                                    >Khoai tây 59,0 %, dầu thực vật, bột gia
+                                      vị thịt nướng 6,0 % (đường, maltodextrin,
+                                      chất điều vị (E621), muối, bột kem béo
+                                      thực vật, bột tiêu đen, đạm thực vật thủy
+                                      phân, bột gà, hương gà giống tự nhiên,
+                                      hương tỏi giống tự nhiên, màu nhân tạo:
+                                      Caramen nhóm IV (xử lý amoni sulfit)
+                                      (E150d), hương bò giống tự nhiên, màu tự
+                                      nhiên: Parika oleoresin (E160c), chất điều
+                                      chỉnh độ axit (E330), chất tạo ngọt nhân
+                                      tạo: Aspartam (E951)).
+                                    </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row row">
+                                                            <div class="col left">
+                                                                <strong
+                                                                >&lt;Chú ý&gt;: Sản phẩm không phù hợp cho
+                                                                    người dị ứng với sữa, đậu nành.
+                                                                </strong>
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row row">
+                                                            <div class="col left">
+                                                                <strong>Hướng dẫn sử dụng </strong>
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row row">
+                                                            <div class="col left">
+                                                                <span>Dùng ngay sau khi mở gói. </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row row">
+                                                            <div class="col left">
+                                                                <strong>Hướng dẫn bảo quản: </strong>
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row row">
+                                                            <div class="col left">
+                                    <span
+                                    >Bảo quản nơi khô mát, tránh ánh nắng trực
+                                      tiếp và nhiệt độ cao.
+                                    </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="control">
+                                            <div id="back" class="disabled">Quay lại</div>
+                                            <div id="next">Tiếp tục</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="contact">
+        <div class="wrap">
+            <div class="row d-flex wrap w-100">
+                <div class="col-8 left">
+                    <img
+                            src="assets/main-img/koimucho-bottom.png"
+                            alt=""
+                    />
+                </div>
+                <div class="col-4 right">
+                    <div class="info">
+                        <img
+                                src="data:image/png;base64,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"
+                                alt=""
+                        />
+                        <div class="office">
+                            <div class="title"><strong>Văn Phòng Kinh Doanh</strong></div>
+                            <div>
+                                Lầu 4, Tòa nhà Viễn Đông,
+                                <br/>
+                                Số 14 Phan Tôn, P. Đa Kao, quận 1, TPHCM, Việt Nam
+                            </div>
+                            <div>Điện thoại: +84 (0) 287 3080 800</div>
+                        </div>
+                        <div class="office">
+                            <div class="title"><strong>Nhà Máy</strong></div>
+                            <div>
+                                Đường N3-2, Khu công nghiệp Long Đức, Xã Long Đức,
+                                <br/>
+                                Huyện Long Thành, Tỉnh Đồng Nai, Việt Nam
+                            </div>
+                            <div>Điện thoại: +84 (0) 287 3080 800</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="back-top"></div>
+        <span>© Bản quyền thuộc về Koikeya 2024</span>
+    </div>
+</footer>
 </body>
 </html>

@@ -1,18 +1,38 @@
 $(document).ready(function () {
+
+  $("#snack-go").hover(
+    function() {
+      $(".snack_right-fly").css({
+        opacity: "1",
+        transform: "scale(1)",
+        "z-index": "2",
+      })
+      $(".snack_right-fly").stop().animate({ bottom: "58%" }, 300);
+    }, function () {
+      $(".snack_right-fly").css({
+        opacity: "0",
+        transform: "scale(0.9)",
+        "z-index": "1",
+      })
+      $(".snack_right-fly").stop().animate({ bottom: "52%" }, 300);
+    }
+  )
+
   $("#snack-kara").hover(
     function () {
       $("#karamucho_snack").attr(
         "src",
-        "./assets/main-img/img-package-hover-vi.5721f984.webp"
+        "./assets/main-img/karamucho-snack-open.png"
       );
     },
     function () {
       $("#karamucho_snack").attr(
         "src",
-        "./assets/main-img/img-package-vi.5ec01e47.webp"
+        "./assets/main-img/karamucho-snack.png"
       );
     }
   );
+
   $("#snack-kara").hover(
     function () {
       $(".snack_left-fly").css({
@@ -20,7 +40,7 @@ $(document).ready(function () {
         transform: "scale(1)",
         "z-index": "2",
       });
-      $(".snack_left-fly").stop().animate({ bottom: "63%" }, 300);
+      $(".snack_left-fly").stop().animate({ bottom: "58%" }, 300);
     },
     function () {
       $(".snack_left-fly").css({
@@ -28,9 +48,21 @@ $(document).ready(function () {
         transform: "scale(0.9)",
         "z-index": "1",
       });
-      $(".snack_left-fly").stop().animate({ bottom: "60%" }, 300);
+      $(".snack_left-fly").stop().animate({ bottom: "52%" }, 300);
     }
   );
+
+  $(".gokochi-bg").hover(
+    function () {
+      $(".potato-fade").animate({ top: "-13%" }, 500);
+      $(".potato-fade").css("transform", "scale(1.005)");
+    },
+    function () {
+      $(".potato-fade").animate({ top: "6%" }, 100);
+      $(".potato-fade").css("transform", "scale(1)");
+    }
+  );
+
   $(".koimucho-bg").hover(
     function () {
       $(".popcorn-fade").stop().animate({ top: "-13%" }, 500);
@@ -41,6 +73,7 @@ $(document).ready(function () {
       $(".popcorn-fade").css("transform", "scale(1)");
     }
   );
+
   $(".karamucho-bg").hover(
     function () {
       $(".chili-left_fade").animate({ top: "-13%" }, 500);
@@ -51,37 +84,55 @@ $(document).ready(function () {
       $(".chili-left_fade").css("transform", "scale(1)");
     }
   );
-  $("#snack-koi").hover(
+
+  $("#snack-go").hover(
     function () {
-      $("#koimucho_snack").attr(
+      $("#go_snack").attr(
         "src",
-        "./assets/main-img/img-package-hover-vi.b16c5e6d.webp"
+        "./assets/gokochi/gokochi-snack-open.png"
       );
     },
     function () {
-      $("#koimucho_snack").attr(
+      $("#go_snack").attr(
         "src",
-        "./assets/main-img/img-package-vi.99323c96.webp"
+        "./assets/gokochi/gokochi-snack.png"
       );
     }
   );
 
   $("#snack-koi").hover(
     function () {
-      $(".snack_right-fly").css({
+      $("#koimucho_snack").attr(
+        "src",
+        "./assets/main-img/koimucho-snack-open.png"
+      );
+    },
+    function () {
+      $("#koimucho_snack").attr(
+        "src",
+        "./assets/main-img/koimucho-snack.png"
+      );
+    }
+  );
+
+  $("#snack-koi").hover(
+    function () {
+      $(".snack_mid-fly").css({
         opacity: "1",
         transform: "scale(1)",
         "z-index": "2",
       });
-      $(".snack_right-fly").stop().animate({ bottom: "63.5%" }, 300);
+      $(".snack_mid-fly").stop().animate({ bottom: "59%" }, 300);
     },
     function () {
-      $(".snack_right-fly").css({
+      $(".snack_mid-fly").css({
         opacity: "0",
         transform: "scale(0.9)",
         "z-index": "1",
       });
-      $(".snack_right-fly").stop().animate({ bottom: "60%" }, 300);
+      $(".snack_mid-fly").stop().animate({ bottom: "52%" }, 300);
     }
   )();
+
+  
 });
