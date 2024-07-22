@@ -4,12 +4,14 @@
         padding-left: 2rem;
         padding-right: 0;
     }
+
+
 }
 
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
     .section-top_bg {
-        height: auto;
+        height: 50vh;
     }
 
     .nav .nav-wrapper {
@@ -17,8 +19,16 @@
         padding-right: 0;
     }
 
+    .nav .nav-wrapper .nav-inner .nav-logo {
+        right: -8.2rem;
+    }
+
+    .nav .nav-wrapper .nav-inner .logo-koikeya {
+        left: 8rem;
+    }
+
     .nav .nav-wrapper .nav-inner .nav-logo img {
-        max-width: 80%;
+        max-width: 60%;
     }
 
     .product-border_active {
@@ -58,10 +68,22 @@
         margin-bottom: 2rem;
         width: 110%;
     }
+
+    .section-top_bg_product {
+        left: -7.5rem;
+        width: 130%;
+    }
 }
 
 /* Mobile */
 @media (max-width: 739px) {
+    .nav .nav-wrapper .nav-inner .logo-koikeya {
+        display: none;
+    }
+
+    .nav .nav-wrapper .nav-inner .nav-btn {
+        left: 19rem;
+    }
 
     .nav {
         position: fixed;
@@ -80,6 +102,10 @@
     .nav-wrapper {
         padding: 0 14px !important;
 
+    }
+
+    .nav .nav-wrapper .nav-inner .nav-logo {
+        right: 0.8rem;
     }
 
     .nav-inner {
@@ -112,8 +138,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         background-position: bottom;
-        scale: 1.6;
-        bottom: 4.3rem;
+        scale: 1.4;
+        bottom: 2.3rem;
     }
 
     .section-intro {

@@ -796,6 +796,7 @@ footer .back-top {
     text-align: center;
     width: 100%;
     opacity: 0;
+    display: flex;
 }
 
 .nav-content__logo__karamocho {

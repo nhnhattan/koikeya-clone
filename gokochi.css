@@ -1,14 +1,13 @@
 .nav {
     position: absolute;
-    top: 30px;
     left: 0;
     width: 100%;
     z-index: 99;
 }
 
 .nav .nav-wrapper {
-    padding-left: 100px;
-    padding-right: 65px;
+width: 100vw;
+    overflow: hidden;
 }
 
 .nav .nav-wrapper .nav-inner {
@@ -17,14 +16,29 @@
     justify-content: space-between;
 }
 
+.nav .nav-wrapper .nav-inner .logo-koikeya {
+    position: relative;
+    left: 12rem;
+}
+
+.nav .nav-wrapper .nav-inner .logo-koikeya img {
+    max-width: 70%;
+    height: auto;
+}
+
+.nav .nav-wrapper .nav-inner .nav-logo{
+    position: relative;
+    right: -4.2rem;
+}
+
 .nav .nav-wrapper .nav-inner .nav-logo img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 
 .nav .nav-wrapper .nav-inner .nav-btn {
     position: fixed;
-    right: 80px;
+    left: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +60,7 @@
     top: 18px;
     position: absolute;
     right: 0;
-    height: 3px;
+    height: 2px;
     width: 100%;
     background: #000;
     transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
@@ -133,7 +147,7 @@
     text-align: center;
     padding-top: 3rem;
     z-index: 5;
-    width: 23%;
+    width: 30%;
     margin: 0 auto;
 }
 
@@ -159,7 +173,7 @@
 
 .section-main {
     perspective: 2000px;
-    background-image: url("./assets/gokochi/Artboard 6.png") !important;
+    background-image: url("./assets/gokochi/Artboard 6.jpg") !important;
     background: repeat-y top;
     width: 100%;
     position: relative;
@@ -439,12 +453,13 @@
     max-width: 100%;
     font-size: 13px;
     line-height: 30px;
-    color: #fff;
+    color: #0D4C92;
+    font-weight: 700;
 }
 
 .section-product .container {
     width: 1250px;
-    padding: 0 20;
+    padding: 0 20px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -471,6 +486,8 @@
     top: 0;
     padding-top: 2rem;
 }
+
+
 
 .product-left .content .product-left_img {
     text-align: center;
@@ -589,7 +606,7 @@
 }
 
 .product-pannel .product-content-wrap .table-item .info .table {
-    font-size: 16 pxm;
+    font-size: 16px;
     border: 2px solid #000;
     padding: 25px 0 0;
     border-radius: 5px;
@@ -659,7 +676,7 @@ footer::before {
 
 footer .contact {
     padding: 160px 0 60px;
-    background: url("./assets/gokochi/Artboard 10.png") no-repeat 40% / cover;
+    background: url("./assets/gokochi/Artboard 5.jpg") no-repeat 40% / cover;
     display: flex;
     justify-content: center;
 }

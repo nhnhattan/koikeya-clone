@@ -562,7 +562,7 @@ $(document).ready(function () {
     var $image1 = $("#imgparalax");
     var $container1 = $("#imageContainer");
     var container1Width = $container1.width();
-    var container1Height = $container1.height();
+    var container1Height = $container1.height() - 150;
     var image1Width = $image1.width();
     var image1Height = $image1.height();
 
@@ -647,7 +647,7 @@ $(document).ready(function () {
             $("#language").text("EN");
             $(".what .row .left .title img").attr(
                 "src",
-                "./assets/Karamucho/txt-whatis-vi.15866bd1.webp"
+                "./assets/gokochi/what.png"
             );
             $(".what .row .right").text(
                 "Năm 1984, bánh snack khoai tây KARAMUCHO đầu tiên của Koike-ya đã ra mắt thị trường Nhật Bản. Người ta không ngớt trầm trồ về sản phẩm bởi sự pha trộn tuyệt vời giữa vị nóng, cay, chua và ngọt. Có thể nói chính KARAMUCHO đã tạo nên làn sóng “Snack Cay” vô cùng ấn tượng tại Đất nước mặt trời mọc. Mốc son này đã làm bệ phóng cho sự thành công của nhiều sản phẩm KARAMUCHO thế hệ tiếp theo, đưa KARAMUCHO trở thành thương hiệu snack cay bán chạy số 1* Nhật Bản, được đông đảo người tiêu dùng Nhật Bản và thế giới đón nhận. Đến Việt Nam, chúng tôi tin rằng KARAMUCHO cũng sẽ làm nên điều kỳ diệu như thế."
@@ -661,22 +661,22 @@ $(document).ready(function () {
             );
             $(".gallery .row .left img").attr(
                 "src",
-                "./assets/Karamucho/txt-gallery-vi.0ad15c1a.webp"
+                "./assets/gokochi/gallery.png"
             );
             $(".section-history .container .wrap .left img").attr(
                 "src",
-                "./assets/Karamucho/history.png"
+                "./assets/gokochi/history.png"
             );
             $(".section-history .container .wrap .right p").text(
                 "KARAMUCHO lần đầu tiên được ra mắt tại Nhật Bản vào tháng 9, 1984. Tại thời điểm đó, trên thị trường chưa từng xuất hiện dòng snack cay với hương vị đặc biệt như thế. Chính vì vậy ngay khi sản phẩm được tung ra đã đón nhận không ngớt những lời khen và sự ủng hộ nồng nhiệt từ người tiêu dùng. Sản phẩm lúc đó được biết đến rộng rãi chủ yếu qua việc truyền miệng, nhưng đã tạo nên một sức nóng bùng nổ chưa từng có từ trước đến nay. Ngoài ra, những mẫu quảng cáo và cả nhân vật đại diện của thương hiệu cũng rất được nguời tiêu dùng ưa thích. Đến nay, KARAMUCHO đã có lịch sử phát triển hơn 30 năm ở Nhật Bản, nhưng cơn sốt về cái tên KARAMUCHO cũng như những sản phẩm cay ngon đặc trưng của thương hiệu này vẫn chiếm trọn tình cảm của tất cả người tiêu dùng."
             );
             $(".product-title_font").attr(
                 "src",
-                "./assets/Karamucho/product-content.png"
+                "../assets/gokochi/product.png"
             );
             $("footer .contact .wrap .row .right .info img").attr(
                 "src",
-                "./assets/Karamucho/contact.png"
+                "./assets/gokochi/contact.png"
             );
             $("footer .contact .wrap .row .right .info .office .title strong").text(
                 "Văn Phòng Kinh Doanh"
@@ -712,7 +712,7 @@ $(document).ready(function () {
             $("#language").text("VI");
             $(".what .row .left .title img").attr(
                 "src",
-                "./assets/Karamucho/what-en.png"
+                "./assets/gokochi/what-en.png"
             );
             $(".what .row .right").text(
                 "In 1984, Koike-ya introduced its first KARAMUCHO potato chips to the Japanese market. Back then, people were so excited of the amazing mixture of spicy, sweet and sour flavor. It's even said to have kick started the spicy food trend in Japan. It had opened to the success of a number or KARAMUCHO brands, and made KARAMUCHO the best-selling spicy chips in Japan. Coming to Vietnam, we believe that KARAMUCHO would create such miracle. "
@@ -726,22 +726,22 @@ $(document).ready(function () {
             );
             $(".gallery .row .left img").attr(
                 "src",
-                "./assets/Karamucho/gallery-en.png"
+                "./assets/gokochi/gallery-en.png"
             );
             $(".section-history .container .wrap .left img").attr(
                 "src",
-                "./assets/Karamucho/history-en.png"
+                "./assets/gokochi/history-en.png"
             );
             $(".section-history .container .wrap .right p").text(
                 "KARAMUCHO first appeared in the Japan market in September, 1984. At the time, it was the 1st chips in Japan to introduce a spicy flavor with such special taste, that they received a handful of compliments and love from the snack consumers. By then, the chips brand had gained its reputation primarily through word of mouth, and then created the biggest buzz ever in the years later. Additionally, people love all the ads and also the brand character so much. KARAMUCHO has had a history of over 30 years of business in Japan, but the KARAMUCHO fever and its phenomenal hot spicy flavor still remains the most loved and popular spicy potato chips among the consumers"
             );
             $(".product-title_font").attr(
                 "src",
-                "./assets/Karamucho/product-content-en.png"
+                "./assets/gokochi/product-en.png"
             );
             $("footer .contact .wrap .row .right .info img").attr(
                 "src",
-                "./assets/Karamucho/contact-en.png"
+                "./assets/gokochi/contact-en.png"
             );
             $("footer .contact .wrap .row .right .info .office .title strong").text(
                 "Business Office"
