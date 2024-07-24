@@ -4,7 +4,7 @@
 }
 
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1366px) {
+@media (min-width: 740px) and (max-width: 1350px) {
     .corporate-right {
         width: 100%;
     }
