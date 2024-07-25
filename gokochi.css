@@ -683,7 +683,7 @@ footer::before {
 
 footer .contact {
     padding: 160px 0 60px;
-    background: url("./assets/gokochi/Artboard 5.jpg") no-repeat 40% / cover;
+    background: url("./assets/gokochi/Artboard 5.jpg") no-repeat 80% / cover;
     display: flex;
     justify-content: center;
 }
