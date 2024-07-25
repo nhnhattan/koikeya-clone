@@ -46,7 +46,7 @@ $(document).ready(function () {
             opacity: "1", transform: "scale(1)", "z-index": "2",
         });
         if ($(window).width() <= 739) {
-            $(".snack_left-fly").stop().animate({bottom: "88%", left: "0"}, 300);
+            $(".snack_left-fly").stop().animate({bottom: "94%", left: "0"}, 300);
         } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
             $(".snack_left-fly").stop().animate({bottom: "76%", left: "10%", width: "80%"}, 300);
         } else {
