@@ -151,9 +151,22 @@
         max-width: 44%;
     }
 
+    .character-avt {
+        display: flex;
+        position: relative;
+        left: -3.5rem;
+        top: -2rem;
+    }
+
 
     .character .row .right .content img {
         display: none;
+    }
+
+    .character .row .left .character-avt img:last-child {
+        display: block;
+        max-width: 140%;
+        height: auto;
     }
 
     .character-content {

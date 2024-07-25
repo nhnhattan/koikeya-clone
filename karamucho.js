@@ -283,7 +283,7 @@ $(document).ready(function () {
                 $("#scroll-right").removeClass("disable");
             }
         } else {
-            if (scrollLeft + $(".scroll-container").width() >= 3600) {
+            if (scrollLeft + $(".scroll-container").width() >= 3300) {
                 $("#scroll-right").addClass("disable");
             } else {
                 $("#scroll-right").removeClass("disable");
@@ -311,7 +311,7 @@ $(document).ready(function () {
         } else {
             $("#scroll-content").animate(
                 {
-                    scrollLeft: "-=340",
+                    scrollLeft: "-=280",
                 },
                 300,
                 updateButtons
@@ -338,7 +338,7 @@ $(document).ready(function () {
         } else {
             $("#scroll-content").animate(
                 {
-                    scrollLeft: "+=340",
+                    scrollLeft: "+=280",
                 },
                 300,
                 updateButtons
