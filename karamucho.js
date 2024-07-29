@@ -25,33 +25,33 @@ const item = [
         ingredient:
             "Khoai tây 59,0 %, dầu thực vật, bột gia vị thịt nướng 6,0 % (đường, maltodextrin, chất điều vị (E621), muối, bột kem béo thực vật, bột tiêu đen, đạm thực vật thủy phân, bột gà, hương gà giống tự nhiên, hương tỏi giống tự nhiên, màu nhân tạo: Caramen nhóm IV (xử lý amoni sulfit) (E150d), hương bò giống tự nhiên, màu tự nhiên: Parika oleoresin (E160c), chất điều chỉnh độ axit (E330), chất tạo ngọt nhân tạo: Aspartam (E951)).",
     },
+    // {
+    //     id: 2,
+    //     img: "./assets/Karamucho/Lớn/Artboard 17.png",
+    //     firstName: "Snack khoai tây",
+    //     lastName: "STRONG lát dày",
+    //     fullName: "SNACK KHOAI TÂY KARAMUCHO STRONG LÁT DÀY - VỊ CAY SIÊU CẤP",
+    //     description:
+    //         "Lát cắt dày hơn, giòn hơn, đậm vị hơn! KARAMUCHO STRONG mang lại cảm giác mạnh mẽ và đậm đà qua từng lát khoai",
+    //     title: "Snack khoai tây Karamucho Strong Lát dày",
+    //     taste: "Vị cay siêu cấp (25g) - (44g) - (80g)",
+    //     energy: "554",
+    //     calories: "315",
+    //     totalFat: "35.0g",
+    //     totalFatPercent: "54%",
+    //     saturatedFat: "13.7g",
+    //     saturatedFatPercent: "69%",
+    //     natri: "471g",
+    //     natriPercent: "20%",
+    //     totalCarbohydrate: "51.7g",
+    //     carboPercent: "17%",
+    //     sugar: "2.3g",
+    //     protein: "8.2g",
+    //     ingredient:
+    //         "Khoai tây 59,0 %, dầu thực vật, bột gia vị ớt 6,0 % (đường, bột rau, muối, chất điều vị (E621, E627, E508, E631), maltodextrin, bột nước tương, gia vị và thảo mộc, chất điều chỉnh độ axit (E330, E331(iii), E300), màu nhân tạo: Caramen nhóm III (xử lý amoni) (E150c), chất tạo ngọt nhân tạo: Aspartam (E951)).",
+    // },
     {
         id: 2,
-        img: "./assets/Karamucho/Lớn/Artboard 17.png",
-        firstName: "Snack khoai tây",
-        lastName: "STRONG lát dày",
-        fullName: "SNACK KHOAI TÂY KARAMUCHO STRONG LÁT DÀY - VỊ CAY SIÊU CẤP",
-        description:
-            "Lát cắt dày hơn, giòn hơn, đậm vị hơn! KARAMUCHO STRONG mang lại cảm giác mạnh mẽ và đậm đà qua từng lát khoai",
-        title: "Snack khoai tây Karamucho Strong Lát dày",
-        taste: "Vị cay siêu cấp (25g) - (44g) - (80g)",
-        energy: "554",
-        calories: "315",
-        totalFat: "35.0g",
-        totalFatPercent: "54%",
-        saturatedFat: "13.7g",
-        saturatedFatPercent: "69%",
-        natri: "471g",
-        natriPercent: "20%",
-        totalCarbohydrate: "51.7g",
-        carboPercent: "17%",
-        sugar: "2.3g",
-        protein: "8.2g",
-        ingredient:
-            "Khoai tây 59,0 %, dầu thực vật, bột gia vị ớt 6,0 % (đường, bột rau, muối, chất điều vị (E621, E627, E508, E631), maltodextrin, bột nước tương, gia vị và thảo mộc, chất điều chỉnh độ axit (E330, E331(iii), E300), màu nhân tạo: Caramen nhóm III (xử lý amoni) (E150c), chất tạo ngọt nhân tạo: Aspartam (E951)).",
-    },
-    {
-        id: 3,
         img: "./assets/Karamucho/Lớn/Artboard 16.png",
         firstName: "Snack rong",
         lastName: "biển",
@@ -78,7 +78,7 @@ const item = [
             "Khoai tây 58,5 %, dầu thực vật, bột gia vị rong biển cay 6,5 % (đường, maltodextrin, bột kem béo thực vật, chất điều vị (E621, E635), muối, bột rong biển 6,0 %, bột hương hành tự nhiên, đạm thực vật thủy phân, bột ớt, màu nhân tạo: Caramen nhóm IV (xử lý amoni sulfit) (E150d), chất tạo ngọt nhân tạo: Aspartam (E951)).",
     },
     {
-        id: 4,
+        id: 3,
         img: "./assets/Karamucho/Lớn/Artboard 13.png",
         firstName: "Snack khoai tây",
         lastName: "",
@@ -105,7 +105,7 @@ const item = [
             "Khoai tây 58,2 %, dầu thực vật, bột gia vị ớt 6,8 % (đường, bột rau, muối, chất điều vị (E621, E627, E508, E631), maltodextrin, bột nước tương, gia vị và thảo mộc, chất điều chỉnh độ axit (E330, E331(iii), E300), màu nhân tạo: Caramen nhóm III (xử lý amoni) (E150c), chất tạo ngọt nhân tạo: Aspartam (E951)).",
     },
     {
-        id: 5,
+        id: 4,
         img: "./assets/Karamucho/Lớn/Artboard 21.png",
         firstName: "Snack bắp cay",
         lastName: "",
@@ -131,32 +131,32 @@ const item = [
         ingredient:
             "Bột bắp 58,9 %, dầu thực vật, bột gia vị ớt 8,8 % (đường, bột tỏi, bột nước tương, chất điều vị (E621, E635), protein thực vật thủy phân, bột hành, chất điều chỉnh độ axit (E330), màu tự nhiên: Parika oleoresin (E160c), chất tạo ngọt nhân tạo: Sucralose (E955)).",
     },
+    // {
+    //     id: 6,
+    //     img: "./assets/Karamucho/Lớn/Artboard 12.png",
+    //     firstName: "",
+    //     lastName: "",
+    //     fullName: "SNACK KHOAI TÂY KARAMUCHO - VỊ PHÔ MAI CAY",
+    //     description: "",
+    //     title: "Snack khoai tây Karamucho",
+    //     taste: "Vị phô mai cay (25g) - (44g) - (80g)",
+    //     energy: "",
+    //     calories: "",
+    //     caloriesPercent: "",
+    //     totalFat: "",
+    //     totalFatPercent: "",
+    //     saturatedFat: "",
+    //     saturatedFatPercent: "",
+    //     natri: "",
+    //     natriPercent: "",
+    //     totalCarbohydrate: "",
+    //     carboPercent: "",
+    //     sugar: "",
+    //     protein: "",
+    //     ingredient: "",
+    // },
     {
-        id: 6,
-        img: "./assets/Karamucho/Lớn/Artboard 12.png",
-        firstName: "",
-        lastName: "",
-        fullName: "SNACK KHOAI TÂY KARAMUCHO - VỊ PHÔ MAI CAY",
-        description: "",
-        title: "Snack khoai tây Karamucho",
-        taste: "Vị phô mai cay (25g) - (44g) - (80g)",
-        energy: "",
-        calories: "",
-        caloriesPercent: "",
-        totalFat: "",
-        totalFatPercent: "",
-        saturatedFat: "",
-        saturatedFatPercent: "",
-        natri: "",
-        natriPercent: "",
-        totalCarbohydrate: "",
-        carboPercent: "",
-        sugar: "",
-        protein: "",
-        ingredient: "",
-    },
-    {
-        id: 7,
+        id: 5,
         img: "./assets/Karamucho/Lớn/Artboard 19.png",
         firstName: "",
         lastName: "",
@@ -180,7 +180,7 @@ const item = [
         ingredient: "",
     },
     {
-        id: 8,
+        id: 6,
         img: "./assets/Karamucho/Lớn/Artboard 15.png",
         firstName: "",
         lastName: "",
@@ -204,7 +204,7 @@ const item = [
         ingredient: "",
     },
     {
-        id: 9,
+        id: 7,
         img: "./assets/Karamucho/Lớn/Artboard 20.png",
         firstName: "",
         lastName: "",
@@ -228,7 +228,7 @@ const item = [
         ingredient: "",
     },
     {
-        id: 10,
+        id: 8,
         img: "./assets/Karamucho/Lớn/Artboard 14.png",
         firstName: "",
         lastName: "",
@@ -254,11 +254,15 @@ const item = [
 ];
 
 $(document).ready(function () {
+
+
     let currentIndex = 0;
     if ($(window).width() <= 740) {
         $(".scroll-content").width = "3007px";
+        $("#karamucho-top").attr("src", "./assets/Karamucho/Topbanner phone.png")
     } else {
         $(".scroll-content").width = "2867px";
+        $("#karamucho-top").attr("src", "./assets/Karamucho/karamucho-top.png")
     }
 
     function updateButtons() {
@@ -359,7 +363,7 @@ $(document).ready(function () {
             $("#back").removeClass("disabled");
         }
 
-        if (this.id === "item10") {
+        if (this.id === "item8") {
             $("#next").addClass("disabled");
         } else {
             $("#next").removeClass("disabled");
@@ -369,13 +373,13 @@ $(document).ready(function () {
             case "item1":
                 if ($(window).width() <= 740) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(-2.4%)", width: "70px"});
+                    $("#border-product").css({left: "calc(-5.4%)", width: "92px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(3.5%)", width: "115px"});
+                    $("#border-product").css({left: "calc(0%)", width: "200px"});
                 } else {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(3.8%)", width: "184px"});
+                    $("#border-product").css({left: "calc(4%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[0].img);
                 $("#item-title").text(item[0].fullName);
@@ -411,13 +415,13 @@ $(document).ready(function () {
             case "item2":
                 if ($(window).width() <= 740) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(18.4%)", width: "70px"});
+                    $("#border-product").css({left: "calc(24%)", width: "92px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(20.5%)", width: "115px"});
+                    $("#border-product").css({left: "calc(24.5%)", width: "200px"});
                 } else {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(22.6%)", width: "184px"});
+                    $("#border-product").css({left: "calc(28%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[1].img);
                 $("#item-title").text(item[1].fullName);
@@ -453,13 +457,13 @@ $(document).ready(function () {
             case "item3":
                 if ($(window).width() <= 740) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(40%)", width: "70px"});
+                    $("#border-product").css({left: "calc(52%)", width: "92px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(40.5%)", width: "115px"});
+                    $("#border-product").css({left: "calc(49%)", width: "200px"});
                 } else {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(41.6%)", width: "184px"});
+                    $("#border-product").css({left: "calc(51%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[2].img);
                 $("#item-title").text(item[2].fullName);
@@ -495,13 +499,13 @@ $(document).ready(function () {
             case "item4":
                 if ($(window).width() <= 740) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(61.5%)", width: "70px"});
+                    $("#border-product").css({left: "calc(80%)", width: "92px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(60.5%)", width: "115px"});
+                    $("#border-product").css({left: "calc(74.5%)", width: "200px"});
                 } else {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(60.2%)", width: "184px"});
+                    $("#border-product").css({left: "calc(74.5%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[3].img);
                 $("#item-title").text(item[3].fullName);
@@ -536,14 +540,14 @@ $(document).ready(function () {
                 break;
             case "item5":
                 if ($(window).width() <= 740) {
-                    $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(82.5%)", width: "70px"});
+                    $("#border-product-2").css({left: "calc(-4.4%)", width: "92px"});
+                    $("#border-product").css({width: "0px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
-                    $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(80.5%)", width: "115px"});
+                    $("#border-product-2").css({left: "calc(0%)", width: "200px"});
+                    $("#border-product").css({width: "0px"});
                 } else {
-                    $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(79%)", width: "184px"});
+                    $("#border-product-2").css({left: "calc(4%)", width: "230px"});
+                    $("#border-product").css({width: "0px"});
                 }
                 $(".product-left_img img").attr("src", item[4].img);
                 $("#item-title").text(item[4].fullName);
@@ -579,13 +583,13 @@ $(document).ready(function () {
             case "item6":
                 if ($(window).width() <= 740) {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(-2.4%)", width: "70px"});
+                    $("#border-product-2").css({left: "calc(24%)", width: "92px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(3.5%)", width: "115px"});
+                    $("#border-product-2").css({left: "calc(24.5%)", width: "200px"});
                 } else {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(3.8%)", width: "184px"});
+                    $("#border-product-2").css({left: "calc(28%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[5].img);
                 $("#item-title").text(item[5].fullName);
@@ -621,13 +625,13 @@ $(document).ready(function () {
             case "item7":
                 if ($(window).width() <= 740) {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(18.4%)", width: "70px"});
+                    $("#border-product-2").css({left: "calc(52%)", width: "92px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(20.5%)", width: "115px"});
+                    $("#border-product-2").css({left: "calc(49%)", width: "200px"});
                 } else {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(22.6%)", width: "184px"});
+                    $("#border-product-2").css({left: "calc(51%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[6].img);
                 $("#item-title").text(item[6].fullName);
@@ -663,13 +667,13 @@ $(document).ready(function () {
             case "item8":
                 if ($(window).width() <= 740) {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(40%)", width: "70px"});
+                    $("#border-product-2").css({left: "calc(80%)", width: "92px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(40.5%)", width: "115px"});
+                    $("#border-product-2").css({left: "calc(74.5%)", width: "200px"});
                 } else {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(41.6%)", width: "184px"});
+                    $("#border-product-2").css({left: "calc(74.5%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[7].img);
                 $("#item-title").text(item[7].fullName);
@@ -702,90 +706,90 @@ $(document).ready(function () {
                 $(".ingredient").text(item[7].ingredient);
                 currentIndex = 7;
                 break;
-            case "item9":
-                if ($(window).width() <= 740) {
-                    $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(61.5%)", width: "70px"});
-                } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
-                    $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(60.5%)", width: "115px"});
-                } else {
-                    $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(60.2%)", width: "184px"});
-                }
-                $(".product-left_img img").attr("src", item[8].img);
-                $("#item-title").text(item[8].fullName);
-                if (typeof item[8].description === "object") {
-                    $(".table-item .text").text("");
-                    $(".table-item .text").append(`<p>${item[8].description[0]}</p>`);
-                    $(".table-item .text").append(`<p>${item[8].description[1]}</p>`);
-                } else {
-                    $(".item .text").text(item[8].description);
-                }
-                $(".table-head .table-title_large:first-child").text(item[8].title);
-                $(".table-head .table-title_large.pb-8").text(item[8].taste);
-                $(".item-energy").text(`Năng lượng ${item[8].energy} (kcal)`);
-                $(".item-calories").text(
-                    `Calories from Fat ${item[8].calories} (kcal)`
-                );
-                $(".item-total-fat").text(item[8].totalFat);
-                $(".item-fat-percent").text(`${item[8].totalFatPercent}`);
-                $(".item-saturated-fat").text(
-                    `Chất béo bão hòa  ${item[8].saturatedFat}`
-                );
-                $(".item-saturated-fat-percent").text(`${item[8].saturatedFatPercent}`);
-                $(".natri").text(item[8].natri);
-                $(".item-natri-percent").text(item[8].natriPercent);
-                $(".item-total-carbohydrate").text(item[8].totalCarbohydrate);
-                $(".total-carbo-percent").text(item[8].carboPercent);
-                $(".sugar").text(`Đường ${item[8].sugar}`);
-                $(".protein").text(item[8].protein);
-                $(".item-title-bot").text(item[8].title);
-                $(".ingredient").text(item[8].ingredient);
-                currentIndex = 8;
-                break;
-            case "item10":
-                if ($(window).width() <= 740) {
-                    $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(81.5%)", width: "70px"});
-                } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
-                    $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(80.5%)", width: "115px"});
-                } else {
-                    $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(79%)", width: "184px"});
-                }
-                $(".product-left_img img").attr("src", item[9].img);
-                $("#item-title").text(item[9].fullName);
-                if (typeof item[9].description === "object") {
-                    $(".table-item .text").text("");
-                    $(".table-item .text").append(`<p>${item[9].description[0]}</p>`);
-                    $(".table-item .text").append(`<p>${item[9].description[1]}</p>`);
-                } else {
-                    $(".item .text").text(item[9].description);
-                }
-                $(".table-head .table-title_large:first-child").text(item[9].title);
-                $(".table-head .table-title_large.pb-4").text(item[9].taste);
-                $(".item-energy").text(`Năng lượng ${item[9].energy} (kcal)`);
-                $(".item-calories").text(
-                    `Calories from Fat ${item[9].calories} (kcal)`
-                );
-                $(".item-total-fat").text(item[9].totalFat);
-                $(".item-fat-percent").text(`${item[9].totalFatPercent}`);
-                $(".item-saturated-fat").text(
-                    `Chất béo bão hòa  ${item[9].saturatedFat}`
-                );
-                $(".item-saturated-fat-percent").text(`${item[9].saturatedFatPercent}`);
-                $(".natri").text(item[9].natri);
-                $(".item-natri-percent").text(item[9].natriPercent);
-                $(".item-total-carbohydrate").text(item[9].totalCarbohydrate);
-                $(".total-carbo-percent").text(item[9].carboPercent);
-                $(".sugar").text(`Đường ${item[9].sugar}`);
-                $(".protein").text(item[9].protein);
-                $(".item-title-bot").text(item[9].title);
-                $(".ingredient").text(item[9].ingredient);
-                currentIndex = 9;
-                break;
+            // case "item9":
+            //     if ($(window).width() <= 740) {
+            //         $("#border-product").css({width: "0px"});
+            //         $("#border-product-2").css({left: "calc(61.5%)", width: "70px"});
+            //     } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
+            //         $("#border-product").css({width: "0px"});
+            //         $("#border-product-2").css({left: "calc(60.5%)", width: "115px"});
+            //     } else {
+            //         $("#border-product").css({width: "0px"});
+            //         $("#border-product-2").css({left: "calc(60.2%)", width: "184px"});
+            //     }
+            //     $(".product-left_img img").attr("src", item[8].img);
+            //     $("#item-title").text(item[8].fullName);
+            //     if (typeof item[8].description === "object") {
+            //         $(".table-item .text").text("");
+            //         $(".table-item .text").append(`<p>${item[8].description[0]}</p>`);
+            //         $(".table-item .text").append(`<p>${item[8].description[1]}</p>`);
+            //     } else {
+            //         $(".item .text").text(item[8].description);
+            //     }
+            //     $(".table-head .table-title_large:first-child").text(item[8].title);
+            //     $(".table-head .table-title_large.pb-8").text(item[8].taste);
+            //     $(".item-energy").text(`Năng lượng ${item[8].energy} (kcal)`);
+            //     $(".item-calories").text(
+            //         `Calories from Fat ${item[8].calories} (kcal)`
+            //     );
+            //     $(".item-total-fat").text(item[8].totalFat);
+            //     $(".item-fat-percent").text(`${item[8].totalFatPercent}`);
+            //     $(".item-saturated-fat").text(
+            //         `Chất béo bão hòa  ${item[8].saturatedFat}`
+            //     );
+            //     $(".item-saturated-fat-percent").text(`${item[8].saturatedFatPercent}`);
+            //     $(".natri").text(item[8].natri);
+            //     $(".item-natri-percent").text(item[8].natriPercent);
+            //     $(".item-total-carbohydrate").text(item[8].totalCarbohydrate);
+            //     $(".total-carbo-percent").text(item[8].carboPercent);
+            //     $(".sugar").text(`Đường ${item[8].sugar}`);
+            //     $(".protein").text(item[8].protein);
+            //     $(".item-title-bot").text(item[8].title);
+            //     $(".ingredient").text(item[8].ingredient);
+            //     currentIndex = 8;
+            //     break;
+            // case "item10":
+            //     if ($(window).width() <= 740) {
+            //         $("#border-product").css({width: "0px"});
+            //         $("#border-product-2").css({left: "calc(81.5%)", width: "70px"});
+            //     } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
+            //         $("#border-product").css({width: "0px"});
+            //         $("#border-product-2").css({left: "calc(80.5%)", width: "115px"});
+            //     } else {
+            //         $("#border-product").css({width: "0px"});
+            //         $("#border-product-2").css({left: "calc(79%)", width: "184px"});
+            //     }
+            //     $(".product-left_img img").attr("src", item[9].img);
+            //     $("#item-title").text(item[9].fullName);
+            //     if (typeof item[9].description === "object") {
+            //         $(".table-item .text").text("");
+            //         $(".table-item .text").append(`<p>${item[9].description[0]}</p>`);
+            //         $(".table-item .text").append(`<p>${item[9].description[1]}</p>`);
+            //     } else {
+            //         $(".item .text").text(item[9].description);
+            //     }
+            //     $(".table-head .table-title_large:first-child").text(item[9].title);
+            //     $(".table-head .table-title_large.pb-4").text(item[9].taste);
+            //     $(".item-energy").text(`Năng lượng ${item[9].energy} (kcal)`);
+            //     $(".item-calories").text(
+            //         `Calories from Fat ${item[9].calories} (kcal)`
+            //     );
+            //     $(".item-total-fat").text(item[9].totalFat);
+            //     $(".item-fat-percent").text(`${item[9].totalFatPercent}`);
+            //     $(".item-saturated-fat").text(
+            //         `Chất béo bão hòa  ${item[9].saturatedFat}`
+            //     );
+            //     $(".item-saturated-fat-percent").text(`${item[9].saturatedFatPercent}`);
+            //     $(".natri").text(item[9].natri);
+            //     $(".item-natri-percent").text(item[9].natriPercent);
+            //     $(".item-total-carbohydrate").text(item[9].totalCarbohydrate);
+            //     $(".total-carbo-percent").text(item[9].carboPercent);
+            //     $(".sugar").text(`Đường ${item[9].sugar}`);
+            //     $(".protein").text(item[9].protein);
+            //     $(".item-title-bot").text(item[9].title);
+            //     $(".ingredient").text(item[9].ingredient);
+            //     currentIndex = 9;
+            //     break;
         }
     });
 
@@ -844,7 +848,7 @@ $(document).ready(function () {
                     $("#border-product").css({left: "calc(3.5%)", width: "115px"});
                 } else {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(3.8%)", width: "184px"});
+                    $("#border-product").css({left: "calc(4%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[0].img);
                 $("#item-title").text(item[0].fullName);
@@ -886,7 +890,7 @@ $(document).ready(function () {
                     $("#border-product").css({left: "calc(20.5%)", width: "115px"});
                 } else {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(22.6%)", width: "184px"});
+                    $("#border-product").css({left: "calc(22.6%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[1].img);
                 $("#item-title").text(item[1].fullName);
@@ -1171,90 +1175,90 @@ $(document).ready(function () {
                 $(".ingredient").text(item[7].ingredient);
                 currentIndex = 7;
                 break;
-            case "item9":
-                if ($(window).width() <= 740) {
-                    $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(61.5%)", width: "70px"});
-                } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
-                    $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(60.5%)", width: "115px"});
-                } else {
-                    $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(60.2%)", width: "184px"});
-                }
-                $(".product-left_img img").attr("src", item[8].img);
-                $("#item-title").text(item[8].fullName);
-                if (typeof item[8].description === "object") {
-                    $(".table-item .text").text("");
-                    $(".table-item .text").append(`<p>${item[8].description[0]}</p>`);
-                    $(".table-item .text").append(`<p>${item[8].description[1]}</p>`);
-                } else {
-                    $(".item .text").text(item[8].description);
-                }
-                $(".table-head .table-title_large:first-child").text(item[8].title);
-                $(".table-head .table-title_large.pb-8").text(item[8].taste);
-                $(".item-energy").text(`Năng lượng ${item[8].energy} (kcal)`);
-                $(".item-calories").text(
-                    `Calories from Fat ${item[8].calories} (kcal)`
-                );
-                $(".item-total-fat").text(item[8].totalFat);
-                $(".item-fat-percent").text(`${item[8].totalFatPercent}`);
-                $(".item-saturated-fat").text(
-                    `Chất béo bão hòa  ${item[8].saturatedFat}`
-                );
-                $(".item-saturated-fat-percent").text(`${item[8].saturatedFatPercent}`);
-                $(".natri").text(item[8].natri);
-                $(".item-natri-percent").text(item[8].natriPercent);
-                $(".item-total-carbohydrate").text(item[8].totalCarbohydrate);
-                $(".total-carbo-percent").text(item[8].carboPercent);
-                $(".sugar").text(`Đường ${item[8].sugar}`);
-                $(".protein").text(item[8].protein);
-                $(".item-title-bot").text(item[8].title);
-                $(".ingredient").text(item[8].ingredient);
-                currentIndex = 8;
-                break;
-            case "item10":
-                if ($(window).width() <= 740) {
-                    $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(81.5%)", width: "70px"});
-                } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
-                    $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(80.5%)", width: "115px"});
-                } else {
-                    $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(79%)", width: "184px"});
-                }
-                $(".product-left_img img").attr("src", item[9].img);
-                $("#item-title").text(item[9].fullName);
-                if (typeof item[9].description === "object") {
-                    $(".table-item .text").text("");
-                    $(".table-item .text").append(`<p>${item[9].description[0]}</p>`);
-                    $(".table-item .text").append(`<p>${item[9].description[1]}</p>`);
-                } else {
-                    $(".item .text").text(item[9].description);
-                }
-                $(".table-head .table-title_large:first-child").text(item[9].title);
-                $(".table-head .table-title_large.pb-4").text(item[9].taste);
-                $(".item-energy").text(`Năng lượng ${item[9].energy} (kcal)`);
-                $(".item-calories").text(
-                    `Calories from Fat ${item[9].calories} (kcal)`
-                );
-                $(".item-total-fat").text(item[9].totalFat);
-                $(".item-fat-percent").text(`${item[9].totalFatPercent}`);
-                $(".item-saturated-fat").text(
-                    `Chất béo bão hòa  ${item[9].saturatedFat}`
-                );
-                $(".item-saturated-fat-percent").text(`${item[9].saturatedFatPercent}`);
-                $(".natri").text(item[9].natri);
-                $(".item-natri-percent").text(item[9].natriPercent);
-                $(".item-total-carbohydrate").text(item[9].totalCarbohydrate);
-                $(".total-carbo-percent").text(item[9].carboPercent);
-                $(".sugar").text(`Đường ${item[9].sugar}`);
-                $(".protein").text(item[9].protein);
-                $(".item-title-bot").text(item[9].title);
-                $(".ingredient").text(item[9].ingredient);
-                currentIndex = 9;
-                break;
+            // case "item9":
+            //     if ($(window).width() <= 740) {
+            //         $("#border-product").css({width: "0px"});
+            //         $("#border-product-2").css({left: "calc(61.5%)", width: "70px"});
+            //     } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
+            //         $("#border-product").css({width: "0px"});
+            //         $("#border-product-2").css({left: "calc(60.5%)", width: "115px"});
+            //     } else {
+            //         $("#border-product").css({width: "0px"});
+            //         $("#border-product-2").css({left: "calc(60.2%)", width: "184px"});
+            //     }
+            //     $(".product-left_img img").attr("src", item[8].img);
+            //     $("#item-title").text(item[8].fullName);
+            //     if (typeof item[8].description === "object") {
+            //         $(".table-item .text").text("");
+            //         $(".table-item .text").append(`<p>${item[8].description[0]}</p>`);
+            //         $(".table-item .text").append(`<p>${item[8].description[1]}</p>`);
+            //     } else {
+            //         $(".item .text").text(item[8].description);
+            //     }
+            //     $(".table-head .table-title_large:first-child").text(item[8].title);
+            //     $(".table-head .table-title_large.pb-8").text(item[8].taste);
+            //     $(".item-energy").text(`Năng lượng ${item[8].energy} (kcal)`);
+            //     $(".item-calories").text(
+            //         `Calories from Fat ${item[8].calories} (kcal)`
+            //     );
+            //     $(".item-total-fat").text(item[8].totalFat);
+            //     $(".item-fat-percent").text(`${item[8].totalFatPercent}`);
+            //     $(".item-saturated-fat").text(
+            //         `Chất béo bão hòa  ${item[8].saturatedFat}`
+            //     );
+            //     $(".item-saturated-fat-percent").text(`${item[8].saturatedFatPercent}`);
+            //     $(".natri").text(item[8].natri);
+            //     $(".item-natri-percent").text(item[8].natriPercent);
+            //     $(".item-total-carbohydrate").text(item[8].totalCarbohydrate);
+            //     $(".total-carbo-percent").text(item[8].carboPercent);
+            //     $(".sugar").text(`Đường ${item[8].sugar}`);
+            //     $(".protein").text(item[8].protein);
+            //     $(".item-title-bot").text(item[8].title);
+            //     $(".ingredient").text(item[8].ingredient);
+            //     currentIndex = 8;
+            //     break;
+            // case "item10":
+            //     if ($(window).width() <= 740) {
+            //         $("#border-product").css({width: "0px"});
+            //         $("#border-product-2").css({left: "calc(81.5%)", width: "70px"});
+            //     } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
+            //         $("#border-product").css({width: "0px"});
+            //         $("#border-product-2").css({left: "calc(80.5%)", width: "115px"});
+            //     } else {
+            //         $("#border-product").css({width: "0px"});
+            //         $("#border-product-2").css({left: "calc(79%)", width: "184px"});
+            //     }
+            //     $(".product-left_img img").attr("src", item[9].img);
+            //     $("#item-title").text(item[9].fullName);
+            //     if (typeof item[9].description === "object") {
+            //         $(".table-item .text").text("");
+            //         $(".table-item .text").append(`<p>${item[9].description[0]}</p>`);
+            //         $(".table-item .text").append(`<p>${item[9].description[1]}</p>`);
+            //     } else {
+            //         $(".item .text").text(item[9].description);
+            //     }
+            //     $(".table-head .table-title_large:first-child").text(item[9].title);
+            //     $(".table-head .table-title_large.pb-4").text(item[9].taste);
+            //     $(".item-energy").text(`Năng lượng ${item[9].energy} (kcal)`);
+            //     $(".item-calories").text(
+            //         `Calories from Fat ${item[9].calories} (kcal)`
+            //     );
+            //     $(".item-total-fat").text(item[9].totalFat);
+            //     $(".item-fat-percent").text(`${item[9].totalFatPercent}`);
+            //     $(".item-saturated-fat").text(
+            //         `Chất béo bão hòa  ${item[9].saturatedFat}`
+            //     );
+            //     $(".item-saturated-fat-percent").text(`${item[9].saturatedFatPercent}`);
+            //     $(".natri").text(item[9].natri);
+            //     $(".item-natri-percent").text(item[9].natriPercent);
+            //     $(".item-total-carbohydrate").text(item[9].totalCarbohydrate);
+            //     $(".total-carbo-percent").text(item[9].carboPercent);
+            //     $(".sugar").text(`Đường ${item[9].sugar}`);
+            //     $(".protein").text(item[9].protein);
+            //     $(".item-title-bot").text(item[9].title);
+            //     $(".ingredient").text(item[9].ingredient);
+            //     currentIndex = 9;
+            //     break;
         }
     }
 

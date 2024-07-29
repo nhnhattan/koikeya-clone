@@ -9,8 +9,8 @@
         height: auto;
     }
     .product-border_active {
-        width: 115px;
-        left: -0.5%;
+        width: 200px;
+        left: 0;
     }
 
     .container .product .product-row .product-left {
@@ -98,11 +98,25 @@
     }
 
     .section-top_bg_product {
-        height: 32%;
-        background-size: contain;
+        height: 60%;
+        background-size: 104vw 41vh;
         background-repeat: no-repeat;
         background-position: bottom;
-        scale: 1.5
+        background-image: url("./assets/Karamucho/Topbanner phone.png");
+        left: -2%;
+    }
+
+    .section-top_bg_product img {
+        margin: 0;
+        display: none;
+    }
+
+    .section-intro .wrap {
+        padding-left: 6.5%;
+    }
+
+    .section-intro .wrap .section-intro-inner {
+        top: 6rem;
     }
 
     .wrap .section-intro-inner .what {
@@ -269,8 +283,8 @@
     }
 
     .product-border_active {
-        width: 70px;
-        left: -2.4%;
+        width: 92px;
+        left: -5.4%;
     }
 
     .product-pannel {

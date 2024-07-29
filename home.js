@@ -14,11 +14,11 @@ $(document).ready(function () {
             opacity: "1", transform: "scale(1)", "z-index": "2",
         })
         if ($(window).width() <= 739) {
-            $(".snack_right-fly").stop().animate({bottom: "88%", left: "0"}, 300);
+            $(".snack_right-fly").stop().animate({bottom: "85%", left: "0"}, 300);
         } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
             $(".snack_right-fly").stop().animate({bottom: "76%", left: "11%", width: "80%"}, 300);
         } else {
-            $(".snack_right-fly").stop().animate({bottom: "88%", left: "2%"}, 300);
+            $(".snack_right-fly").stop().animate({bottom: "87.8%", left: "2%"}, 300);
         }
     }, function () {
         $(".snack_right-fly").css({
@@ -60,7 +60,7 @@ $(document).ready(function () {
     });
 
     $(".gokochi-bg").hover(function () {
-        $(".potato-fade").animate({top: "-13%"}, 500);
+        $(".potato-fade").animate({top: "-16%"}, 500);
         $(".potato-fade").css("transform", "scale(1.005)");
     }, function () {
         $(".potato-fade").animate({top: "6%"}, 100);
