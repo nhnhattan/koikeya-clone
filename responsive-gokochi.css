@@ -80,7 +80,7 @@
   }
 
   .nav .nav-wrapper .nav-inner .nav-btn {
-    left: 19rem;
+    left: 21rem;
   }
 
   .nav {
@@ -127,15 +127,29 @@
     padding: 8.5rem 0.5rem 0;
     width: 100%;
     padding-right: 2rem;
+    top: -7%;
+  }
+
+  .section-top_bg {
+    background: url(./assets/gokochi/BG-phone.png) no-repeat right -29rem top / cover;
+  }
+
+  .section-intro .wrap .section-intro-inner {
+    top: 50px;
   }
 
   .section-top_bg_product {
-    height: 30%;
-    background-size: contain;
+    height: 60%;
+    background-size: 100vw auto;
     background-repeat: no-repeat;
     background-position: bottom;
-    scale: 1.4;
-    bottom: 2.3rem;
+    background-image: url("./assets/gokochi/Topbanner phone.png");
+    left: 0;
+  }
+
+  .section-top_bg_product img {
+    margin: 0;
+    display: none;
   }
 
   .section-intro {
@@ -212,12 +226,13 @@
   }
 
   .section-intro-inner .character {
-    padding-bottom: 5rem;
+    padding-bottom: 8rem;
   }
 
   .section-intro-inner .gallery {
     margin-top: -24rem;
     padding-left: 2rem;
+    margin-bottom: 12rem;
   }
 
   .scroll-container {
@@ -413,5 +428,46 @@
 
   .section-intro-inner .character::before {
     display: none;
+  }
+
+  .section-top_bg_logo img:first-child {
+    display: none;
+  }
+
+  .section-top_bg_logo .bg_logo-phone img {
+    display: block;
+  }
+
+  .bg_logo-phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    position: relative;
+    left: -2%;
+  }
+
+  .bg_logo-phone .top-logo {
+    width: 30%;
+    padding-bottom: 1.5rem;
+  }
+
+  .bg_logo-phone .bottom-logo {
+    width: 60%
+  }
+
+  .gallery .row .gallery-content img {
+    position: relative;
+    left: 30%;
+    top: -15%;
+  }
+
+  .gallery .row .gallery-content img {
+    position: relative;
+    left: 6%;
+    top: 55%;
+    width: 75%;
+    padding-bottom: 3rem;
   }
 }

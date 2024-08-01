@@ -9,7 +9,7 @@
         height: auto;
     }
     .product-border_active {
-        width: 200px;
+        width: 158px;
         left: 0;
     }
 
@@ -99,7 +99,7 @@
 
     .section-top_bg_product {
         height: 60%;
-        background-size: 104vw 41vh;
+        background-size: 100vw auto;
         background-repeat: no-repeat;
         background-position: bottom;
         background-image: url("./assets/Karamucho/Topbanner phone.png");
@@ -280,10 +280,15 @@
 
     .product-right .product-right_content .product-tab .inner {
         justify-content: space-between;
+        transform: translateY(-1rem);
+    }
+
+    .product-border {
+        transform: translateY(-1rem);
     }
 
     .product-border_active {
-        width: 92px;
+        width: 88px;
         left: -5.4%;
     }
 

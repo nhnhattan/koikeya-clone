@@ -373,13 +373,13 @@ $(document).ready(function () {
             case "item1":
                 if ($(window).width() <= 740) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(-5.4%)", width: "92px"});
+                    $("#border-product").css({left: "calc(-5.4%)", width: "88px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(0%)", width: "200px"});
+                    $("#border-product").css({left: "calc(0%)", width: "158px"});
                 } else {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(4%)", width: "230px"});
+                    $("#border-product").css({left: "calc(2%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[0].img);
                 $("#item-title").text(item[0].fullName);
@@ -415,13 +415,13 @@ $(document).ready(function () {
             case "item2":
                 if ($(window).width() <= 740) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(24%)", width: "92px"});
+                    $("#border-product").css({left: "calc(23%)", width: "88px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(24.5%)", width: "200px"});
+                    $("#border-product").css({left: "calc(25.5%)", width: "158px"});
                 } else {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(28%)", width: "230px"});
+                    $("#border-product").css({left: "calc(26%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[1].img);
                 $("#item-title").text(item[1].fullName);
@@ -457,13 +457,13 @@ $(document).ready(function () {
             case "item3":
                 if ($(window).width() <= 740) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(52%)", width: "92px"});
+                    $("#border-product").css({left: "calc(51%)", width: "88px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(49%)", width: "200px"});
+                    $("#border-product").css({left: "calc(51%)", width: "158px"});
                 } else {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(51%)", width: "230px"});
+                    $("#border-product").css({left: "calc(50%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[2].img);
                 $("#item-title").text(item[2].fullName);
@@ -499,13 +499,13 @@ $(document).ready(function () {
             case "item4":
                 if ($(window).width() <= 740) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(80%)", width: "92px"});
+                    $("#border-product").css({left: "calc(79%)", width: "88px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(74.5%)", width: "200px"});
+                    $("#border-product").css({left: "calc(75.5%)", width: "158px"});
                 } else {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(74.5%)", width: "230px"});
+                    $("#border-product").css({left: "calc(73%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[3].img);
                 $("#item-title").text(item[3].fullName);
@@ -540,13 +540,13 @@ $(document).ready(function () {
                 break;
             case "item5":
                 if ($(window).width() <= 740) {
-                    $("#border-product-2").css({left: "calc(-4.4%)", width: "92px"});
+                    $("#border-product-2").css({left: "calc(-5.4%)", width: "88px"});
                     $("#border-product").css({width: "0px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
-                    $("#border-product-2").css({left: "calc(0%)", width: "200px"});
+                    $("#border-product-2").css({left: "calc(0%)", width: "158px"});
                     $("#border-product").css({width: "0px"});
                 } else {
-                    $("#border-product-2").css({left: "calc(4%)", width: "230px"});
+                    $("#border-product-2").css({left: "calc(2%)", width: "230px"});
                     $("#border-product").css({width: "0px"});
                 }
                 $(".product-left_img img").attr("src", item[4].img);
@@ -583,13 +583,13 @@ $(document).ready(function () {
             case "item6":
                 if ($(window).width() <= 740) {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(24%)", width: "92px"});
+                    $("#border-product-2").css({left: "calc(23%)", width: "88px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(24.5%)", width: "200px"});
+                    $("#border-product-2").css({left: "calc(25.5%)", width: "158px"});
                 } else {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(28%)", width: "230px"});
+                    $("#border-product-2").css({left: "calc(25.5%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[5].img);
                 $("#item-title").text(item[5].fullName);
@@ -625,13 +625,13 @@ $(document).ready(function () {
             case "item7":
                 if ($(window).width() <= 740) {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(52%)", width: "92px"});
+                    $("#border-product-2").css({left: "calc(51%)", width: "88px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(49%)", width: "200px"});
+                    $("#border-product-2").css({left: "calc(51%)", width: "158px"});
                 } else {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(51%)", width: "230px"});
+                    $("#border-product-2").css({left: "calc(49.5%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[6].img);
                 $("#item-title").text(item[6].fullName);
@@ -667,13 +667,13 @@ $(document).ready(function () {
             case "item8":
                 if ($(window).width() <= 740) {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(80%)", width: "92px"});
+                    $("#border-product-2").css({left: "calc(79%)", width: "88px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(74.5%)", width: "200px"});
+                    $("#border-product-2").css({left: "calc(75.5%)", width: "158px"});
                 } else {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(74.5%)", width: "230px"});
+                    $("#border-product-2").css({left: "calc(73%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[7].img);
                 $("#item-title").text(item[7].fullName);
@@ -842,13 +842,13 @@ $(document).ready(function () {
             case "item1":
                 if ($(window).width() <= 740) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(-2.4%)", width: "70px"});
+                    $("#border-product").css({left: "calc(-5.4%)", width: "88px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(3.5%)", width: "115px"});
+                    $("#border-product").css({left: "calc(0%)", width: "158px"});
                 } else {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(4%)", width: "230px"});
+                    $("#border-product").css({left: "calc(2%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[0].img);
                 $("#item-title").text(item[0].fullName);
@@ -884,13 +884,13 @@ $(document).ready(function () {
             case "item2":
                 if ($(window).width() <= 740) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(18.4%)", width: "70px"});
+                    $("#border-product").css({left: "calc(23%)", width: "88px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(20.5%)", width: "115px"});
+                    $("#border-product").css({left: "calc(25.5%)", width: "158px"});
                 } else {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(22.6%)", width: "230px"});
+                    $("#border-product").css({left: "calc(26%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[1].img);
                 $("#item-title").text(item[1].fullName);
@@ -926,13 +926,13 @@ $(document).ready(function () {
             case "item3":
                 if ($(window).width() <= 740) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(40%)", width: "70px"});
+                    $("#border-product").css({left: "calc(51%)", width: "88px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(40.5%)", width: "115px"});
+                    $("#border-product").css({left: "calc(51%)", width: "158px"});
                 } else {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(41.6%)", width: "184px"});
+                    $("#border-product").css({left: "calc(50%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[2].img);
                 $("#item-title").text(item[2].fullName);
@@ -968,13 +968,13 @@ $(document).ready(function () {
             case "item4":
                 if ($(window).width() <= 740) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(61.5%)", width: "70px"});
+                    $("#border-product").css({left: "calc(79%)", width: "88px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(60.5%)", width: "115px"});
+                    $("#border-product").css({left: "calc(75.5%)", width: "158px"});
                 } else {
                     $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(60.2%)", width: "184px"});
+                    $("#border-product").css({left: "calc(73%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[3].img);
                 $("#item-title").text(item[3].fullName);
@@ -1009,14 +1009,14 @@ $(document).ready(function () {
                 break;
             case "item5":
                 if ($(window).width() <= 740) {
-                    $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(82.5%)", width: "70px"});
+                    $("#border-product-2").css({left: "calc(-5.4%)", width: "88px"});
+                    $("#border-product").css({width: "0px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
-                    $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(80.5%)", width: "115px"});
+                    $("#border-product-2").css({left: "calc(0%)", width: "158px"});
+                    $("#border-product").css({width: "0px"});
                 } else {
-                    $("#border-product-2").css({width: "0px"});
-                    $("#border-product").css({left: "calc(79%)", width: "184px"});
+                    $("#border-product-2").css({left: "calc(2%)", width: "230px"});
+                    $("#border-product").css({width: "0px"});
                 }
                 $(".product-left_img img").attr("src", item[4].img);
                 $("#item-title").text(item[4].fullName);
@@ -1052,13 +1052,13 @@ $(document).ready(function () {
             case "item6":
                 if ($(window).width() <= 740) {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(-2.4%)", width: "70px"});
+                    $("#border-product-2").css({left: "calc(23%)", width: "88px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(3.5%)", width: "115px"});
+                    $("#border-product-2").css({left: "calc(25.5%)", width: "158px"});
                 } else {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(3.8%)", width: "184px"});
+                    $("#border-product-2").css({left: "calc(25.5%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[5].img);
                 $("#item-title").text(item[5].fullName);
@@ -1094,13 +1094,13 @@ $(document).ready(function () {
             case "item7":
                 if ($(window).width() <= 740) {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(18.4%)", width: "70px"});
+                    $("#border-product-2").css({left: "calc(51%)", width: "88px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(20.5%)", width: "115px"});
+                    $("#border-product-2").css({left: "calc(51%)", width: "158px"});
                 } else {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(22.6%)", width: "184px"});
+                    $("#border-product-2").css({left: "calc(49.5%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[6].img);
                 $("#item-title").text(item[6].fullName);
@@ -1136,13 +1136,13 @@ $(document).ready(function () {
             case "item8":
                 if ($(window).width() <= 740) {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(40%)", width: "70px"});
+                    $("#border-product-2").css({left: "calc(79%)", width: "88px"});
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(40.5%)", width: "115px"});
+                    $("#border-product-2").css({left: "calc(75.5%)", width: "158px"});
                 } else {
                     $("#border-product").css({width: "0px"});
-                    $("#border-product-2").css({left: "calc(41.6%)", width: "184px"});
+                    $("#border-product-2").css({left: "calc(73%)", width: "230px"});
                 }
                 $(".product-left_img img").attr("src", item[7].img);
                 $("#item-title").text(item[7].fullName);

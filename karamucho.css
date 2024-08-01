@@ -524,7 +524,7 @@
 
 .product-tab .inner .item .item-inner img {
     margin-bottom: 15px;
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
 }
 
@@ -542,7 +542,7 @@
 
 .product-border_active {
     position: absolute;
-    left: 4%;
+    left: 2%;
     top: 0;
     height: 2px;
     -webkit-transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);

@@ -1013,3 +1013,13 @@ footer .back-top:hover {
     position: absolute;
     left: 25%;
 }
+
+.bg_logo-phone {
+    display: none;
+}
+
+.gallery .row .gallery-content img {
+    position: relative;
+    left: 30%;
+    top: -15%;
+}

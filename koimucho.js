@@ -114,6 +114,11 @@ const item = [
 $(document).ready(function () {
     $(".scroll-content").width = "2867px";
 
+    if ($(window).width() <= 740) {
+        $("#karamucho-top").attr("src", "./assets/Koimucho/Topbanner phone.png")
+    } else {
+        $("#karamucho-top").attr("src", "./assets/main-img/koimucho-top.png")
+    }
     function updateButtons() {
         var scrollLeft = $("#scroll-content").scrollLeft();
 
@@ -491,13 +496,21 @@ $(document).ready(function () {
         switch (items.eq(index)[0].id) {
             case "item1":
                 if ($(window).width() <= 740) {
-                    $("#border-product").css({left: "calc(-7%)"});
+                    $("#border-product").css({
+                        left: "calc(0%)",
+                        background: item[1].color,
+                    });
                 } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
-                    $("#border-product").css({left: "calc(-11px + 0%)"});
+                    $("#border-product").css({
+                        left: "calc(-2%)",
+                        background: item[1].color,
+                    });
                 } else {
-                    $("#border-product").css({left: "calc(-11px + 0%)"});
+                    $("#border-product").css({
+                        left: "calc(0%)",
+                        background: item[1].color,
+                    });
                 }
-
                 $(".product-left_img img").attr("src", item[0].img);
                 $("#item-title").text(item[0].fullName);
                 $(".item .text").text(item[0].description);
@@ -523,7 +536,22 @@ $(document).ready(function () {
                 $(".ingredient").text(item[0].ingredient);
                 break;
             case "item2":
-                $("#border-product").css({left: "calc(24%)"});
+                if ($(window).width() <= 740) {
+                    $("#border-product").css({
+                        left: "calc(25%)",
+                        background: item[1].color,
+                    });
+                } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
+                    $("#border-product").css({
+                        left: "calc(24%)",
+                        background: item[1].color,
+                    });
+                } else {
+                    $("#border-product").css({
+                        left: "calc(24%)",
+                        background: item[1].color,
+                    });
+                }
                 $(".product-left_img img").attr("src", item[1].img);
                 $("#item-title").text(item[1].fullName);
                 $(".item .text").text(item[1].description);
@@ -549,7 +577,22 @@ $(document).ready(function () {
                 $(".ingredient").text(item[1].ingredient);
                 break;
             case "item3":
-                $("#border-product").css({left: "calc(50.5%)"});
+                if ($(window).width() <= 740) {
+                    $("#border-product").css({
+                        left: "calc(50.5%)",
+                        background: item[2].color,
+                    });
+                } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
+                    $("#border-product").css({
+                        left: "calc(50%)",
+                        background: item[2].color,
+                    });
+                } else {
+                    $("#border-product").css({
+                        left: "calc(50.1%)",
+                        background: item[2].color,
+                    });
+                }
                 $(".product-left_img img").attr("src", item[2].img);
                 $("#item-title").text(item[2].fullName);
                 $(".item .text").text(item[2].description);
@@ -575,7 +618,22 @@ $(document).ready(function () {
                 $(".ingredient").text(item[2].ingredient);
                 break;
             case "item4":
-                $("#border-product").css({left: "calc(76%)"});
+                if ($(window).width() <= 740) {
+                    $("#border-product").css({
+                        left: "calc(76%)",
+                        background: item[3].color,
+                    });
+                } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
+                    $("#border-product").css({
+                        left: "calc(76%)",
+                        background: item[3].color,
+                    });
+                } else {
+                    $("#border-product").css({
+                        left: "calc(76.1%)",
+                        background: item[3].color,
+                    });
+                }
                 $(".product-left_img img").attr("src", item[3].img);
                 $("#item-title").text(item[3].fullName);
                 $(".item .text").text(item[3].description);

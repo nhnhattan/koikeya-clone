@@ -84,8 +84,10 @@ $(document).ready(function () {
     let currentIndex = 0;
     if ($(window).width() <= 768) {
         $(".scroll-content").width = "3007px";
+        $("#karamucho-top").attr("src", "./assets/gokochi/Topbanner phone.png")
     } else {
         $(".scroll-content").width = "2867px";
+        $("#karamucho-top").attr("src", "./assets/gokochi/element-product.jpg")
     }
 
     function updateButtons() {
@@ -562,7 +564,11 @@ $(document).ready(function () {
     var $image1 = $("#imgparalax");
     var $container1 = $("#imageContainer");
     var container1Width = $container1.width();
-    var container1Height = $container1.height() - 150;
+    if ($(window).width() <= 768) {
+        var container1Height = $container1.height() + 120;
+    } else {
+        var container1Height = $container1.height() - 150;
+    }
     var image1Width = $image1.width();
     var image1Height = $image1.height();
 

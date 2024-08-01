@@ -91,6 +91,7 @@
         max-height: 760px;
     }
 
+
     .section-top_bg_logo {
         padding: 6.5rem 0rem 0;
         width: 100%;
@@ -98,7 +99,7 @@
     }
 
     .section-top_bg_logo img {
-        width: 80%;
+        width: 85%;
     }
 
     .section-intro {
@@ -106,12 +107,21 @@
     }
 
     .section-top_bg_product {
-        height: 17%;
-        background-size: contain;
+        height: 60%;
+        background-size: 100vw 40vh;
         background-repeat: no-repeat;
         background-position: bottom;
-        scale: 1.6;
-        bottom: 2.3rem
+        background-image: url("./assets/Koimucho/Topbanner phone.png");
+        bottom: -4%;
+    }
+
+    .section-top_bg_product img {
+        margin: 0;
+        display: none;
+    }
+
+    .section-intro .wrap .section-intro-inner {
+        top: 50px;
     }
 
     .wrap .section-intro-inner .what {
