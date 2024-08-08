@@ -1020,6 +1020,8 @@ footer .back-top:hover {
 
 .gallery .row .gallery-content img {
     position: relative;
-    left: 30%;
-    top: -15%;
+    left: 50%;
+    top: -25%;
+    width: 100%;
+    scale: 1.2;
 }

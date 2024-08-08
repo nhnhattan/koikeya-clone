@@ -239,7 +239,7 @@ $(document).ready(function () {
                     });
                 } else {
                     $("#border-product").css({
-                        left: "calc(0%)",
+                        left: "calc(-2%)",
                         background: item[1].color,
                     });
                 }
@@ -507,7 +507,7 @@ $(document).ready(function () {
                     });
                 } else {
                     $("#border-product").css({
-                        left: "calc(0%)",
+                        left: "calc(-2%)",
                         background: item[1].color,
                     });
                 }

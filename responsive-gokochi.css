@@ -42,6 +42,15 @@
     width: 100%;
   }
 
+  .gallery .row .gallery-content img {
+    position: relative;
+    left: 28%;
+    top: -2%;
+    width: 70%;
+    margin-bottom: 2rem;
+
+  }
+
   footer .contact {
     padding: 55px 0 35px 0;
   }
@@ -226,7 +235,7 @@
   }
 
   .section-intro-inner .character {
-    padding-bottom: 8rem;
+    padding-bottom: 7rem;
   }
 
   .section-intro-inner .gallery {
@@ -459,15 +468,9 @@
 
   .gallery .row .gallery-content img {
     position: relative;
-    left: 30%;
-    top: -15%;
-  }
-
-  .gallery .row .gallery-content img {
-    position: relative;
-    left: 6%;
-    top: 55%;
-    width: 75%;
+    left: -1%;
+    top: 45%;
+    width: 80%;
     padding-bottom: 3rem;
   }
 }
