@@ -1328,7 +1328,11 @@ $(document).ready(function () {
     var $image1 = $("#imgparalax");
     var $container1 = $("#imageContainer");
     var container1Width = $container1.width();
+<<<<<<< HEAD
     var container1Height = $container1.height()-250;
+=======
+    var container1Height = $container1.height() - 250;
+>>>>>>> 10cde70af4cc30806e7760001cabe9555cbfa9e2
     var image1Width = $image1.width();
     var image1Height = $image1.height();
 
