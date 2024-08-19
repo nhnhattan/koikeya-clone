@@ -7,7 +7,7 @@ const item = [
     fullName: "SNACK BẮP KOIMUCHO – VỊ BƠ MẬT ONG",
     description: [
       "Bánh không cay, phù hợp với mọi lứa tuổi và đối tượng khách hàng.",
-      "Bánh được làm từ 100% bắp nguyên chất xát nhuyễn, không phải làm bằng bột bắp nên lát bánh giòn, xốp , không bị cứng. Bánh có mùi thơm thơm của bơ và vị ngọt của mật ong."
+      "Bánh được làm từ 100% bắp nguyên chất xát nhuyễn, không phải làm bằng bột nên lát bánh giòn, xốp , không bị cứng. Bánh có mùi thơm thơm của bơ và vị ngọt của mật ong."
     ],
     title: "Snack bắp KoiMUCHO",
     taste: "Vị bơ mật ong (60g)",
@@ -23,7 +23,7 @@ const item = [
     carboPercent: "20%",
     sugar: "4.9g",
     protein: "5.5g",
-    ingredient: "Bánh được làm từ 100% bắp nguyên chất xát nhuyễn, không phải làm bằng bột bắp nên lát bánh giòn, xốp , không bị cứng. Bánh có mùi thơm thơm của bơ và vị ngọt của mật ong.",
+    ingredient: "Bánh được làm từ 100% bắp nguyên chất xát nhuyễn, không phải làm bằng bột nên lát bánh giòn, xốp , không bị cứng. Bánh có mùi thơm thơm của bơ và vị ngọt của mật ong.",
     color: "rgb(236, 151, 6)",
   },
   {
@@ -62,7 +62,7 @@ const item = [
     fullName: "SNACK BẮP KOIMUCHO - VỊ THỊT NƯỚNG",
     description: [
       "Bánh không cay, phù hợp với mọi lứa tuổi và đối tượng khách hàng.",
-      "Bánh được làm từ 100% bắp nguyên chất xát nhuyễn, không phải làm bằng bột bắp nên lát bánh giòn, xốp , không bị cứng. Bánh có vị đặc trưng của vị thịt nướng Nhật Bản.",
+      "Bánh được làm từ 100% bắp nguyên chất xát nhuyễn, không phải làm bằng bột nên lát bánh giòn, xốp , không bị cứng. Bánh có vị đặc trưng của vị thịt nướng Nhật Bản.",
     ],
     title: "Snack bắp KoiMUCHO",
     taste: "Vị thịt nướng (60g)",
@@ -89,7 +89,7 @@ const item = [
     fullName: "SNACK BẮP KOIMUCHO - VỊ BƠ TỎI",
     description: [
       "Bánh không cay, phù hợp với mọi lứa tuổi và đối tượng khách hàng.",
-      "Bánh được làm từ 100% bắp nguyên chất xát nhuyễn, không phải làm bằng bột bắp nên lát bánh giòn, xốp , không bị cứng. Bánh có mùi thơm thơm của bơ và vị tỏi đặc trưng.",
+      "Bánh được làm từ 100% bắp nguyên chất xát nhuyễn, không phải làm bằng bột nên lát bánh giòn, xốp , không bị cứng. Bánh có mùi thơm thơm của bơ và vị tỏi đặc trưng.",
     ],
     title: "Snack khoai tây KARAMUCHO",
     taste: "Vị cay đặc biệt (60g)",
