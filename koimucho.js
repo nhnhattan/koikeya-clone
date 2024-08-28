@@ -7,24 +7,26 @@ const item = [
     fullName: "SNACK BẮP KOIMUCHO – VỊ BƠ MẬT ONG",
     description: [
       "Bánh không cay, phù hợp với mọi lứa tuổi và đối tượng khách hàng.",
-      "Bánh được làm từ 100% bắp nguyên chất xát nhuyễn, không phải làm bằng bột nên lát bánh giòn, xốp , không bị cứng. Bánh có mùi thơm thơm của bơ và vị ngọt của mật ong."
+      "Bánh được làm từ 100% bắp nguyên chất xát nhuyễn, không phải làm bằng bột nên lát bánh giòn, xốp , không bị cứng. Bánh có mùi thơm thơm của bơ và vị ngọt của mật ong.",
     ],
     title: "Snack bắp KoiMUCHO",
-    taste: "Vị bơ mật ong (60g)",
-    energy: "549",
+    taste: "Vị bơ mật ong (30g) - (60g)",
+    energy: "530,9",
     calories: "291",
-    totalFat: "32.3g",
-    totalFatPercent: "50%",
-    saturatedFat: "14.3g",
-    saturatedFatPercent: "72%",
-    natri: "394g",
-    natriPercent: "16%",
-    totalCarbohydrate: "59.4g",
-    carboPercent: "20%",
-    sugar: "4.9g",
-    protein: "5.5g",
-    ingredient: "Bánh được làm từ 100% bắp nguyên chất xát nhuyễn, không phải làm bằng bột nên lát bánh giòn, xốp , không bị cứng. Bánh có mùi thơm thơm của bơ và vị ngọt của mật ong.",
+    totalFat: "29,0 g",
+    totalFatPercent: "51,8 %",
+    saturatedFat: "12.5g",
+    saturatedFatPercent: "62.5%",
+    natri: "333.4mg",
+    natriPercent: "16.7%",
+    totalCarbohydrate: "62.6g",
+    carboPercent: "19.3%",
+    sugar: "4.2g",
+    protein: "4.8g",
+    ingredient:
+      "Bột bắp 59,5 %, dầu thực vật, bột gia vị bơ mật ong 8,5 % (đường, đường dextrose, maltodextrin, muối, bột kem béo thực vật, bột phô mai, bột sữa nguyên kem, bột whey, chất điều vị (INS 621, INS 635, INS 951, INS 955), chất chống đông vón (INS 551), bột chiết xuất nấm men, hương liệu giống tự nhiên (hương bơ), bột mật ong (1,5 %), đạm thực vật thủy phân, hương liệu tổng hợp (hương phô mai bơ), chất điều chỉnh độ acid (INS 330), hương liệu tự nhiên (hương khói)).",
     color: "rgb(236, 151, 6)",
+    allergy: "",
   },
   {
     id: 2,
@@ -37,22 +39,23 @@ const item = [
       "Sự kết hợp hoàn hảo giữa hương thơn tự nhiên và vị ngọt thanh của bắp",
     ],
     title: "Snack bắp KoiMUCHO",
-    taste: "Vị sữa bắp (60g)",
-    energy: "552",
+    taste: "Vị sữa bắp (30g) - (60g)",
+    energy: "536",
     calories: "291",
-    totalFat: "32.3g",
-    totalFatPercent: "50%",
-    saturatedFat: "11.8g",
-    saturatedFatPercent: "59%",
-    natri: "371g",
-    natriPercent: "15%",
-    totalCarbohydrate: "60.0g",
-    carboPercent: "20%",
-    sugar: "7.8g",
-    protein: "5.2g",
+    totalFat: "30,1g",
+    totalFatPercent: "53.8%",
+    saturatedFat: "13.4g",
+    saturatedFatPercent: "67%",
+    natri: "417.6mg",
+    natriPercent: "20.9%",
+    totalCarbohydrate: "59.4g",
+    carboPercent: "18.3%",
+    sugar: "5.6g",
+    protein: "6.8g",
     ingredient:
-      "Bột bắp 58,9 %, dầu thực vật, bột gia vị sữa bắp 8,8 % (đường, maltodextrin, muối, bột hương bắp giống tự nhiên 9,0 %, chất điều vị (E621, E627, E631), kem béo, bột sữa nguyên kem 1,5 %, chất tạo ngọt nhân tạo: Aspartam (E951)).",
+      "Bột bắp 60,4 %, dầu thực vật, bột gia vị sữa bắp 8,0 % (đường, maltodextrin, muối, hương liệu giống tự nhiên (hương bắp), chất điều vị (INS 621, INS 627, INS 631), bột kem béo thực vật, bột nấm men, bột sữa nguyên kem (1,5 %), chất chống đông vón (INS 551), chất tạo ngọt tổng hợp (INS 951)).",
     color: "rgb(253, 217, 0)",
+    allergy: "Sản phẩm không phù hợp cho người dị ứng với sữa, đậu nành, mè.",
   },
   {
     id: 3,
@@ -65,48 +68,52 @@ const item = [
       "Bánh được làm từ 100% bắp nguyên chất xát nhuyễn, không phải làm bằng bột nên lát bánh giòn, xốp , không bị cứng. Bánh có vị đặc trưng của vị thịt nướng Nhật Bản.",
     ],
     title: "Snack bắp KoiMUCHO",
-    taste: "Vị thịt nướng (60g)",
-    energy: "550",
+    taste: "Vị thịt nướng (30g) - (60g)",
+    energy: "533",
     calories: "291",
-    totalFat: "32.3g",
-    totalFatPercent: "50%",
-    saturatedFat: "9.1g",
-    saturatedFatPercent: "46%",
-    natri: "585g",
-    natriPercent: "24%",
-    totalCarbohydrate: "60.3g",
-    carboPercent: "20%",
-    sugar: "4.0g",
-    protein: "4.5g",
-    ingredient: "Bột bắp 59,5 %, dầu thực vật, bột gia vị thịt nướng 8,5 % (đường, maltodextrin, chất điều vị (INS 621), muối, bột kem béo thực vật, đạm thực vật thủy phân, hương liệu tự nhiên (hương tiêu), bột chiết xuất thịt bò, chất chống đông vón (INS 551), hương liệu tổng hợp (hương bò), bột cà chua, bột tiêu đen, bột hành tây, bột tỏi, bột chiết nấm men, hương liệu giống tự nhiên (hương tỏi, hương thịt nướng, hương hành), chiết xuất ớt, chất điều chỉnh độ acid (INS 330), phẩm màu tổng hợp (INS 150d), chất tạo ngọt tổng hợp (INS 951)).",
+    totalFat: "30.8g",
+    totalFatPercent: "54.9%",
+    saturatedFat: "15.5g",
+    saturatedFatPercent: "77.5%",
+    natri: "543.8mg",
+    natriPercent: "27.2%",
+    totalCarbohydrate: "58.3g",
+    carboPercent: "17.9%",
+    sugar: "4.1g",
+    protein: "5.8g",
+    ingredient:
+      "Bột bắp 59,5 %, dầu thực vật, bột gia vị thịt nướng 8,5 % (đường, maltodextrin, chất điều vị (INS 621), muối, bột kem béo thực vật, đạm thực vật thủy phân, hương liệu tự nhiên (hương tiêu), bột chiết xuất thịt bò, chất chống đông vón (INS 551), hương liệu tổng hợp (hương bò), bột cà chua, bột tiêu đen, bột hành tây, bột tỏi, bột chiết nấm men, hương liệu giống tự nhiên (hương tỏi, hương thịt nướng, hương hành), chiết xuất ớt, chất điều chỉnh độ acid (INS 330), phẩm màu tổng hợp (INS 150d), chất tạo ngọt tổng hợp (INS 951)).",
     color: "rgb(237, 109, 0)",
+    allergy: "Sản phẩm không phù hợp cho người dị ứng với sữa, đậu nành, mè.",
   },
   {
     id: 4,
     img: "./assets/Koimucho/Artboard 24.png",
-    firstName: "Snack khoai tây",
+    firstName: "",
     lastName: "",
     fullName: "SNACK BẮP KOIMUCHO - VỊ BƠ TỎI",
     description: [
       "Bánh không cay, phù hợp với mọi lứa tuổi và đối tượng khách hàng.",
       "Bánh được làm từ 100% bắp nguyên chất xát nhuyễn, không phải làm bằng bột nên lát bánh giòn, xốp , không bị cứng. Bánh có mùi thơm thơm của bơ và vị tỏi đặc trưng.",
     ],
-    title: "Snack khoai tây KARAMUCHO",
-    taste: "Vị cay đặc biệt (60g)",
-    energy: "554",
+    title: "Snack bắp KoiMUCHO",
+    taste: "Vị bơ tỏi (30g) - (60g)",
+    energy: "517",
     calories: "315",
-    totalFat: "35.0g",
-    totalFatPercent: "54%",
-    saturatedFat: "14.2g",
-    saturatedFatPercent: "71%",
-    natri: "553g",
+    totalFat: "30.5g",
+    totalFatPercent: "54.5%",
+    saturatedFat: "14.8g",
+    saturatedFatPercent: "74%",
+    natri: "459.1mg",
     natriPercent: "23%",
-    totalCarbohydrate: "52.2g",
+    totalCarbohydrate: "55.2g",
     carboPercent: "17%",
-    sugar: "3.0g",
-    protein: "7.5g",
-    ingredient: "Bột bắp 60,4 %, dầu thực vật, bột gia vị bơ tỏi 8,0 % (đường, bột kem béo thực vật, chất điều vị (INS 621), muối, maltodextrin, bột tỏi (5,0 %), hương liệu giống tự nhiên (hương tỏi), bột ớt, bột lá cà ri, phẩm màu tự nhiên (INS 160a(ii)), chất chống đóng vón (INS 551), hương liệu giống tự nhiên (hương bơ), chất điều chỉnh độ acid (INS 330), chất tạo ngọt tự nhiên (INS 960a)).",
+    sugar: "4.1g",
+    protein: "5.5g",
+    ingredient:
+      "Bột bắp 60,4 %, dầu thực vật, bột gia vị bơ tỏi 8,0 % (đường, bột kem béo thực vật, chất điều vị (INS 621), muối, maltodextrin, bột tỏi (5,0 %), hương liệu giống tự nhiên (hương tỏi), bột ớt, bột lá cà ri, phẩm màu tự nhiên (INS 160a(ii)), chất chống đóng vón (INS 551), hương liệu giống tự nhiên (hương bơ), chất điều chỉnh độ acid (INS 330), chất tạo ngọt tự nhiên (INS 960a)).",
     color: "rgb(0, 151, 220)",
+    allergy: "Sản phẩm không phù hợp cho người dị ứng với sữa.",
   },
 ];
 
@@ -152,7 +159,7 @@ $(document).ready(function () {
     if ($(window).width() <= 740) {
       $("#scroll-content").animate(
         {
-          scrollLeft: "-=330",
+          scrollLeft: "-=365",
         },
         300,
         updateButtons
@@ -160,7 +167,7 @@ $(document).ready(function () {
     } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
       $("#scroll-content").animate(
         {
-          scrollLeft: "+-=300",
+          scrollLeft: "+-=265",
         },
         300,
         updateButtons
@@ -168,7 +175,7 @@ $(document).ready(function () {
     } else {
       $("#scroll-content").animate(
         {
-          scrollLeft: "-=370",
+          scrollLeft: "-=325",
         },
         300,
         updateButtons
@@ -180,7 +187,7 @@ $(document).ready(function () {
     if ($(window).width() <= 740) {
       $("#scroll-content").animate(
         {
-          scrollLeft: "+=335",
+          scrollLeft: "+=365",
         },
         300,
         updateButtons
@@ -188,7 +195,7 @@ $(document).ready(function () {
     } else if ($(window).width() >= 740 && $(window).width() <= 1023) {
       $("#scroll-content").animate(
         {
-          scrollLeft: "+=300",
+          scrollLeft: "+=265",
         },
         300,
         updateButtons
@@ -196,7 +203,7 @@ $(document).ready(function () {
     } else {
       $("#scroll-content").animate(
         {
-          scrollLeft: "+=370",
+          scrollLeft: "+=325",
         },
         300,
         updateButtons
@@ -519,13 +526,13 @@ $(document).ready(function () {
         $("#item-title").text(item[0].fullName);
 
         if (typeof item[0].description === "object") {
-            $(".table-item .text").text("");
-            $(".table-item .text").empty();
-            $(".table-item .text").append(`<p>${item[0].description[0]}</p>`);
-            $(".table-item .text").append(`<p>${item[0].description[1]}</p>`);
-          } else {
-            $(".table-item .text").text(item[0].description);
-          }
+          $(".table-item .text").text("");
+          $(".table-item .text").empty();
+          $(".table-item .text").append(`<p>${item[0].description[0]}</p>`);
+          $(".table-item .text").append(`<p>${item[0].description[1]}</p>`);
+        } else {
+          $(".table-item .text").text(item[0].description);
+        }
         $(".table-head .table-title_large:first-child").text(item[0].title);
         $(".table-head .table-title_large.pb-4").text(item[0].taste);
         $(".item-energy").text(`Năng lượng ${item[0].energy} (kcal)`);
@@ -567,13 +574,13 @@ $(document).ready(function () {
         $(".product-left_img img").attr("src", item[1].img);
         $("#item-title").text(item[1].fullName);
         if (typeof item[0].description === "object") {
-            $(".table-item .text").text("");
-            $(".table-item .text").empty();
-            $(".table-item .text").append(`<p>${item[1].description[0]}</p>`);
-            $(".table-item .text").append(`<p>${item[1].description[1]}</p>`);
-          } else {
-            $(".table-item .text").text(item[1].description);
-          }
+          $(".table-item .text").text("");
+          $(".table-item .text").empty();
+          $(".table-item .text").append(`<p>${item[1].description[0]}</p>`);
+          $(".table-item .text").append(`<p>${item[1].description[1]}</p>`);
+        } else {
+          $(".table-item .text").text(item[1].description);
+        }
         $(".table-head .table-title_large:first-child").text(item[1].title);
         $(".table-head .table-title_large.pb-4").text(item[1].taste);
         $(".item-energy").text(`Năng lượng ${item[1].energy} (kcal)`);
@@ -615,13 +622,13 @@ $(document).ready(function () {
         $(".product-left_img img").attr("src", item[2].img);
         $("#item-title").text(item[2].fullName);
         if (typeof item[0].description === "object") {
-            $(".table-item .text").text("");
-            $(".table-item .text").empty();
-            $(".table-item .text").append(`<p>${item[2].description[0]}</p>`);
-            $(".table-item .text").append(`<p>${item[2].description[1]}</p>`);
-          } else {
-            $(".table-item .text").text(item[2].description);
-          }
+          $(".table-item .text").text("");
+          $(".table-item .text").empty();
+          $(".table-item .text").append(`<p>${item[2].description[0]}</p>`);
+          $(".table-item .text").append(`<p>${item[2].description[1]}</p>`);
+        } else {
+          $(".table-item .text").text(item[2].description);
+        }
         $(".table-head .table-title_large:first-child").text(item[2].title);
         $(".table-head .table-title_large.pb-4").text(item[2].taste);
         $(".item-energy").text(`Năng lượng ${item[2].energy} (kcal)`);
@@ -663,13 +670,13 @@ $(document).ready(function () {
         $(".product-left_img img").attr("src", item[3].img);
         $("#item-title").text(item[3].fullName);
         if (typeof item[0].description === "object") {
-            $(".table-item .text").text("");
-            $(".table-item .text").empty();
-            $(".table-item .text").append(`<p>${item[3].description[0]}</p>`);
-            $(".table-item .text").append(`<p>${item[3].description[1]}</p>`);
-          } else {
-            $(".table-item .text").text(item[3].description);
-          }
+          $(".table-item .text").text("");
+          $(".table-item .text").empty();
+          $(".table-item .text").append(`<p>${item[3].description[0]}</p>`);
+          $(".table-item .text").append(`<p>${item[3].description[1]}</p>`);
+        } else {
+          $(".table-item .text").text(item[3].description);
+        }
         $(".table-head .table-title_large:first-child").text(item[3].title);
         $(".table-head .table-title_large.pb-4").text(item[3].taste);
         $(".item-energy").text(`Năng lượng ${item[3].energy} (kcal)`);
@@ -761,153 +768,113 @@ $(document).ready(function () {
 const srcImg = [
   {
     id: 1,
-    default: "./assets/Koimucho/gallery/1.webp",
-    src: "./assets/Koimucho/gallery/1-open.webp",
+    default: "./assets/Koimucho/gallery/1.png",
+    src: "./assets/Koimucho/gallery/1-open.png",
   },
   {
     id: 2,
-    default: "./assets/Koimucho/gallery/2.webp",
-    src: "./assets/Koimucho/gallery/2-open.webp",
+    default: "./assets/Koimucho/gallery/2.png",
+    src: "./assets/Koimucho/gallery/2-open.png",
   },
   {
     id: 3,
-    default: "./assets/Koimucho/gallery/3.webp",
-    src: "./assets/Koimucho/gallery/3-open.webp",
+    default: "./assets/Koimucho/gallery/3.png",
+    src: "./assets/Koimucho/gallery/3-open.png",
   },
   {
     id: 4,
-    default: "./assets/Koimucho/gallery/4.webp",
-    src: "./assets/Koimucho/gallery/4-open.webp",
+    default: "./assets/Koimucho/gallery/4.png",
+    src: "./assets/Koimucho/gallery/4-open.png",
   },
   {
     id: 5,
-    default: "./assets/Koimucho/gallery/5.webp",
-    src: "./assets/Koimucho/gallery/5-open.webp",
+    default: "./assets/Koimucho/gallery/5.png",
+    src: "./assets/Koimucho/gallery/5-open.png",
   },
   {
     id: 6,
-    default: "./assets/Koimucho/gallery/6.webp",
-    src: "./assets/Koimucho/gallery/6-open.webp",
+    default: "./assets/Koimucho/gallery/6.png",
+    src: "./assets/Koimucho/gallery/6-open.png",
   },
   {
     id: 7,
-    default: "./assets/Koimucho/gallery/7.webp",
-    src: "./assets/Koimucho/gallery/7-open.webp",
+    default: "./assets/Koimucho/gallery/7.png",
+    src: "./assets/Koimucho/gallery/7-open.png",
   },
   {
     id: 8,
-    default: "./assets/Koimucho/gallery/8.webp",
-    src: "./assets/Koimucho/gallery/8-open.webp",
+    default: "./assets/Koimucho/gallery/8.png",
+    src: "./assets/Koimucho/gallery/8-open.png",
   },
   {
     id: 9,
-    default: "./assets/Koimucho/gallery/9.webp",
-    src: "./assets/Koimucho/gallery/9-open.webp",
+    default: "./assets/Koimucho/gallery/9.png",
+    src: "./assets/Koimucho/gallery/9-open.png",
   },
   {
     id: 10,
-    default: "./assets/Koimucho/gallery/10.webp",
-    src: "./assets/Koimucho/gallery/10-open.webp",
+    default: "./assets/Koimucho/gallery/10.png",
+    src: "./assets/Koimucho/gallery/10-open.png",
   },
   {
     id: 11,
-    default: "./assets/Koimucho/gallery/11.webp",
-    src: "./assets/Koimucho/gallery/11-open.webp",
+    default: "./assets/Koimucho/gallery/11.png",
+    src: "./assets/Koimucho/gallery/11-open.png",
   },
   {
     id: 12,
-    default: "./assets/Koimucho/gallery/12.webp",
-    src: "./assets/Koimucho/gallery/12-open.webp",
+    default: "./assets/Koimucho/gallery/12.png",
+    src: "./assets/Koimucho/gallery/12-open.png",
   },
   {
     id: 13,
-    default: "./assets/Koimucho/gallery/13.webp",
-    src: "./assets/Koimucho/gallery/13-open.webp",
+    default: "./assets/Koimucho/gallery/13.png",
+    src: "./assets/Koimucho/gallery/13-open.png",
   },
   {
     id: 14,
-    default: "./assets/Koimucho/gallery/14.webp",
-    src: "./assets/Koimucho/gallery/14-open.webp",
+    default: "./assets/Koimucho/gallery/14.png",
+    src: "./assets/Koimucho/gallery/14-open.png",
   },
   {
     id: 15,
-    default: "./assets/Koimucho/gallery/15.webp",
-    src: "./assets/Koimucho/gallery/15-open.webp",
+    default: "./assets/Koimucho/gallery/15.png",
+    src: "./assets/Koimucho/gallery/15-open.png",
   },
   {
     id: 16,
-    default: "./assets/Koimucho/gallery/16.webp",
-    src: "./assets/Koimucho/gallery/16-open.webp",
+    default: "./assets/Koimucho/gallery/16.png",
+    src: "./assets/Koimucho/gallery/16-open.png",
   },
   {
     id: 17,
-    default: "./assets/Koimucho/gallery/17.webp",
-    src: "./assets/Koimucho/gallery/17-open.webp",
+    default: "./assets/Koimucho/gallery/17.png",
+    src: "./assets/Koimucho/gallery/17-open.png",
   },
   {
     id: 18,
-    default: "./assets/Koimucho/gallery/18.webp",
-    src: "./assets/Koimucho/gallery/18-open.webp",
+    default: "./assets/Koimucho/gallery/18.png",
+    src: "./assets/Koimucho/gallery/18-open.png",
   },
   {
     id: 19,
-    default: "./assets/Koimucho/gallery/19.webp",
-    src: "./assets/Koimucho/gallery/19-open.webp",
+    default: "./assets/Koimucho/gallery/19.png",
+    src: "./assets/Koimucho/gallery/19-open.png",
   },
   {
     id: 20,
-    default: "./assets/Koimucho/gallery/20.webp",
-    src: "./assets/Koimucho/gallery/20-open.webp",
+    default: "./assets/Koimucho/gallery/20.png",
+    src: "./assets/Koimucho/gallery/20-open.png",
   },
   {
     id: 21,
-    default: "./assets/Koimucho/gallery/21.webp",
-    src: "./assets/Koimucho/gallery/21-open.webp",
+    default: "./assets/Koimucho/gallery/21.png",
+    src: "./assets/Koimucho/gallery/21-open.png",
   },
   {
     id: 22,
-    default: "./assets/Koimucho/gallery/22.webp",
-    src: "./assets/Koimucho/gallery/22-open.webp",
-  },
-  {
-    id: 23,
-    default: "./assets/Koimucho/gallery/23.webp",
-    src: "./assets/Koimucho/gallery/23-open.webp",
-  },
-  {
-    id: 24,
-    default: "./assets/Koimucho/gallery/24.webp",
-    src: "./assets/Koimucho/gallery/24-open.webp",
-  },
-  {
-    id: 25,
-    default: "./assets/Koimucho/gallery/25.webp",
-    src: "./assets/Koimucho/gallery/25-open.webp",
-  },
-  {
-    id: 26,
-    default: "./assets/Koimucho/gallery/26.webp",
-    src: "./assets/Koimucho/gallery/26-open.webp",
-  },
-  {
-    id: 27,
-    default: "./assets/Koimucho/gallery/27.webp",
-    src: "./assets/Koimucho/gallery/27-open.webp",
-  },
-  {
-    id: 28,
-    default: "./assets/Koimucho/gallery/28.webp",
-    src: "./assets/Koimucho/gallery/28-open.webp",
-  },
-  {
-    id: 29,
-    default: "./assets/Koimucho/gallery/29.webp",
-    src: "./assets/Koimucho/gallery/29-open.webp",
-  },
-  {
-    id: 30,
-    default: "./assets/Koimucho/gallery/30.webp",
-    src: "./assets/Koimucho/gallery/30-open.webp",
+    default: "./assets/Koimucho/gallery/22.png",
+    src: "./assets/Koimucho/gallery/22-open.png",
   },
 ];
 
@@ -981,30 +948,6 @@ $(document).ready(function () {
         case "scroll-item22":
           $("#scroll-item22").attr("src", srcImg[21].src);
           break;
-        case "scroll-item23":
-          $("#scroll-item23").attr("src", srcImg[22].src);
-          break;
-        case "scroll-item24":
-          $("#scroll-item24").attr("src", srcImg[23].src);
-          break;
-        case "scroll-item25":
-          $("#scroll-item25").attr("src", srcImg[24].src);
-          break;
-        case "scroll-item26":
-          $("#scroll-item26").attr("src", srcImg[25].src);
-          break;
-        case "scroll-item27":
-          $("#scroll-item27").attr("src", srcImg[26].src);
-          break;
-        case "scroll-item28":
-          $("#scroll-item28").attr("src", srcImg[27].src);
-          break;
-        case "scroll-item29":
-          $("#scroll-item29").attr("src", srcImg[28].src);
-          break;
-        case "scroll-item30":
-          $("#scroll-item30").attr("src", srcImg[29].src);
-          break;
       }
     },
     function () {
@@ -1074,30 +1017,6 @@ $(document).ready(function () {
           break;
         case "scroll-item22":
           $("#scroll-item22").attr("src", srcImg[21].default);
-          break;
-        case "scroll-item23":
-          $("#scroll-item23").attr("src", srcImg[22].default);
-          break;
-        case "scroll-item24":
-          $("#scroll-item24").attr("src", srcImg[23].default);
-          break;
-        case "scroll-item25":
-          $("#scroll-item25").attr("src", srcImg[24].default);
-          break;
-        case "scroll-item26":
-          $("#scroll-item26").attr("src", srcImg[25].default);
-          break;
-        case "scroll-item27":
-          $("#scroll-item27").attr("src", srcImg[26].default);
-          break;
-        case "scroll-item28":
-          $("#scroll-item28").attr("src", srcImg[27].default);
-          break;
-        case "scroll-item29":
-          $("#scroll-item29").attr("src", srcImg[28].default);
-          break;
-        case "scroll-item30":
-          $("#scroll-item30").attr("src", srcImg[29].default);
           break;
       }
     }

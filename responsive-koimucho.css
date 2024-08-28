@@ -108,11 +108,11 @@
 
     .section-top_bg_product {
         height: 60%;
-        background-size: 100vw 40vh;
+        background-size: 100vw 50vh;
         background-repeat: no-repeat;
         background-position: bottom;
         background-image: url("./assets/Koimucho/Topbanner phone.png");
-        bottom: -4%;
+        bottom: -6%;
     }
 
     .section-top_bg_product img {
