@@ -239,7 +239,6 @@ body {
     position: absolute;
     top: 22px;
     left: 50%;
-    -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     width: 78px;
 }
@@ -264,11 +263,10 @@ body {
 
 .banner-bottom .content {
     padding: 10px 15px;
-    min-height: 80px;
+    min-height: 30px;
     background-color: #cd181b;
     color: #fff;
     -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 50%;
 }
@@ -276,10 +274,8 @@ body {
 .banner-bottom .content h2 {
     position: relative;
     display: inline-block;
-    margin-bottom: 3px;
     font-size: 15px;
     font-weight: 600;
-    margin-bottom: 8px;
 }
 
 .banner-bottom .content h2::after {
@@ -304,7 +300,6 @@ body {
     display: block;
     width: 110%;
     height: 102%;
-    background: #fff url("./assets/main-img/download\ \(10\).png") no-repeat 50%;
     background: #fff url("./assets/main-img/download\ \(10\).png") no-repeat 50%;
 }
 

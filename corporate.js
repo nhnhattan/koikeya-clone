@@ -72,12 +72,12 @@ $(document).ready(function () {
     if ($(window).width() <= 768) {
         $(".nav-banner").attr(
             "src",
-            "https://koike-ya.vn/img/banner-img-sp.487573d1.webp"
+            "./assets/main-img/banner-corporate-phone.jpg"
         );
     } else {
         $(".nav-banner").attr(
             "src",
-            "https://koike-ya.vn/img/banner-img.ccdcc857.webp"
+            "./assets/main-img/banner-corporate.jpg"
         );
     }
 });
