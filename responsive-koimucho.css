@@ -386,5 +386,9 @@
     .btn-navbar-content img {
         display: block;
     }
+
+    .table-title_medium {
+        font-size: 16px;
+    }
 }
 

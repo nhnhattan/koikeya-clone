@@ -632,7 +632,19 @@ width: 100vw;
 }
 
 .table-title_medium {
-    font-size: 23px;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+}
+
+.table-title_medium:after {
+    content: "";
+    background: black;
+    position: absolute;
+    top: -15%;
+    left: 1.5%;
+    height: 3px;
+    width: 97%;
 }
 
 .product-content-wrap .table-item .info .table .table-body .table-row {
@@ -640,7 +652,7 @@ width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 2.5rem 0.3rem;
+    padding: 10px 20px 10px 20px;
     padding-right: 0;
     border-bottom: 1px solid #000;
     font-style: normal;

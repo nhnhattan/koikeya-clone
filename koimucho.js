@@ -9,20 +9,20 @@ const item = [
       "Bánh không cay, phù hợp với mọi lứa tuổi và đối tượng khách hàng.",
       "Bánh được làm từ 100% bắp nguyên chất xát nhuyễn, không phải làm bằng bột nên lát bánh giòn, xốp , không bị cứng. Bánh có mùi thơm thơm của bơ và vị ngọt của mật ong.",
     ],
-    title: "Snack bắp KoiMUCHO",
+    title: "Snack bắp KoiMUCHO vij",
     taste: "Vị bơ mật ong (30g) - (60g)",
-    energy: "530,9",
-    calories: "291",
-    totalFat: "29,0 g",
-    totalFatPercent: "51,8 %",
+    energy: "530.9 kcal",
+    protein: "4.8g",
+    protein_percent: "9.7%",
+    totalCarbohydrate: "62.6g",
+    carboPercent: "19.3%",
+    sugar: "4.2g",
+    totalFat: "29.0g",
+    totalFatPercent: "51.8%",
     saturatedFat: "12.5g",
     saturatedFatPercent: "62.5%",
     natri: "333.4mg",
     natriPercent: "16.7%",
-    totalCarbohydrate: "62.6g",
-    carboPercent: "19.3%",
-    sugar: "4.2g",
-    protein: "4.8g",
     ingredient:
       "Bột bắp 59,5 %, dầu thực vật, bột gia vị bơ mật ong 8,5 % (đường, đường dextrose, maltodextrin, muối, bột kem béo thực vật, bột phô mai, bột sữa nguyên kem, bột whey, chất điều vị (INS 621, INS 635, INS 951, INS 955), chất chống đông vón (INS 551), bột chiết xuất nấm men, hương liệu giống tự nhiên (hương bơ), bột mật ong (1,5 %), đạm thực vật thủy phân, hương liệu tổng hợp (hương phô mai bơ), chất điều chỉnh độ acid (INS 330), hương liệu tự nhiên (hương khói)).",
     color: "rgb(236, 151, 6)",
@@ -40,18 +40,18 @@ const item = [
     ],
     title: "Snack bắp KoiMUCHO",
     taste: "Vị sữa bắp (30g) - (60g)",
-    energy: "536",
-    calories: "291",
-    totalFat: "30,1g",
-    totalFatPercent: "53.8%",
-    saturatedFat: "13.4g",
-    saturatedFatPercent: "67%",
-    natri: "417.6mg",
-    natriPercent: "20.9%",
+    energy: "536 kcal",
+    protein: "6.8g",
+    protein_percent: "13.6%",
     totalCarbohydrate: "59.4g",
     carboPercent: "18.3%",
     sugar: "5.6g",
-    protein: "6.8g",
+    totalFat: "30.1g",
+    totalFatPercent: "53.8%",
+    saturatedFat: "13.4g",
+    saturatedFatPercent: "67.0%",
+    natri: "417.6mg",
+    natriPercent: "20.9%",
     ingredient:
       "Bột bắp 60,4 %, dầu thực vật, bột gia vị sữa bắp 8,0 % (đường, maltodextrin, muối, hương liệu giống tự nhiên (hương bắp), chất điều vị (INS 621, INS 627, INS 631), bột kem béo thực vật, bột nấm men, bột sữa nguyên kem (1,5 %), chất chống đông vón (INS 551), chất tạo ngọt tổng hợp (INS 951)).",
     color: "rgb(253, 217, 0)",
@@ -69,18 +69,18 @@ const item = [
     ],
     title: "Snack bắp KoiMUCHO",
     taste: "Vị thịt nướng (30g) - (60g)",
-    energy: "533",
-    calories: "291",
+    energy: "533 kcal",
+    protein: "5.8g",
+    protein_percent: "11.5%",
+    totalCarbohydrate: "58.3g",
+    carboPercent: "17.9%",
+    sugar: "4.1g",
     totalFat: "30.8g",
     totalFatPercent: "54.9%",
     saturatedFat: "15.5g",
     saturatedFatPercent: "77.5%",
     natri: "543.8mg",
     natriPercent: "27.2%",
-    totalCarbohydrate: "58.3g",
-    carboPercent: "17.9%",
-    sugar: "4.1g",
-    protein: "5.8g",
     ingredient:
       "Bột bắp 59,5 %, dầu thực vật, bột gia vị thịt nướng 8,5 % (đường, maltodextrin, chất điều vị (INS 621), muối, bột kem béo thực vật, đạm thực vật thủy phân, hương liệu tự nhiên (hương tiêu), bột chiết xuất thịt bò, chất chống đông vón (INS 551), hương liệu tổng hợp (hương bò), bột cà chua, bột tiêu đen, bột hành tây, bột tỏi, bột chiết nấm men, hương liệu giống tự nhiên (hương tỏi, hương thịt nướng, hương hành), chiết xuất ớt, chất điều chỉnh độ acid (INS 330), phẩm màu tổng hợp (INS 150d), chất tạo ngọt tổng hợp (INS 951)).",
     color: "rgb(237, 109, 0)",
@@ -98,18 +98,18 @@ const item = [
     ],
     title: "Snack bắp KoiMUCHO",
     taste: "Vị bơ tỏi (30g) - (60g)",
-    energy: "517",
-    calories: "315",
+    energy: "517 kcal",
+    protein: "5.5g",
+    protein_percent: "11.0%",
+    totalCarbohydrate: "55.2g",
+    carboPercent: "17.0%",
+    sugar: "4.1g",
     totalFat: "30.5g",
     totalFatPercent: "54.5%",
     saturatedFat: "14.8g",
-    saturatedFatPercent: "74%",
+    saturatedFatPercent: "74.0%",
     natri: "459.1mg",
-    natriPercent: "23%",
-    totalCarbohydrate: "55.2g",
-    carboPercent: "17%",
-    sugar: "4.1g",
-    protein: "5.5g",
+    natriPercent: "23.0%",
     ingredient:
       "Bột bắp 60,4 %, dầu thực vật, bột gia vị bơ tỏi 8,0 % (đường, bột kem béo thực vật, chất điều vị (INS 621), muối, maltodextrin, bột tỏi (5,0 %), hương liệu giống tự nhiên (hương tỏi), bột ớt, bột lá cà ri, phẩm màu tự nhiên (INS 160a(ii)), chất chống đóng vón (INS 551), hương liệu giống tự nhiên (hương bơ), chất điều chỉnh độ acid (INS 330), chất tạo ngọt tự nhiên (INS 960a)).",
     color: "rgb(0, 151, 220)",
@@ -268,23 +268,19 @@ $(document).ready(function () {
           item[0].color
         );
         $(".table-head .table-title_large.pb-4").css("color", item[0].color);
-        $(".item-energy").text(`Năng lượng ${item[0].energy} (kcal)`);
-        $(".item-calories").text(
-          `Calories from Fat ${item[0].calories} (kcal)`
-        );
-        $(".item-total-fat").text(item[0].totalFat);
-        $(".item-fat-percent").text(`${item[0].totalFatPercent}%`);
-        $(".item-saturated-fat").text(
-          `Chất béo bão hòa  ${item[0].saturatedFat}`
-        );
-        $(".item-saturated-fat-percent").text(`${item[0].saturatedFatPercent}`);
-        $(".natri").text(item[0].natri);
-        $(".item-natri-percent").text(`${item[0].natriPercent}%`);
-        $(".item-total-carbohydrate").text(item[0].totalCarbohydrate);
-        $(".total-carbo-percent").text(`${item[0].carboPercent}%`);
-        $(".sugar").text(`Đường ${item[0].sugar}`);
+        $(".item-energy").text(item[0].energy);
         $(".protein").text(item[0].protein);
-        $(".item-title-bot").text(item[0].title);
+        $(".protein-percent").text(item[0].protein_percent);
+        $(".item-total-carbohydrate").text(item[0].totalCarbohydrate);
+        $(".item-total-carbohydrate-percent").text(item[0].carboPercent);
+        $(".sugar").text(item[0].sugar);
+        $(".item-total-fat ").text(item[0].totalFat);
+        $(".item-total-fat-percent").text(item[0].totalFatPercent);
+        $(".item-saturated-fat").text(item[0].saturatedFat);
+        $(".item-saturated-fat-percent").text(item[0].saturatedFatPercent);
+        $(".natri").text(item[0].natri);
+        $(".natri-percent").text(item[0].natriPercent);
+        $(".item-title-bot").text(item[0].fullName);
         $(".ingredient").text(item[0].ingredient);
         currentIndex = 0;
         break;
@@ -324,23 +320,19 @@ $(document).ready(function () {
           item[1].color
         );
         $(".table-head .table-title_large.pb-4").css("color", item[1].color);
-        $(".item-energy").text(`Năng lượng ${item[1].energy} (kcal)`);
-        $(".item-calories").text(
-          `Calories from Fat ${item[1].calories} (kcal)`
-        );
-        $(".item-total-fat").text(item[1].totalFat);
-        $(".item-fat-percent").text(`${item[1].totalFatPercent}%`);
-        $(".item-saturated-fat").text(
-          `Chất béo bão hòa  ${item[1].saturatedFat}`
-        );
-        $(".item-saturated-fat-percent").text(`${item[1].saturatedFatPercent}`);
-        $(".natri").text(item[1].natri);
-        $(".item-natri-percent").text(item[1].natriPercent);
-        $(".item-total-carbohydrate").text(item[1].totalCarbohydrate);
-        $(".total-carbo-percent").text(item[1].carboPercent);
-        $(".sugar").text(`Đường ${item[1].sugar}`);
+        $(".item-energy").text(item[1].energy);
         $(".protein").text(item[1].protein);
-        $(".item-title-bot").text(item[1].title);
+        $(".protein-percent").text(item[1].protein_percent);
+        $(".item-total-carbohydrate").text(item[1].totalCarbohydrate);
+        $(".item-total-carbohydrate-percent").text(item[1].carboPercent);
+        $(".sugar").text(item[1].sugar);
+        $(".item-total-fat ").text(item[1].totalFat);
+        $(".item-total-fat-percent").text(item[1].totalFatPercent);
+        $(".item-saturated-fat").text(item[1].saturatedFat);
+        $(".item-saturated-fat-percent").text(item[1].saturatedFatPercent);
+        $(".natri").text(item[1].natri);
+        $(".natri-percent").text(item[1].natriPercent);
+        $(".item-title-bot").text(item[1].fullName);
         $(".ingredient").text(item[1].ingredient);
         currentIndex = 1;
         break;
@@ -380,23 +372,19 @@ $(document).ready(function () {
           item[2].color
         );
         $(".table-head .table-title_large.pb-4").css("color", item[2].color);
-        $(".item-energy").text(`Năng lượng ${item[2].energy} (kcal)`);
-        $(".item-calories").text(
-          `Calories from Fat ${item[2].calories} (kcal)`
-        );
-        $(".item-total-fat").text(item[2].totalFat);
-        $(".item-fat-percent").text(`${item[2].totalFatPercent}%`);
-        $(".item-saturated-fat").text(
-          `Chất béo bão hòa  ${item[2].saturatedFat}`
-        );
-        $(".item-saturated-fat-percent").text(`${item[2].saturatedFatPercent}`);
-        $(".natri").text(item[2].natri);
-        $(".item-natri-percent").text(item[2].natriPercent);
-        $(".item-total-carbohydrate").text(item[2].totalCarbohydrate);
-        $(".total-carbo-percent").text(item[2].carboPercent);
-        $(".sugar").text(`Đường ${item[2].sugar}`);
+        $(".item-energy").text(item[2].energy);
         $(".protein").text(item[2].protein);
-        $(".item-title-bot").text(item[2].title);
+        $(".protein-percent").text(item[2].protein_percent);
+        $(".item-total-carbohydrate").text(item[2].totalCarbohydrate);
+        $(".item-total-carbohydrate-percent").text(item[2].carboPercent);
+        $(".sugar").text(item[2].sugar);
+        $(".item-total-fat ").text(item[2].totalFat);
+        $(".item-total-fat-percent").text(item[2].totalFatPercent);
+        $(".item-saturated-fat").text(item[2].saturatedFat);
+        $(".item-saturated-fat-percent").text(item[2].saturatedFatPercent);
+        $(".natri").text(item[2].natri);
+        $(".natri-percent").text(item[2].natriPercent);
+        $(".item-title-bot").text(item[2].fullName);
         $(".ingredient").text(item[2].ingredient);
         currentIndex = 2;
         break;
@@ -436,23 +424,19 @@ $(document).ready(function () {
           item[3].color
         );
         $(".table-head .table-title_large.pb-4").css("color", item[3].color);
-        $(".item-energy").text(`Năng lượng ${item[3].energy} (kcal)`);
-        $(".item-calories").text(
-          `Calories from Fat ${item[3].calories} (kcal)`
-        );
-        $(".item-total-fat").text(item[3].totalFat);
-        $(".item-fat-percent").text(`${item[3].totalFatPercent}`);
-        $(".item-saturated-fat").text(
-          `Chất béo bão hòa  ${item[3].saturatedFat}`
-        );
-        $(".item-saturated-fat-percent").text(`${item[3].saturatedFatPercent}`);
-        $(".natri").text(item[3].natri);
-        $(".item-natri-percent").text(item[3].natriPercent);
-        $(".item-total-carbohydrate").text(item[3].totalCarbohydrate);
-        $(".total-carbo-percent").text(item[3].carboPercent);
-        $(".sugar").text(`Đường ${item[3].sugar}`);
+        $(".item-energy").text(item[3].energy);
         $(".protein").text(item[3].protein);
-        $(".item-title-bot").text(item[3].title);
+        $(".protein-percent").text(item[3].protein_percent);
+        $(".item-total-carbohydrate").text(item[3].totalCarbohydrate);
+        $(".item-total-carbohydrate-percent").text(item[3].carboPercent);
+        $(".sugar").text(item[3].sugar);
+        $(".item-total-fat ").text(item[3].totalFat);
+        $(".item-total-fat-percent").text(item[3].totalFatPercent);
+        $(".item-saturated-fat").text(item[3].saturatedFat);
+        $(".item-saturated-fat-percent").text(item[3].saturatedFatPercent);
+        $(".natri").text(item[3].natri);
+        $(".natri-percent").text(item[3].natriPercent);
+        $(".item-title-bot").text(item[3].fullName);
         $(".ingredient").text(item[3].ingredient);
         currentIndex = 3;
         break;
@@ -535,23 +519,19 @@ $(document).ready(function () {
         }
         $(".table-head .table-title_large:first-child").text(item[0].title);
         $(".table-head .table-title_large.pb-4").text(item[0].taste);
-        $(".item-energy").text(`Năng lượng ${item[0].energy} (kcal)`);
-        $(".item-calories").text(
-          `Calories from Fat ${item[0].calories} (kcal)`
-        );
-        $(".item-total-fat").text(item[0].totalFat);
-        $(".item-fat-percent").text(`${item[0].totalFatPercent}%`);
-        $(".item-saturated-fat").text(
-          `Chất béo bão hòa  ${item[0].saturatedFat}`
-        );
-        $(".item-saturated-fat-percent").text(`${item[0].saturatedFatPercent}`);
-        $(".natri").text(item[0].natri);
-        $(".item-natri-percent").text(`${item[0].natriPercent}%`);
-        $(".item-total-carbohydrate").text(item[0].totalCarbohydrate);
-        $(".total-carbo-percent").text(`${item[0].carboPercent}%`);
-        $(".sugar").text(`Đường ${item[0].sugar}`);
+        $(".item-energy").text(item[0].energy);
         $(".protein").text(item[0].protein);
-        $(".item-title-bot").text(item[0].title);
+        $(".protein-percent").text(item[0].protein_percent);
+        $(".item-total-carbohydrate").text(item[0].totalCarbohydrate);
+        $(".item-total-carbohydrate-percent").text(item[0].carboPercent);
+        $(".sugar").text(item[0].sugar);
+        $(".item-total-fat ").text(item[0].totalFat);
+        $(".item-total-fat-percent").text(item[0].totalFatPercent);
+        $(".item-saturated-fat").text(item[0].saturatedFat);
+        $(".item-saturated-fat-percent").text(item[0].saturatedFatPercent);
+        $(".natri").text(item[0].natri);
+        $(".natri-percent").text(item[0].natriPercent);
+        $(".item-title-bot").text(item[0].fullName);
         $(".ingredient").text(item[0].ingredient);
         break;
       case "item2":
@@ -583,23 +563,19 @@ $(document).ready(function () {
         }
         $(".table-head .table-title_large:first-child").text(item[1].title);
         $(".table-head .table-title_large.pb-4").text(item[1].taste);
-        $(".item-energy").text(`Năng lượng ${item[1].energy} (kcal)`);
-        $(".item-calories").text(
-          `Calories from Fat ${item[1].calories} (kcal)`
-        );
-        $(".item-total-fat").text(item[1].totalFat);
-        $(".item-fat-percent").text(`${item[1].totalFatPercent}%`);
-        $(".item-saturated-fat").text(
-          `Chất béo bão hòa  ${item[1].saturatedFat}`
-        );
-        $(".item-saturated-fat-percent").text(`${item[1].saturatedFatPercent}`);
-        $(".natri").text(item[1].natri);
-        $(".item-natri-percent").text(item[1].natriPercent);
-        $(".item-total-carbohydrate").text(item[1].totalCarbohydrate);
-        $(".total-carbo-percent").text(item[1].carboPercent);
-        $(".sugar").text(`Đường ${item[1].sugar}`);
+        $(".item-energy").text(item[1].energy);
         $(".protein").text(item[1].protein);
-        $(".item-title-bot").text(item[1].title);
+        $(".protein-percent").text(item[1].protein_percent);
+        $(".item-total-carbohydrate").text(item[1].totalCarbohydrate);
+        $(".item-total-carbohydrate-percent").text(item[1].carboPercent);
+        $(".sugar").text(item[1].sugar);
+        $(".item-total-fat ").text(item[1].totalFat);
+        $(".item-total-fat-percent").text(item[1].totalFatPercent);
+        $(".item-saturated-fat").text(item[1].saturatedFat);
+        $(".item-saturated-fat-percent").text(item[1].saturatedFatPercent);
+        $(".natri").text(item[1].natri);
+        $(".natri-percent").text(item[1].natriPercent);
+        $(".item-title-bot").text(item[1].fullName);
         $(".ingredient").text(item[1].ingredient);
         break;
       case "item3":
@@ -631,23 +607,19 @@ $(document).ready(function () {
         }
         $(".table-head .table-title_large:first-child").text(item[2].title);
         $(".table-head .table-title_large.pb-4").text(item[2].taste);
-        $(".item-energy").text(`Năng lượng ${item[2].energy} (kcal)`);
-        $(".item-calories").text(
-          `Calories from Fat ${item[2].calories} (kcal)`
-        );
-        $(".item-total-fat").text(item[2].totalFat);
-        $(".item-fat-percent").text(`${item[2].totalFatPercent}%`);
-        $(".item-saturated-fat").text(
-          `Chất béo bão hòa  ${item[2].saturatedFat}`
-        );
-        $(".item-saturated-fat-percent").text(`${item[2].saturatedFatPercent}`);
-        $(".natri").text(item[2].natri);
-        $(".item-natri-percent").text(item[2].natriPercent);
-        $(".item-total-carbohydrate").text(item[2].totalCarbohydrate);
-        $(".total-carbo-percent").text(item[2].carboPercent);
-        $(".sugar").text(`Đường ${item[2].sugar}`);
+        $(".item-energy").text(item[2].energy);
         $(".protein").text(item[2].protein);
-        $(".item-title-bot").text(item[2].title);
+        $(".protein-percent").text(item[2].protein_percent);
+        $(".item-total-carbohydrate").text(item[2].totalCarbohydrate);
+        $(".item-total-carbohydrate-percent").text(item[2].carboPercent);
+        $(".sugar").text(item[2].sugar);
+        $(".item-total-fat ").text(item[2].totalFat);
+        $(".item-total-fat-percent").text(item[2].totalFatPercent);
+        $(".item-saturated-fat").text(item[2].saturatedFat);
+        $(".item-saturated-fat-percent").text(item[2].saturatedFatPercent);
+        $(".natri").text(item[2].natri);
+        $(".natri-percent").text(item[2].natriPercent);
+        $(".item-title-bot").text(item[2].fullName);
         $(".ingredient").text(item[2].ingredient);
         break;
       case "item4":
@@ -679,23 +651,19 @@ $(document).ready(function () {
         }
         $(".table-head .table-title_large:first-child").text(item[3].title);
         $(".table-head .table-title_large.pb-4").text(item[3].taste);
-        $(".item-energy").text(`Năng lượng ${item[3].energy} (kcal)`);
-        $(".item-calories").text(
-          `Calories from Fat ${item[3].calories} (kcal)`
-        );
-        $(".item-total-fat").text(item[3].totalFat);
-        $(".item-fat-percent").text(`${item[3].totalFatPercent}`);
-        $(".item-saturated-fat").text(
-          `Chất béo bão hòa  ${item[3].saturatedFat}`
-        );
-        $(".item-saturated-fat-percent").text(`${item[3].saturatedFatPercent}`);
-        $(".natri").text(item[3].natri);
-        $(".item-natri-percent").text(item[3].natriPercent);
-        $(".item-total-carbohydrate").text(item[3].totalCarbohydrate);
-        $(".total-carbo-percent").text(item[3].carboPercent);
-        $(".sugar").text(`Đường ${item[3].sugar}`);
+        $(".item-energy").text(item[3].energy);
         $(".protein").text(item[3].protein);
-        $(".item-title-bot").text(item[3].title);
+        $(".protein-percent").text(item[3].protein_percent);
+        $(".item-total-carbohydrate").text(item[3].totalCarbohydrate);
+        $(".item-total-carbohydrate-percent").text(item[3].carboPercent);
+        $(".sugar").text(item[3].sugar);
+        $(".item-total-fat ").text(item[3].totalFat);
+        $(".item-total-fat-percent").text(item[3].totalFatPercent);
+        $(".item-saturated-fat").text(item[3].saturatedFat);
+        $(".item-saturated-fat-percent").text(item[3].saturatedFatPercent);
+        $(".natri").text(item[3].natri);
+        $(".natri-percent").text(item[3].natriPercent);
+        $(".item-title-bot").text(item[3].fullName);
         $(".ingredient").text(item[3].ingredient);
         break;
     }
