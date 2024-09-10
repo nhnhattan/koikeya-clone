@@ -11,20 +11,21 @@ const item = [
     ],
     title: "Snack khoai tây Gokochi",
     taste: "Vị muối tự nhiên (35g) - (65g)",
-    energy: "526.6 kcal",
-    protein: "7.5g",
-    protein_percent: "14.9%",
-    totalCarbohydrate: "51.5g",
-    carboPercent: "15.8%",
-    sugar: "2.2g",
-    totalFat: "32.3g",
-    totalFatPercent: "57.7%",
-    saturatedFat: "11.2g",
-    saturatedFatPercent: "56.0%",
-    natri: "414.0mg",
-    natriPercent: "20.7%",
+    energy: "526,6 kcal",
+    protein: "7,5g",
+    protein_percent: "14,9%",
+    totalCarbohydrate: "51,5g",
+    carboPercent: "15,8%",
+    sugar: "2,2g",
+    totalFat: "32,3g",
+    totalFatPercent: "57,7%",
+    saturatedFat: "11,2g",
+    saturatedFatPercent: "56,0%",
+    natri: "414,0mg",
+    natriPercent: "20,7%",
     ingredient:
       "Khoai tây 64,5%, dầu thực vật, bột gia vị muối tự nhiên 3,5% (muối, đường,  maltodextrin, bột kem béo thực vật, đường dextrose, đạm thực vật thuỷ phân, bột chiết xuất nấm men, chất chống đông vón (INS551), bột chiết xuất tảo bẹ, bột cá ngừ vằn, chất ổn định (INS1422), dầu thực vật tinh luyện, chất điều vị (INS951, INS955)).",
+    warning: "<Chú ý>: Sản phẩm không phù hợp cho người dị ứng với sữa, đậu nành, cá."
   },
   {
     id: 2,
@@ -40,19 +41,20 @@ const item = [
     title: "Snack khoai tây Gokochi",
     taste: "Vị muối tiêu đen (35g) - (65g)",
     energy: "509 kcal",
-    protein: "7.0g",
-    protein_percent: "14.0%",
-    totalCarbohydrate: "55.2g",
-    carboPercent: "17.0%",
-    sugar: "0.8g",
-    totalFat: "28.9g",
-    totalFatPercent: "51.6%",
-    saturatedFat: "12.5g",
-    saturatedFatPercent: "62.5%",
-    natri: "377.4mg",
-    natriPercent: "18.9%",
+    protein: "7,0g",
+    protein_percent: "14,0%",
+    totalCarbohydrate: "55,2g",
+    carboPercent: "17,0%",
+    sugar: "0,8g",
+    totalFat: "28,9g",
+    totalFatPercent: "51,6%",
+    saturatedFat: "12,5g",
+    saturatedFatPercent: "62,5%",
+    natri: "377,4mg",
+    natriPercent: "18,9%",
     ingredient:
       "Khoai tây 66 %, dầu thực vật, bột gia vị muối tiêu đen 2 % (muối (37 %), đường, maltodextrin, bột tiêu đen (13 %), chiết xuất nấm men, chiết xuất tiêu (3 %), chất chống đông vón (INS 551), dầu đậu nành tinh luyện, chất tạo ngọt tổng hợp (INS 951, INS 955)).",
+    warning: "THÔNG TIN CẢNH CÁO: Không sử dụng sản phẩm hết hạn sử dụng."
   },
   {
     id: 3,
@@ -68,19 +70,20 @@ const item = [
     title: "Snack khoai tây Gokochi",
     taste: "Vị rong biển (35g) - (65g)",
     energy: "522 kcal",
-    protein: "8.3g",
-    protein_percent: "16.7%",
-    totalCarbohydrate: "49.7g",
-    carboPercent: "15.3%",
-    sugar: "1.6g",
-    totalFat: "32.2g",
-    totalFatPercent: "57.4%",
-    saturatedFat: "13.9g",
-    saturatedFatPercent: "69.5%",
-    natri: "446.5mg",
-    natriPercent: "22.3%",
+    protein: "8,3g",
+    protein_percent: "16,7%",
+    totalCarbohydrate: "49,7g",
+    carboPercent: "15,3%",
+    sugar: "1,6g",
+    totalFat: "32,2g",
+    totalFatPercent: "57,4%",
+    saturatedFat: "13,9g",
+    saturatedFatPercent: "69,5%",
+    natri: "446,5mg",
+    natriPercent: "22,3%",
     ingredient:
       "Khoai tây 61 %, dầu thực vật, bột gia vị rong biển 7 % (maltodextrin, đường, muối, rong biển nướng, chiết xuất nấm men, hương liệu tổng hợp (hương đậu nành, hương rong biển), chất chống đông vón (INS 551), chất tạo ngọt tổng hợp (INS 951)).",
+    warning: "Sản phẩm không phù hợp cho người dị ứng với đậu nành."
   },
 ];
 
@@ -216,6 +219,7 @@ $(document).ready(function () {
         $(".natri-percent").text(item[0].natriPercent);
         $(".item-title-bot").text(item[0].fullName.toUpperCase());
         $(".ingredient").text(item[0].ingredient);
+        $(".warning").text(item[0].warning)
         currentIndex = 0;
         break;
       case "item2":
@@ -253,6 +257,7 @@ $(document).ready(function () {
         $(".natri-percent").text(item[1].natriPercent);
         $(".item-title-bot").text(item[1].fullName.toUpperCase());
         $(".ingredient").text(item[1].ingredient);
+        $(".warning").text(item[1].warning)
         currentIndex = 1;
         break;
       case "item3":
@@ -291,6 +296,7 @@ $(document).ready(function () {
         $(".natri-percent").text(item[2].natriPercent);
         $(".item-title-bot").text(item[2].fullName.toUpperCase());
         $(".ingredient").text(item[2].ingredient);
+        $(".warning").text(item[2].warning)
         currentIndex = 2;
         break;
     }
@@ -376,6 +382,7 @@ $(document).ready(function () {
         $(".natri-percent").text(item[0].natriPercent);
         $(".item-title-bot").text(item[0].fullName.toUpperCase());
         $(".ingredient").text(item[0].ingredient);
+        $(".warning").text(item[0].warning)
         break;
       case "item2":
         if ($(window).width() <= 768) {
@@ -412,6 +419,7 @@ $(document).ready(function () {
         $(".natri-percent").text(item[1].natriPercent);
         $(".item-title-bot").text(item[1].fullName.toUpperCase());
         $(".ingredient").text(item[1].ingredient);
+        $(".warning").text(item[1].warning)
         break;
       case "item3":
         if ($(window).width() <= 768) {
@@ -482,6 +490,7 @@ $(document).ready(function () {
         $(".protein").text(item[2].protein);
         $(".item-title-bot").text(item[2].title);
         $(".ingredient").text(item[2].ingredient);
+        $(".warning").text(item[2].warning)
         break;
     }
   }
