@@ -26,7 +26,7 @@ const item = [
     ingredient:
       "Bột bắp 59,5 %, dầu thực vật, bột gia vị bơ mật ong 8,5 % (đường, đường dextrose, maltodextrin, muối, bột kem béo thực vật, bột phô mai, bột sữa nguyên kem, bột whey, chất điều vị (INS 621, INS 635, INS 951, INS 955), chất chống đông vón (INS 551), bột chiết xuất nấm men, hương liệu giống tự nhiên (hương bơ), bột mật ong (1,5 %), đạm thực vật thủy phân, hương liệu tổng hợp (hương phô mai bơ), chất điều chỉnh độ acid (INS 330), hương liệu tự nhiên (hương khói)).",
     color: "rgb(236, 151, 6)",
-    allergy: "",
+    allergy: "<Chú ý>: Sản phẩm không phù hợp cho người dị ứng với sữa, gluten, đậu nành.",
   },
   {
     id: 2,
@@ -55,7 +55,7 @@ const item = [
     ingredient:
       "Bột bắp 60,4 %, dầu thực vật, bột gia vị sữa bắp 8,0 % (đường, maltodextrin, muối, hương liệu giống tự nhiên (hương bắp), chất điều vị (INS 621, INS 627, INS 631), bột kem béo thực vật, bột nấm men, bột sữa nguyên kem (1,5 %), chất chống đông vón (INS 551), chất tạo ngọt tổng hợp (INS 951)).",
     color: "rgb(253, 217, 0)",
-    allergy: "Sản phẩm không phù hợp cho người dị ứng với sữa.",
+    allergy: "<Chú ý>: Sản phẩm không phù hợp cho người dị ứng với sữa.",
   },
   {
     id: 3,
@@ -84,7 +84,7 @@ const item = [
     ingredient:
       "Bột bắp 59,5 %, dầu thực vật, bột gia vị thịt nướng 8,5 % (đường, maltodextrin, chất điều vị (INS 621), muối, bột kem béo thực vật, đạm thực vật thủy phân, hương liệu tự nhiên (hương tiêu), bột chiết xuất thịt bò, chất chống đông vón (INS 551), hương liệu tổng hợp (hương bò), bột cà chua, bột tiêu đen, bột hành tây, bột tỏi, bột chiết nấm men, hương liệu giống tự nhiên (hương tỏi, hương thịt nướng, hương hành), chiết xuất ớt, chất điều chỉnh độ acid (INS 330), phẩm màu tổng hợp (INS 150d), chất tạo ngọt tổng hợp (INS 951)).",
     color: "rgb(237, 109, 0)",
-    allergy: "Sản phẩm không phù hợp cho người dị ứng với sữa.",
+    allergy: "<Chú ý>: Sản phẩm không phù hợp cho người dị ứng với sữa.",
   },
   {
     id: 4,
@@ -113,7 +113,7 @@ const item = [
     ingredient:
       "Bột bắp 60,4 %, dầu thực vật, bột gia vị bơ tỏi 8,0 % (đường, bột kem béo thực vật, chất điều vị (INS 621), muối, maltodextrin, bột tỏi (5,0 %), hương liệu giống tự nhiên (hương tỏi), bột ớt, bột lá cà ri, phẩm màu tự nhiên (INS 160a(ii)), chất chống đóng vón (INS 551), hương liệu giống tự nhiên (hương bơ), chất điều chỉnh độ acid (INS 330), chất tạo ngọt tự nhiên (INS 960a)).",
     color: "rgb(0, 151, 220)",
-    allergy: "Sản phẩm không phù hợp cho người dị ứng với sữa, đậu nành, mè.",
+    allergy: "<Chú ý>: Sản phẩm không phù hợp cho người dị ứng với sữa, đậu nành, mè.",
   },
 ];
 
@@ -282,6 +282,7 @@ $(document).ready(function () {
         $(".natri-percent").text(item[0].natriPercent);
         $(".item-title-bot").text(item[0].fullName);
         $(".ingredient").text(item[0].ingredient);
+        $(".allergy").text(item[0].allergy)
         currentIndex = 0;
         break;
       case "item2":
@@ -334,6 +335,7 @@ $(document).ready(function () {
         $(".natri-percent").text(item[1].natriPercent);
         $(".item-title-bot").text(item[1].fullName);
         $(".ingredient").text(item[1].ingredient);
+        $(".allergy").text(item[1].allergy)
         currentIndex = 1;
         break;
       case "item3":
@@ -386,6 +388,7 @@ $(document).ready(function () {
         $(".natri-percent").text(item[2].natriPercent);
         $(".item-title-bot").text(item[2].fullName);
         $(".ingredient").text(item[2].ingredient);
+        $(".allergy").text(item[2].allergy)
         currentIndex = 2;
         break;
       case "item4":
@@ -438,6 +441,7 @@ $(document).ready(function () {
         $(".natri-percent").text(item[3].natriPercent);
         $(".item-title-bot").text(item[3].fullName);
         $(".ingredient").text(item[3].ingredient);
+        $(".allergy").text(item[3].allergy)
         currentIndex = 3;
         break;
     }
@@ -533,6 +537,7 @@ $(document).ready(function () {
         $(".natri-percent").text(item[0].natriPercent);
         $(".item-title-bot").text(item[0].fullName);
         $(".ingredient").text(item[0].ingredient);
+        $(".allergy").text(item[0].allergy)
         break;
       case "item2":
         if ($(window).width() <= 740) {
@@ -577,6 +582,7 @@ $(document).ready(function () {
         $(".natri-percent").text(item[1].natriPercent);
         $(".item-title-bot").text(item[1].fullName);
         $(".ingredient").text(item[1].ingredient);
+        $(".allergy").text(item[1].allergy)
         break;
       case "item3":
         if ($(window).width() <= 740) {
@@ -621,6 +627,7 @@ $(document).ready(function () {
         $(".natri-percent").text(item[2].natriPercent);
         $(".item-title-bot").text(item[2].fullName);
         $(".ingredient").text(item[2].ingredient);
+        $(".allergy").text(item[2].allergy)
         break;
       case "item4":
         if ($(window).width() <= 740) {
@@ -665,6 +672,7 @@ $(document).ready(function () {
         $(".natri-percent").text(item[3].natriPercent);
         $(".item-title-bot").text(item[3].fullName);
         $(".ingredient").text(item[3].ingredient);
+        $(".allergy").text(item[3].allergy)
         break;
     }
   }

@@ -24,7 +24,7 @@ const item = [
     natri: "414,0mg",
     natriPercent: "20,7%",
     ingredient:
-      "Khoai tây 64,5%, dầu thực vật, bột gia vị muối tự nhiên 3,5% (muối, đường,  maltodextrin, bột kem béo thực vật, đường dextrose, đạm thực vật thuỷ phân, bột chiết xuất nấm men, chất chống đông vón (INS551), bột chiết xuất tảo bẹ, bột cá ngừ vằn, chất ổn định (INS1422), dầu thực vật tinh luyện, chất điều vị (INS951, INS955)).",
+      "Khoai tây 64,5%, dầu thực vật, bột gia vị muối tự nhiên 3,5% (muối, đường,  maltodextrin, bột kem béo thực vật, đường dextrose, đạm thực vật thuỷ phân, bột chiết xuất nấm men, chất chống đông vón (INS 551), bột chiết xuất tảo bẹ, bột cá ngừ vằn, chất ổn định (INS 1422), dầu thực vật tinh luyện, chất điều vị (INS 951, INS 955)).",
     warning: "<Chú ý>: Sản phẩm không phù hợp cho người dị ứng với sữa, đậu nành, cá."
   },
   {
@@ -54,7 +54,7 @@ const item = [
     natriPercent: "18,9%",
     ingredient:
       "Khoai tây 66 %, dầu thực vật, bột gia vị muối tiêu đen 2 % (muối (37 %), đường, maltodextrin, bột tiêu đen (13 %), chiết xuất nấm men, chiết xuất tiêu (3 %), chất chống đông vón (INS 551), dầu đậu nành tinh luyện, chất tạo ngọt tổng hợp (INS 951, INS 955)).",
-    warning: "THÔNG TIN CẢNH CÁO: Không sử dụng sản phẩm hết hạn sử dụng."
+    warning: "THÔNG TIN CẢNH BÁO: Không sử dụng sản phẩm hết hạn sử dụng."
   },
   {
     id: 3,
