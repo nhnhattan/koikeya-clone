@@ -23,8 +23,7 @@ const item = [
     saturatedFatPercent: "62,5%",
     natri: "333,4mg",
     natriPercent: "16,7%",
-    ingredient:
-      "Bột bắp 59,5 %, dầu thực vật, bột gia vị bơ mật ong 8,5 % (đường, đường dextrose, maltodextrin, muối, bột kem béo thực vật, bột phô mai, bột sữa nguyên kem, bột whey, chất điều vị (INS 621, INS 635, INS 951, INS 955), chất chống đông vón (INS 551), bột chiết xuất nấm men, hương liệu giống tự nhiên (hương bơ), bột mật ong (1,5 %), đạm thực vật thủy phân, hương liệu tổng hợp (hương phô mai bơ), chất điều chỉnh độ acid (INS 330), hương liệu tự nhiên (hương khói)).",
+    ingredient: "Bột bắp 59,5 %, dầu thực vật, bột gia vị bơ mật ong 8,5 % (đường, đường dextrose, maltodextrin, muối, bột kem béo thực vật, bột phô mai, bột sữa nguyên kem, bột whey, chất điều vị (INS 621, INS 635, INS 951, INS 955), chất chống đông vón (INS 551), bột chiết xuất nấm men, hương liệu giống tự nhiên (hương bơ), bột mật ong (1,5 %), đạm thực vật thủy phân, hương liệu tổng hợp (hương phô mai bơ), chất điều chỉnh độ acid (INS 330), hương liệu tự nhiên (hương khói)).",
     color: "rgb(236, 151, 6)",
     allergy: "<Chú ý>: Sản phẩm không phù hợp cho người dị ứng với sữa, gluten, đậu nành.",
   },

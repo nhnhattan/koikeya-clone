@@ -10,7 +10,7 @@ const item = [
       "Đặc biệt sản phẩm không thêm bột ngọt trong quá trình sản xuất nên rất an toàn với sức khỏe.",
     ],
     title: "Snack khoai tây Gokochi",
-    taste: "Vị muối tự nhiên (35g) - (65g)",
+    taste: "Vị muối tự nhiên (35g) - (65g) - (115g)",
     energy: "526,6 kcal",
     protein: "7,5g",
     protein_percent: "14,9%",
@@ -25,7 +25,8 @@ const item = [
     natriPercent: "20,7%",
     ingredient:
       "Khoai tây 64,5%, dầu thực vật, bột gia vị muối tự nhiên 3,5% (muối, đường,  maltodextrin, bột kem béo thực vật, đường dextrose, đạm thực vật thuỷ phân, bột chiết xuất nấm men, chất chống đông vón (INS 551), bột chiết xuất tảo bẹ, bột cá ngừ vằn, chất ổn định (INS 1422), dầu thực vật tinh luyện, chất điều vị (INS 951, INS 955)).",
-    warning: "<Chú ý>: Sản phẩm không phù hợp cho người dị ứng với sữa, đậu nành, cá."
+    warning:
+      "<Chú ý>: Sản phẩm không phù hợp cho người dị ứng với sữa, đậu nành, cá.",
   },
   {
     id: 2,
@@ -53,8 +54,8 @@ const item = [
     natri: "377,4mg",
     natriPercent: "18,9%",
     ingredient:
-      "Khoai tây 66 %, dầu thực vật, bột gia vị muối tiêu đen 2 % (muối (37 %), đường, maltodextrin, bột tiêu đen (13 %), chiết xuất nấm men, chiết xuất tiêu (3 %), chất chống đông vón (INS 551), dầu đậu nành tinh luyện, chất tạo ngọt tổng hợp (INS 951, INS 955)).",
-    warning: "THÔNG TIN CẢNH BÁO: Không sử dụng sản phẩm hết hạn sử dụng."
+      "Khoai tây 66 %, dầu thực vật, bột gia vị muối tiêu đen 2 % (muối, đường, maltodextrin, bột tiêu đen, chiết xuất nấm men, chiết xuất tiêu, chất chống đông vón (INS 551), dầu đậu nành tinh luyện, chất tạo ngọt tổng hợp (INS 951, INS 955)).",
+    warning: "THÔNG TIN CẢNH BÁO: Không sử dụng sản phẩm hết hạn sử dụng.",
   },
   {
     id: 3,
@@ -83,7 +84,7 @@ const item = [
     natriPercent: "22,3%",
     ingredient:
       "Khoai tây 61 %, dầu thực vật, bột gia vị rong biển 7 % (maltodextrin, đường, muối, rong biển nướng, chiết xuất nấm men, hương liệu tổng hợp (hương đậu nành, hương rong biển), chất chống đông vón (INS 551), chất tạo ngọt tổng hợp (INS 951)).",
-    warning: "Sản phẩm không phù hợp cho người dị ứng với đậu nành."
+    warning: "Sản phẩm không phù hợp cho người dị ứng với đậu nành.",
   },
 ];
 
@@ -219,7 +220,7 @@ $(document).ready(function () {
         $(".natri-percent").text(item[0].natriPercent);
         $(".item-title-bot").text(item[0].fullName.toUpperCase());
         $(".ingredient").text(item[0].ingredient);
-        $(".warning").text(item[0].warning)
+        $(".warning").text(item[0].warning);
         currentIndex = 0;
         break;
       case "item2":
@@ -257,7 +258,7 @@ $(document).ready(function () {
         $(".natri-percent").text(item[1].natriPercent);
         $(".item-title-bot").text(item[1].fullName.toUpperCase());
         $(".ingredient").text(item[1].ingredient);
-        $(".warning").text(item[1].warning)
+        $(".warning").text(item[1].warning);
         currentIndex = 1;
         break;
       case "item3":
@@ -296,7 +297,7 @@ $(document).ready(function () {
         $(".natri-percent").text(item[2].natriPercent);
         $(".item-title-bot").text(item[2].fullName.toUpperCase());
         $(".ingredient").text(item[2].ingredient);
-        $(".warning").text(item[2].warning)
+        $(".warning").text(item[2].warning);
         currentIndex = 2;
         break;
     }
@@ -382,7 +383,7 @@ $(document).ready(function () {
         $(".natri-percent").text(item[0].natriPercent);
         $(".item-title-bot").text(item[0].fullName.toUpperCase());
         $(".ingredient").text(item[0].ingredient);
-        $(".warning").text(item[0].warning)
+        $(".warning").text(item[0].warning);
         break;
       case "item2":
         if ($(window).width() <= 768) {
@@ -419,7 +420,7 @@ $(document).ready(function () {
         $(".natri-percent").text(item[1].natriPercent);
         $(".item-title-bot").text(item[1].fullName.toUpperCase());
         $(".ingredient").text(item[1].ingredient);
-        $(".warning").text(item[1].warning)
+        $(".warning").text(item[1].warning);
         break;
       case "item3":
         if ($(window).width() <= 768) {
@@ -490,7 +491,7 @@ $(document).ready(function () {
         $(".protein").text(item[2].protein);
         $(".item-title-bot").text(item[2].title);
         $(".ingredient").text(item[2].ingredient);
-        $(".warning").text(item[2].warning)
+        $(".warning").text(item[2].warning);
         break;
     }
   }
