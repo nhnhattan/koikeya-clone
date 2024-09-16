@@ -426,10 +426,10 @@ body {
 
 .container .company-info_wrap {
     position: relative;
-    left: -75px;
+    left: -2%;
     display: flex;
     flex-direction: row;
-    width: 1213px;
+    width: 79vw;
     margin: -60px 20px 0;
     background-color: #fff;
     border-radius: 10px;
@@ -452,7 +452,7 @@ body {
 }
 
 .company-content {
-    padding: 20px 20px 20px 60px;
+    padding: 20px 20px 0 20px;
     line-height: 30px;
     color: #000;
     font-size: 16px;
