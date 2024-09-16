@@ -6,7 +6,7 @@ const item = [
     lastName: "Vị muối tự nhiên",
     fullName: "SNACK KHOAI TÂY GOKOCHI - VỊ MUỐI TỰ NHIÊN",
     description: [
-      "Bánh được làm từ 100% khoai tây tự nhiên, lát bánh dày gấp 1.5 lần lát bánh thông thường, vị ngọt tự nhiên từ cá và tảo biển (không phải ngọt từ chất phụ gia)",
+      "Bánh được làm từ 100% khoai tây tự nhiên, lát bánh dày gấp 1.5 lần lát bánh thông thường, vị ngọt tự nhiên từ cá và tảo biển (không phải ngọt từ chất phụ gia).",
       "Đặc biệt sản phẩm không thêm bột ngọt trong quá trình sản xuất nên rất an toàn với sức khỏe.",
     ],
     title: "Snack khoai tây Gokochi",
@@ -35,9 +35,9 @@ const item = [
     lastName: "STRONG lát dày",
     fullName: "SNACK KHOAI TÂY GOKOCHI - VỊ MUỐI TIÊU ĐEN",
     description: [
-      "Bánh được làm từ 100% khoai tây tự nhiên, lát bánh dày gấp 1.5 lần lát bánh thông thường, vị ngọt tự nhiên từ cá và tảo biển (không phải ngọt từ chất phụ gia)",
+      "Bánh được làm từ 100% khoai tây tự nhiên, lát bánh dày gấp 1.5 lần lát bánh thông thường, vị ngọt tự nhiên từ cá và tảo biển (không phải ngọt từ chất phụ gia).",
       "Đặc biệt sản phẩm không thêm bột ngọt trong quá trình sản xuất nên rất an toàn với sức khỏe.",
-      "Bên trên lát bánh là muối tiêu đen được rắc đều",
+      "Bên trên lát bánh là muối tiêu đen được rắc đều.",
     ],
     title: "Snack khoai tây Gokochi",
     taste: "Vị muối tiêu đen (35g) - (65g)",
@@ -64,9 +64,9 @@ const item = [
     lastName: "biển",
     fullName: "SNACK KHOAI TÂY GOKOCHI - VỊ RONG BIỂN",
     description: [
-      "Bánh được làm từ 100% khoai tây tự nhiên, lát bánh dày gấp 1.5 lần lát bánh thông thường, vị ngọt tự nhiên từ cá và tảo biển (không phải ngọt từ chất phụ gia)",
+      "Bánh được làm từ 100% khoai tây tự nhiên, lát bánh dày gấp 1.5 lần lát bánh thông thường, vị ngọt tự nhiên từ cá và tảo biển (không phải ngọt từ chất phụ gia).",
       "Đặc biệt sản phẩm không thêm bột ngọt trong quá trình sản xuất nên rất an toàn với sức khỏe.",
-      "Bên trên lát bánh là rong biển nhỏ được rắc đều",
+      "Bên trên lát bánh là rong biển nhỏ được rắc đều.",
     ],
     title: "Snack khoai tây Gokochi",
     taste: "Vị rong biển (35g) - (65g)",

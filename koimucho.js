@@ -34,8 +34,8 @@ const item = [
     lastName: "",
     fullName: "SNACK BẮP KOIMUCHO - VỊ SỮA BẮP",
     description: [
-      "Vị sữa bắp thơm ngon đậm đà",
-      "Sự kết hợp hoàn hảo giữa hương thơm tự nhiên và vị ngọt thanh của bắp",
+      "Vị sữa bắp thơm ngon đậm đà.",
+      "Sự kết hợp hoàn hảo giữa hương thơm tự nhiên và vị ngọt thanh của bắp.",
     ],
     title: "Snack bắp KoiMUCHO",
     taste: "Vị sữa bắp (30g) - (60g)",
@@ -83,7 +83,7 @@ const item = [
     ingredient:
       "Bột bắp 59,5 %, dầu thực vật, bột gia vị thịt nướng 8,5 % (đường, maltodextrin, chất điều vị (INS 621), muối, bột kem béo thực vật, đạm thực vật thủy phân, hương liệu tự nhiên (hương tiêu), bột chiết xuất thịt bò, chất chống đông vón (INS 551), hương liệu tổng hợp (hương bò), bột cà chua, bột tiêu đen, bột hành tây, bột tỏi, bột chiết nấm men, hương liệu giống tự nhiên (hương tỏi, hương thịt nướng, hương hành), chiết xuất ớt, chất điều chỉnh độ acid (INS 330), phẩm màu tổng hợp (INS 150d), chất tạo ngọt tổng hợp (INS 951)).",
     color: "rgb(237, 109, 0)",
-    allergy: "<Chú ý>: Sản phẩm không phù hợp cho người dị ứng với sữa.",
+    allergy: "<Chú ý>: Sản phẩm không phù hợp cho người dị ứng với sữa, đậu nành, mè.",
   },
   {
     id: 4,
@@ -112,7 +112,7 @@ const item = [
     ingredient:
       "Bột bắp 60,4 %, dầu thực vật, bột gia vị bơ tỏi 8,0 % (đường, bột kem béo thực vật, chất điều vị (INS 621), muối, maltodextrin, bột tỏi (5,0 %), hương liệu giống tự nhiên (hương tỏi), bột ớt, bột lá cà ri, phẩm màu tự nhiên (INS 160a(ii)), chất chống đóng vón (INS 551), hương liệu giống tự nhiên (hương bơ), chất điều chỉnh độ acid (INS 330), chất tạo ngọt tự nhiên (INS 960a)).",
     color: "rgb(0, 151, 220)",
-    allergy: "<Chú ý>: Sản phẩm không phù hợp cho người dị ứng với sữa, đậu nành, mè.",
+    allergy: "<Chú ý>: Sản phẩm không phù hợp cho người dị ứng với sữa.",
   },
 ];
 

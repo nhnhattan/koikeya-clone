@@ -169,7 +169,7 @@ const item = [
         lastName: "",
         fullName: "SNACK BẮP KARAMUCHO - VỊ PHÔ MAI CAY",
         description: [
-            "Vị cay ở mức độ trung bình, phù hợp với mọi lứa tuổi và đối tượng khách hàng",
+            "Vị cay ở mức độ trung bình, phù hợp với mọi lứa tuổi và đối tượng khách hàng.",
             "Bánh được làm từ 100% bắp nguyên chất xát nhuyễn, không phải làm bằng bột bắp nên lát bánh giòn, xốp , không bị cứng. Bên trên lát bánh được phủ 1 lớp phô mai béo ngậy.",
         ],
         title: "Snack bắp Karamucho",
