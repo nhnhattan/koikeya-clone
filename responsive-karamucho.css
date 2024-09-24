@@ -9,7 +9,7 @@
         height: auto;
     }
     .product-border_active {
-        width: 158px;
+        width: 25%;
         left: 0;
     }
 
@@ -288,7 +288,7 @@
     }
 
     .product-border_active {
-        width: 88px;
+        width: 25%;
         left: -5.4%;
     }
 
